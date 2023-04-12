@@ -1,85 +1,96 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import hardwareSetup from '@/components/hardwareSetup.vue';
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+    <h1>Welcome to the Mimic Guide</h1>
   </header>
+  <body>
+    <div class="wrapper">
+    <h2>Getting to know your Mimic UR</h2>
+    <p>Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
+    <h2>Select the amount of time</h2>
+    <!-- Icon sprite -->
+    <div class="select">
+      <div class="min-5">
+        <img src="" alt="">
+        <RouterLink to="/hardwareSetup">Select</RouterLink>
+      </div>
+      <div class="10-min">
+        <img src="" alt="">
+        <button>Select</button>
+      </div>
+      <div class="20-min"> 
+        <img src="" alt="">
+        <button>Select</button>
+      </div>
+    </div>
+  </div>
+  </body>
+  <footer>
+    <div class="Info">
+    <div class="HumanSkill">
+      <h4>Human skills,</h4>
+      <p>machine precision</p>
+    </div>
+    <div class="Robotics">
+      <p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p>
+      <!-- Icon sprite -->
+    </div>
+    <div class="social">
+      <!-- Icon sprite buttons -->
+    </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Nordbo robotics</p>
+    </div>
 
+  </footer>
   <RouterView />
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
+header{
   width: 100%;
-  font-size: 12px;
+  height: 100px;
+  background: ;
   text-align: center;
-  margin-top: 2rem;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
+
+
+.wrapper{
+  height: 600px;
 }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+.wrapper h2 {
+  margin-top: 88px;
+  text-align: center;
+}
+.wrapper p {
+  text-align: center;
 }
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+.Info{
+  display: flex;
 }
 
-nav a:first-of-type {
-  border: 0;
+.Robotics {
+  margin-left: 60px;
+}
+.select{
+  display: flex;
+  justify-content: center;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+.min-5{
+  width: 284px;
+  height: 256px;
+  background-color: deeppink;
 }
+
+
 </style>
