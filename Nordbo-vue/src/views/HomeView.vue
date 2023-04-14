@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from '@/components/HelloWorld.vue'
-import guide from '@/views/guide.vue';
+import HardwareView from '@/views/HardwareView.vue';
 </script>
 
 <template>
@@ -17,7 +17,7 @@ import guide from '@/views/guide.vue';
     <div class="select">
       <div class="min-5">
         <img src="" alt="">
-        <RouterLink to="/guide">Select</RouterLink>
+        <RouterLink to="/HardwareView">Select</RouterLink>
       </div>
       <div class="10-min">
         <img src="" alt="">
