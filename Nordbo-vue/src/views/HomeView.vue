@@ -55,7 +55,6 @@ import HardwareView from '@/views/HardwareView.vue';
 header{
   width: 100%;
   height: 100px;
-  background: ;
   text-align: center;
 }
 

@@ -1,18 +1,17 @@
 <script setup>
-
 </script>
 
 <template>
     <header>
-      <h1>Welcome to the Mimic Guide</h1>
+      <div id="pBar">
+          <progress id="file" value="11.1" max="100"> 11.1% </progress>
+      </div>
     </header>
     <body>
       
       <div class="wrapper">
-        <div>
-          <label for="file"></label>
-          <progress id="file" value="11.1" max="100"> 11.1% </progress>
-      </div>
+        
+      <h1>Welcome to the Mimic Guide</h1>
       <h1>Hardware Setup</h1>
         <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
         <p> - Umbraco key set</p>
@@ -23,11 +22,12 @@
         <p>- Ethernet cables (for any additional hardware needed)</p>
         <h1>Video demostration</h1>
         <div>
-          <video src="" width="320" height="240"></video>
+          <iframe src="https://youtu.be/eeD26XRyqDE" width="320" height="240"></iframe>
         </div>
         <div class="buttons">
         <div>
-          <router-link
+          <router-link 
+            class="backButton" 
             to="/"
             custom
             v-slot="{ navigate }"
@@ -41,8 +41,8 @@
           </router-link>
         </div>
         <div>
-          <router-link
-            to="/views/ControllerView"
+          <router-link class="nextButton"
+            to="/ControllerView"
             custom
             v-slot="{ navigate }"
           >
@@ -83,4 +83,14 @@
   .buttons{
     display: flex;
   }
+  header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 735px;
+  }
+  .backButton{
+  border: green;
+}
+  
 </style>

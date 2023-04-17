@@ -28,9 +28,7 @@ const router = createRouter({
       path: '/HardwareView',
       name: 'HardwareView',
       component: HardwareView
-      
     },
-
   ]
 })
 
