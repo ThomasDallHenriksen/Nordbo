@@ -4,8 +4,12 @@ import HomeView from '../views/HomeView.vue'
 import HardwareView from '@/views/HardwareView.vue'
 import ControllerView from '@/views/ControllerView.vue'
 import IrTrackerView from '@/views/IrTrackerView.vue'
+<<<<<<< HEAD
 import HowToIrTrackerView from '@/views/HowToIrTrackerView.vue'
 import UrPreperation1View from '@/views/UrPreperation1View.vue'
+=======
+import UrCapView from '@/views/UrCapView.vue'
+>>>>>>> d298cf49aaa556090306024719475fc8c8aef41c
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +48,7 @@ const router = createRouter({
       component: IrTrackerView
     },
     {
+<<<<<<< HEAD
       path: '/HowToIrTrackerView',
       name: 'HowToIrTrackerView',
       component: HowToIrTrackerView
@@ -52,6 +57,11 @@ const router = createRouter({
       path: '/UrPreperation1View',
       name: 'UrPreperation1View',
       component: UrPreperation1View
+=======
+      path: '/UrCapView',
+      name: 'UrCapView',
+      component: UrCapView
+>>>>>>> d298cf49aaa556090306024719475fc8c8aef41c
     },
 
   ]
