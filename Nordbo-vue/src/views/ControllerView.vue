@@ -56,8 +56,7 @@
             </div>
         </div>
         <p>Note: The password for the Mimic Controller is “nordbo”.</p>
-    </div>
-    <div class="buttons">
+        <div class="buttons">
         <div>
           <router-link 
             class="backButton" 
@@ -75,7 +74,7 @@
         </div>
         <div>
           <router-link class="nextButton"
-            to="/"
+            to="/IrTrackerView"
             custom
             v-slot="{ navigate }"
           >
@@ -87,6 +86,7 @@
             </button>
           </router-link>
         </div>
+    </div>
     </div>
     </body>
     
@@ -109,4 +109,11 @@
       </div>
   
     </footer>
+    <RouterView />
 </template>
+
+<style>
+.buttons{
+    display: flex;
+  }
+</style>

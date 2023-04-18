@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 //import hardwareSetup from '@/components/hardwareSetup.vue'
 import HardwareView from '@/views/HardwareView.vue'
+import ControllerView from '@/views/ControllerView.vue'
+import IrTrackerView from '@/views/IrTrackerView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,6 +31,17 @@ const router = createRouter({
       name: 'HardwareView',
       component: HardwareView
     },
+    {
+      path: '/ControllerView',
+      name: 'ControllerView',
+      component: ControllerView
+    },
+    {
+      path: '/IrTrackerView',
+      name: 'IrTrackerView',
+      component: IrTrackerView
+    },
+
   ]
 })
 

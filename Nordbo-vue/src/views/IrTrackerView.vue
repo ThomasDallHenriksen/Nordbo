@@ -62,41 +62,42 @@
                     </button>
                 </router-link>
             </div>
+            <div class="buttons">
+                <div>
+                <router-link 
+                    class="backButton" 
+                    to="/ControllerView"
+                    custom
+                    v-slot="{ navigate }"
+                >
+                    <button
+                    @click="navigate"
+                    role="link"
+                    >
+                    Back
+                    </button>
+                </router-link>
+                </div>
+                <div>
+                <router-link class="nextButton"
+                    to="/"
+                    custom
+                    v-slot="{ navigate }"
+                >
+                    <button
+                    @click="navigate"
+                    role="link"
+                    >
+                    Next
+                    </button>
+                </router-link>
+                </div>
+            </div>
         </div>
         <div class="right">
             <img src="" alt="">
         </div>
-        <div class="buttons">
-        <div>
-          <router-link 
-            class="backButton" 
-            to="/HardwareView"
-            custom
-            v-slot="{ navigate }"
-          >
-            <button
-              @click="navigate"
-              role="link"
-            >
-              Back
-            </button>
-          </router-link>
-        </div>
-        <div>
-          <router-link class="nextButton"
-            to="/"
-            custom
-            v-slot="{ navigate }"
-          >
-            <button
-              @click="navigate"
-              role="link"
-            >
-              Next
-            </button>
-          </router-link>
-        </div>
-    </div>
+            
     </body>
 
     <footer>
@@ -118,4 +119,5 @@
       </div>
   
     </footer>
+    <RouterView />
 </template>

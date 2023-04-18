@@ -34,10 +34,7 @@ a,
   #file{
     width: 100%;
     height: 20px;
-    min-width: 735px;
-    
-  }
-  #pBar{
+    min-width: 735px; 
   }
 }
 
