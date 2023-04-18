@@ -4,6 +4,8 @@ import HelloWorld from './components/HelloWorld.vue'
 import HardwareView from './views/HardwareView.vue'
 import Controller from './views/ControllerView.vue'
 import IrTracker from './views/IrTrackerView.vue'
+import HowToIrTracker from './views/HowToIrTrackerView.vue'
+import UrPreperation1 from './views/UrPreperation1View.vue'
 </script>
 
 <template>

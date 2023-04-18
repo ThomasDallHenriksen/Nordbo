@@ -8,7 +8,9 @@
       </div>
     </header>
     <body class="wrapper">
+        
         <div class="left">
+            <div><h1>IR Tracker Setup</h1></div>
             <form action=""></form>
             <p>Follow these guidelines to setup the IR tracker</p>
             <p>Please see Mimic controller setup for setting up the IR tracker.</p>
@@ -50,7 +52,7 @@
             <div>
                 <router-link 
                     class="backButton" 
-                    to="/"
+                    to="/HowToIrTrackerView"
                     custom
                     v-slot="{ navigate }"
                     >
@@ -80,7 +82,7 @@
                 </div>
                 <div>
                 <router-link class="nextButton"
-                    to="/"
+                    to="/UrPreperation1View"
                     custom
                     v-slot="{ navigate }"
                 >
@@ -95,7 +97,7 @@
             </div>
         </div>
         <div class="right">
-            <img src="" alt="">
+            <img src="" alt="" width="420" height="500">
         </div>
             
     </body>
