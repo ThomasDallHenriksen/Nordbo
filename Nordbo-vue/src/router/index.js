@@ -6,6 +6,7 @@ import ControllerView from '@/views/ControllerView.vue'
 import IrTrackerView from '@/views/IrTrackerView.vue'
 import UrCapView from '@/views/UrCapView.vue'
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
