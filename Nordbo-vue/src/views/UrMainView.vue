@@ -37,7 +37,7 @@
             <br>
 
             <p>The scripts are provided on the USB in the box.</p>
-            <img src="../assets/images/usbscript.png" alt="script">
+            <img class="usb" src="../assets/images/usbscript.png" alt="script">
             <br>
 
             <h4>Control Mimic from the robot</h4>
@@ -147,7 +147,7 @@
   color: #ffffff;
 }
 
-img{
+.usb img{
     width: 880px;
     height: 550px;
 }

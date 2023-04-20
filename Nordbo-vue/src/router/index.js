@@ -1,13 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-//import hardwareSetup from '@/components/hardwareSetup.vue'
 import HardwareView from '@/views/HardwareView.vue'
 import ControllerView from '@/views/ControllerView.vue'
 import IrTrackerView from '@/views/IrTrackerView.vue'
 import HowToIrTrackerView from '@/views/HowToIrTrackerView.vue'
-import UrPreperation1View from '@/views/UrPreperation1View.vue'
 import UrCapView from '@/views/UrCapView.vue'
 import UrMainView from '@/views/UrMainView.vue'
+import NachiConfiqView from '@/views/NachiConfiqView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -51,11 +50,6 @@ const router = createRouter({
       component: HowToIrTrackerView
     },
     {
-      path: '/UrPreperation1View',
-      name: 'UrPreperation1View',
-      component: UrPreperation1View
-    },
-    {
       path: '/UrCapView',
       name: 'UrCapView',
       component: UrCapView
@@ -64,6 +58,11 @@ const router = createRouter({
       path: '/UrMainView',
       name: 'UrMainView',
       component: UrMainView
+    },
+    {
+      path: '/NachiConfiqView',
+      name: 'NachiConfiqView',
+      component: NachiConfiqView
     },
 
   ]
