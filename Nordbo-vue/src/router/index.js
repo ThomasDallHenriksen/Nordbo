@@ -9,6 +9,8 @@ import UrSetupView from '@/views/UrSetupView.vue'
 import UrCapView from '@/views/UrCapView.vue'
 import UrMainView from '@/views/UrMainView.vue'
 import UrReadyView from '@/views/UrReadyView.vue'
+import NachiMimicView from '@/views/NachiMimicView.vue'
+import NachiHardwareView from '@/views/NachiHardwareView.vue'
 
 
 const router = createRouter({
@@ -77,7 +79,16 @@ const router = createRouter({
       name: 'UrReadyView',
       component: UrReadyView
     },
-
+    {
+      path: '/NachiMimicView',
+      name: 'NachiMimicView',
+      component: NachiMimicView
+    },
+    {
+      path: '/NachiHardwareView',
+      name: 'NachiHardwareView',
+      component: NachiHardwareView
+    },
   ]
 })
 

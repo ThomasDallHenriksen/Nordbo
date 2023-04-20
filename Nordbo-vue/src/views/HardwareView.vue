@@ -101,7 +101,6 @@
       text-align: center;
     }
     h2{
-      font-weight: ;
     }
   
   .backButton{
