@@ -116,7 +116,7 @@
 
 .checkbox {
     width: 100%;
-    height: 100px;
+    height: 151px;
     background-color: #02215C;
     display: flex;
     align-items: center;
