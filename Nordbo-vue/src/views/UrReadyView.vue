@@ -1,29 +1,30 @@
 <script>
 </script>
-
 <template>
-  <header>
-      <div id="pBar">
-        <progress id="file" value="55.5" max="100"> 55.5% </progress>
+    <header>
+        <div id="pBar">
+        <progress id="file" value="100.0" max="100"> 100.0% </progress>
     </div>
-  </header>
-
-    <body>
-      <h1>UR Preperation</h1>
-      <br>
-      <p>How to Install the URCap Needed and Setup Mimic Controller and Nordbo Driver</p>
-
-      <div class="buttons">
+    </header>
+    <div class="wrapper">
+        <div id="icon">
+            <a href="/"><img  src="../assets/images/cross.png" alt="" width="40" height="40"></a>
+        </div>
+        <div>
+            <h1>Your UR robot is now ready to use Mimic.</h1>
+        </div>
+        <div class="buttons">
         <div>
           <router-link 
             class="backButton" 
-            to="/URPreperation2View"
+            to="/UrMainView"
             custom
             v-slot="{ navigate }"
           >
             <button
               @click="navigate"
               role="link"
+              id="backButton"
             >
               Back
             </button>
@@ -31,23 +32,23 @@
         </div>
         <div>
           <router-link class="nextButton"
-            to="/IrTrackerView"
+            to="/"
             custom
             v-slot="{ navigate }"
           >
             <button
               @click="navigate"
               role="link"
+              id="nextButton"
             >
-              Next
+              Next Lesson
             </button>
           </router-link>
         </div>
     </div>
-    </body>
-
+</div>
     <footer>
-      <div class="Info">
+        <div class="Info">
       <div class="HumanSkill">
         <h4>Human skills,</h4>
         <p>machine precision</p>
@@ -63,13 +64,13 @@
       <div class="copyright">
         <p>Copyright @ Nordbo robotics</p>
       </div>
-  
     </footer>
     <RouterView />
 </template>
 
 <style>
-.buttons{
+#icon{
     display: flex;
-  }
+    justify-content: flex-end;
+}
 </style>

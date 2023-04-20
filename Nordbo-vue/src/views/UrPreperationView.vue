@@ -46,7 +46,7 @@
             </div>
             <div>
                 <router-link class="nextButton"
-                    to="/UrPreperation2View"
+                    to="/UrSetupView"
                     custom
                     v-slot="{ navigate }"
                 >

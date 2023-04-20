@@ -53,7 +53,7 @@
         <div>
           <router-link 
             class="backButton" 
-            to="/HardwareView"
+            to="/UrSetupView"
             custom
             v-slot="{ navigate }"
           >

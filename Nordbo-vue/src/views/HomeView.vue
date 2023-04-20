@@ -6,10 +6,16 @@ import HardwareView from '@/views/HardwareView.vue';
 
 <template>
   <header>
-    <h1>Welcome to the Mimic Guide</h1>
+    
   </header>
   <body>
     <div class="wrapper">
+      <div class="container">
+        <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
+        <div class="banner-text">
+          <h1 id="banner-h1">Welcome to the Mimic Guide</h1>
+        </div>
+      </div>
     <h2>Getting to know your Mimic UR</h2>
     <p>Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
     <h2>Select the amount of time</h2>
@@ -88,6 +94,27 @@ header{
   width: 284px;
   height: 256px;
   background-color: deeppink;
+}
+
+.container{
+  position: relative;
+  background-color: #415886;
+  opacity: 1.1;
+  
+}
+.banner-text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+#banner-h1{
+  color: white;
+  font-size: 30px;
+}
+.banner{
+  background-color: #415886;
+  opacity: 0.2;
 }
 
 

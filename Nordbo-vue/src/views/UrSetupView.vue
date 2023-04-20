@@ -30,7 +30,7 @@
         <div>
           <router-link 
             class="backButton" 
-            to="/HardwareView"
+            to="/UrPreperationView"
             custom
             v-slot="{ navigate }"
           >
@@ -44,7 +44,7 @@
         </div>
         <div>
           <router-link class="nextButton"
-            to="/URPreperation3View"
+            to="/UrCapView"
             custom
             v-slot="{ navigate }"
           >
@@ -76,7 +76,6 @@
       <div class="copyright">
         <p>Copyright @ Nordbo robotics</p>
       </div>
-  
     </footer>
     <RouterView />
 </template>
