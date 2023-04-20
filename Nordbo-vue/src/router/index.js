@@ -4,6 +4,8 @@ import HomeView from '../views/HomeView.vue'
 import HardwareView from '@/views/HardwareView.vue'
 import ControllerView from '@/views/ControllerView.vue'
 import IrTrackerView from '@/views/IrTrackerView.vue'
+import HowToIrTrackerView from '@/views/HowToIrTrackerView.vue'
+import UrPreperation1View from '@/views/UrPreperation1View.vue'
 import UrCapView from '@/views/UrCapView.vue'
 
 
@@ -42,6 +44,16 @@ const router = createRouter({
       path: '/IrTrackerView',
       name: 'IrTrackerView',
       component: IrTrackerView
+    },
+    {
+      path: '/HowToIrTrackerView',
+      name: 'HowToIrTrackerView',
+      component: HowToIrTrackerView
+    },
+    {
+      path: '/UrPreperation1View',
+      name: 'UrPreperation1View',
+      component: UrPreperation1View
     },
     {
       path: '/UrCapView',

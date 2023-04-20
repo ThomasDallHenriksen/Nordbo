@@ -1,10 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import HardwareView from './views/HardwareView.vue'
-import Controller from './views/ControllerView.vue'
-import IrTracker from './views/IrTrackerView.vue'
-import UrCapView from '@/views/UrCapView.vue'
 </script>
 
 <template>

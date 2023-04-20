@@ -13,47 +13,49 @@
             <h1>Mimic controller setup</h1>
             <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:
             </p>
-        <div>
-            <h1>1</h1>
-            <p>Connect the power supply to the Mimic controller</p>
-            <input type="checkbox">
+        <div class="checkbox">
+            <div class="steps">
+                <h1 id="checkH1">1</h1>
+            </div>
+            <div class="description">
+                <p id="checkP">Connect the power supply to the Mimic controller</p>
+            </div>
+            <input class="check" type="checkbox">
         </div>
         <img src="" alt="">
-        <div>
+        
+        
 
-        </div>
-            <div>
-                <h1>2</h1>
+            <div class="checkbox">
+                <div class="steps">
+                    <h1 id="checkH1">2</h1>
+                </div>
+                <div class="description">
+                    <p id="checkP">Connect the Mimic Controller to the robot (see robot specific guidelines) 
+                    Optional: Connect the Mimic Controller with the Gigabit switch using the ethernet cable, if connecting to other hardware is needed.</p>
+                </div>
+                <input class="check" type="checkbox">
             </div>
-            <div>
-                <p>Connect the Mimic Controller to the robot (see robot specific guidelines) 
-                Optional: Connect the Mimic Controller with the Gigabit switch using the ethernet cable, if connecting to other hardware is needed.</p>
+            <div class="checkbox">
+                <div class="steps">
+                    <h1 id="checkH1">3</h1>
+                </div>
+                <div class="description">
+                    <p id="checkP">Connect the touch screen/screen, USB-mouse and keyboard to the Mimic Controller</p>
+                </div>
+                <input class="check" type="checkbox">
             </div>
-            <div>
-                <input type="checkbox">
+            <div class="checkbox">
+                <div class="steps">
+                    <h1 id="checkH1">4</h1>
+                </div>
+                <div class="description">
+                    <p id="checkP">Verify that the Mimic Controller starts up when pressing the power button</p>
+                </div>
+                <input class="check" type="checkbox">
             </div>
-        </div>
-        <div>
-            <div>
-                <h1>3</h1>
-            </div>
-            <div>
-                <p>Connect the touch screen/screen, USB-mouse and keyboard to the Mimic Controller</p>
-            </div>
-            <div>
-                <input type="checkbox">
-            </div>
-        </div>
-        <div>
-            <div>
-                <h1>4</h1>
-            </div>
-            <div>
-                <p>Verify that the Mimic Controller starts up when pressing the power button</p>
-            </div>
-            <div>
-                <input type="checkbox">
-            </div>
+        
+           
         </div>
         <p>Note: The password for the Mimic Controller is “nordbo”.</p>
         <div class="buttons">
@@ -116,4 +118,49 @@
 .buttons{
     display: flex;
   }
+
+  .checkbox {
+    width: 100%;
+    height: 100px;
+    background-color: #02215C;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.checkbox-long{
+    width: 100%;
+    height: 300px;
+    background-color: #02215C;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.steps{
+    width: 5%;
+}
+
+.description{
+    width: 80%;
+}
+
+.check{
+    width: 15%;
+    height: 30px;
+}
+#checkH1{
+  color: #ffffff;
+  margin-left: 10px;
+}
+#checkP{
+  color: #ffffff;
+}
 </style>
