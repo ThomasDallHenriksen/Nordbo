@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-//import hardwareSetup from '@/components/hardwareSetup.vue'
 import HardwareView from '@/views/HardwareView.vue'
 import ControllerView from '@/views/ControllerView.vue'
 import IrTrackerView from '@/views/IrTrackerView.vue'
@@ -8,11 +7,9 @@ import HowToIrTrackerView from '@/views/HowToIrTrackerView.vue'
 import UrPreperationView from '@/views/UrPreperationView.vue'
 import UrSetupView from '@/views/UrSetupView.vue'
 import UrCapView from '@/views/UrCapView.vue'
-<<<<<<< HEAD
-import UrReadyView from '@/views/UrReadyView.vue'
-=======
 import UrMainView from '@/views/UrMainView.vue'
->>>>>>> d37ae368f4bfe7619d08526340f14f40f7104caf
+import UrReadyView from '@/views/UrReadyView.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -71,15 +68,14 @@ const router = createRouter({
       component: UrCapView
     },
     {
-<<<<<<< HEAD
-      path: '/UrReadyView',
-      name: 'UrReadyView',
-      component: UrReadyView
-=======
       path: '/UrMainView',
       name: 'UrMainView',
       component: UrMainView
->>>>>>> d37ae368f4bfe7619d08526340f14f40f7104caf
+    },
+    {
+      path: '/UrReadyView',
+      name: 'UrReadyView',
+      component: UrReadyView
     },
 
   ]

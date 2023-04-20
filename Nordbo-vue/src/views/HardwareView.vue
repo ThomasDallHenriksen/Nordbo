@@ -98,6 +98,10 @@
     h1{
       font-weight: bold;
       font-size: 24px;
+      text-align: center;
+    }
+    h2{
+      font-weight: ;
     }
   
   .backButton{

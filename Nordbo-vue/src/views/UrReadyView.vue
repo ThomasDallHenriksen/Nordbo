@@ -8,7 +8,7 @@
     </header>
     <div class="wrapper">
         <div id="icon">
-            <img src="" alt="" width="50" height="50">
+            <a href="/"><img  src="../assets/images/cross.png" alt="" width="40" height="40"></a>
         </div>
         <div>
             <h1>Your UR robot is now ready to use Mimic.</h1>
@@ -24,6 +24,7 @@
             <button
               @click="navigate"
               role="link"
+              id="backButton"
             >
               Back
             </button>
@@ -38,6 +39,7 @@
             <button
               @click="navigate"
               role="link"
+              id="nextButton"
             >
               Next Lesson
             </button>
