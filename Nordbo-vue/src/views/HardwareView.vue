@@ -22,7 +22,7 @@
         <p>- Ethernet cables (for any additional hardware needed)</p>
         <h1>Video demostration</h1>
         <div>
-          <iframe src="https://youtu.be/eeD26XRyqDE" width="320" height="240"></iframe>
+          <iframe src="https://youtu.be/eeD26XRyqDE" width="750" height="400"></iframe>
         </div>
         <div class="buttons">
         <div>
@@ -35,13 +35,15 @@
             <button
               @click="navigate"
               role="link"
+              id="backButton"
             >
               Back
             </button>
           </router-link>
         </div>
         <div>
-          <router-link class="nextButton"
+          <router-link 
+            class="nextButton"
             to="/ControllerView"
             custom
             v-slot="{ navigate }"
@@ -49,8 +51,9 @@
             <button
               @click="navigate"
               role="link"
+              id="nextButton"
             >
-              Next
+               Next 
             </button>
           </router-link>
         </div>
@@ -82,6 +85,8 @@
   <style>
   .buttons{
     display: flex;
+    justify-content: center;
+    padding: 20px;
   }
   header{
     position: fixed;
@@ -89,8 +94,40 @@
     z-index: 1;
     width: 735px;
   }
+
+    h1{
+      font-weight: bold;
+      font-size: 24px;
+    }
+  
   .backButton{
   border: green;
+}
+#backButton{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 21px;
+    border: solid 2px #1ec794;
+    background: #ffffff;
+    color: #1ec794;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 40px;
+}
+#nextButton{
+  border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 21px;
+    border: solid 2px #1ec794;
+    background: #1ec794 ;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 40px;
 }
   
 </style>

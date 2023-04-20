@@ -53,7 +53,7 @@
         <div>
           <router-link 
             class="backButton" 
-            to="/HardwareView"
+            to="/UrSetupView"
             custom
             v-slot="{ navigate }"
           >
@@ -67,7 +67,7 @@
         </div>
         <div>
           <router-link class="nextButton"
-            to="/IrTrackerView"
+            to="/UrMainView"
             custom
             v-slot="{ navigate }"
           >

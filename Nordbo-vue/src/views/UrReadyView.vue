@@ -1,36 +1,23 @@
 <script>
 </script>
-
 <template>
-  <header>
-      <div id="pBar">
-        <progress id="file" value="44.4" max="100"> 44.4% </progress>
+    <header>
+        <div id="pBar">
+        <progress id="file" value="100.0" max="100"> 100.0% </progress>
     </div>
-  </header>
-    
-    <body>
-      <h1>UR Preperation</h1>
-      <br>
-      <h2>Setup Robot Network</h2>
-      <br>
-      <p>In this section you will find what you need to setup the network on the robot and the Mimic Controller. This includes:</p>
-      <br>
-      <p>The robot</p>
-      <p>The Norbo Driver (URCap)</p>
-      <p>The Mimic Controller</p>
-      <br>
-      <p>The Ip's provided are recommended defaults. They can be changed if needed. If changed beawer that the IP on the</p>
-      <p>Mimic Controller and the IP specified in the Nodbro Driver URCap must be the same</p>
-      <br>
-      <p>Change the IP of the Robot:</p>
-      <p>Change the IP of the UR to a static IP (default IP 192.168.1.50)</p>
-      <p>To change the IP on a UR, go to Settings > System > Network > IP adress</p>
-
-      <div class="buttons">
+    </header>
+    <div class="wrapper">
+        <div id="icon">
+            <img src="" alt="" width="50" height="50">
+        </div>
+        <div>
+            <h1>Your UR robot is now ready to use Mimic.</h1>
+        </div>
+        <div class="buttons">
         <div>
           <router-link 
             class="backButton" 
-            to="/HardwareView"
+            to="/UrMainView"
             custom
             v-slot="{ navigate }"
           >
@@ -44,7 +31,7 @@
         </div>
         <div>
           <router-link class="nextButton"
-            to="/URPreperation3View"
+            to="/"
             custom
             v-slot="{ navigate }"
           >
@@ -52,15 +39,14 @@
               @click="navigate"
               role="link"
             >
-              Next
+              Next Lesson
             </button>
           </router-link>
         </div>
     </div>
-    </body>
-
+</div>
     <footer>
-      <div class="Info">
+        <div class="Info">
       <div class="HumanSkill">
         <h4>Human skills,</h4>
         <p>machine precision</p>
@@ -76,13 +62,13 @@
       <div class="copyright">
         <p>Copyright @ Nordbo robotics</p>
       </div>
-  
     </footer>
     <RouterView />
 </template>
 
 <style>
-.buttons{
+#icon{
     display: flex;
-  }
+    justify-content: flex-end;
+}
 </style>
