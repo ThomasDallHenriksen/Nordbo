@@ -67,7 +67,7 @@
         </div>
         <div>
           <router-link class="nextButton"
-            to="/IrTrackerView"
+            to="/UrMainView"
             custom
             v-slot="{ navigate }"
           >
