@@ -7,7 +7,20 @@ import HowToIrTrackerView from '@/views/HowToIrTrackerView.vue'
 import UrCapView from '@/views/UrCapView.vue'
 import UrMainView from '@/views/UrMainView.vue'
 import NachiConfiqView from '@/views/NachiConfiqView.vue'
+<<<<<<< HEAD
 import KukaPrepView from '@/views/KukaPrepView.vue'
+=======
+=======
+import UrPreperationView from '@/views/UrPreperationView.vue'
+import UrSetupView from '@/views/UrSetupView.vue'
+import UrCapView from '@/views/UrCapView.vue'
+import UrMainView from '@/views/UrMainView.vue'
+import UrReadyView from '@/views/UrReadyView.vue'
+import NachiMimicView from '@/views/NachiMimicView.vue'
+import NachiHardwareView from '@/views/NachiHardwareView.vue'
+
+>>>>>>> 9849dff13183955d370572e7bcfc43d2cb6eb23a
+>>>>>>> 8e9bd1137f58d08eb88d0acfe1cad2a1dc66093a
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -70,7 +83,16 @@ const router = createRouter({
       name: 'KukaPrepView',
       component: KukaPrepView
     },
-
+    {
+      path: '/NachiMimicView',
+      name: 'NachiMimicView',
+      component: NachiMimicView
+    },
+    {
+      path: '/NachiHardwareView',
+      name: 'NachiHardwareView',
+      component: NachiHardwareView
+    },
   ]
 })
 
