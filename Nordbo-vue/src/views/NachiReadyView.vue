@@ -1,36 +1,23 @@
 <script>
 </script>
-
 <template>
-  <header>
-      <div id="pBar">
-        <progress id="file" value="44.4" max="100"> 44.4% </progress>
+    <header>
+        <div id="pBar">
+        <progress id="file" value="100.0" max="100"> 100.0% </progress>
     </div>
-  </header>
-    
-    <body class="wrapper">
-      <h1>UR Preperation</h1>
-      <br>
-      <h2>Setup Robot Network</h2>
-      <br>
-      <p>In this section you will find what you need to setup the network on the robot and the Mimic Controller. This includes:</p>
-      <br>
-      <p>The robot</p>
-      <p>The Norbo Driver (URCap)</p>
-      <p>The Mimic Controller</p>
-      <br>
-      <p>The Ip's provided are recommended defaults. They can be changed if needed. If changed beawer that the IP on the</p>
-      <p>Mimic Controller and the IP specified in the Nodbro Driver URCap must be the same</p>
-      <br>
-      <p>Change the IP of the Robot:</p>
-      <p>Change the IP of the UR to a static IP (default IP 192.168.1.50)</p>
-      <p>To change the IP on a UR, go to Settings > System > Network > IP adress</p>
-
-      <div class="buttons">
+    </header>
+    <div class="wrapper">
+        <div id="icon">
+            <a href="/"><img  src="../assets/images/cross.png" alt="" width="40" height="40"></a>
+        </div>
+        <div>
+            <h1>Your Nachi robot is now ready to use Mimic.</h1>
+        </div>
+        <div class="buttons">
         <div>
           <router-link 
             class="backButton" 
-            to="/UrPreperationView"
+            to="/NachiConfiqView"
             custom
             v-slot="{ navigate }"
           >
@@ -45,7 +32,7 @@
         </div>
         <div>
           <router-link class="nextButton"
-            to="/UrCapView"
+            to="/NachiMimicView"
             custom
             v-slot="{ navigate }"
           >
@@ -54,15 +41,14 @@
               role="link"
               id="nextButton"
             >
-              Next
+              Next Lesson
             </button>
           </router-link>
         </div>
     </div>
-    </body>
-
+</div>
     <footer>
-      <div class="Info">
+        <div class="Info">
       <div class="HumanSkill">
         <h4>Human skills,</h4>
         <p>machine precision</p>
@@ -83,12 +69,8 @@
 </template>
 
 <style>
-.buttons{
+#icon{
     display: flex;
-  }
-
-  .wrapper{
-    display: flex;
-    flex-direction: column;
-  }
+    justify-content: flex-end;
+}
 </style>

@@ -7,7 +7,7 @@
             <progress id="file" value="50" max="100"> 50% </progress>
         </div>
     </header>
-    <body>
+    <body class="wrapper">
         <div class="titel1">
             <h1>Nachi Preperation</h1>
         </div>
@@ -32,6 +32,7 @@
             <button
               @click="navigate"
               role="link"
+              id="backButton"
             >
               Back
             </button>
@@ -46,6 +47,7 @@
             <button
               @click="navigate"
               role="link"
+              id="nextButton"
             >
               Next
             </button>

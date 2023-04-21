@@ -5,9 +5,6 @@ import HardwareView from '@/views/HardwareView.vue';
 </script>
 
 <template>
-  <header>
-    
-  </header>
   <body>
     <div class="wrapper">
       <div class="container">

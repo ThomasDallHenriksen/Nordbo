@@ -81,6 +81,7 @@
             <button
               @click="navigate"
               role="link"
+              id="backButton"
             >
               Back
             </button>
@@ -95,6 +96,7 @@
             <button
               @click="navigate"
               role="link"
+              id="nextButton"
             >
               Next
             </button>

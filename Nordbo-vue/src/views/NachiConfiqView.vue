@@ -160,6 +160,7 @@
             <button
               @click="navigate"
               role="link"
+              id="backButton"
             >
               Back
             </button>
@@ -167,13 +168,14 @@
         </div>
         <div>
           <router-link class="nextButton"
-            to="/UrMainView"
+            to="/NachiReadyView"
             custom
             v-slot="{ navigate }"
           >
             <button
               @click="navigate"
               role="link"
+              id="nextButton"
             >
               Next
             </button>
