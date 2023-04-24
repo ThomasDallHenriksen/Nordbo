@@ -82,7 +82,7 @@ const router = createRouter({
       path: '/NachiConfiqView',
       name: 'NachiConfiqView',
       component: NachiConfiqView
-    },
+    },  
     {
       path: '/UrReadyView',
       name: 'UrReadyView',
