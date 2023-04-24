@@ -69,8 +69,4 @@
 </template>
 
 <style>
-#icon{
-    display: flex;
-    justify-content: flex-end;
-}
 </style>

@@ -32,7 +32,7 @@
         </div>
         <div>
           <router-link class="nextButton"
-            to="/KukaPrepView"
+            to="/NachiMimicView"
             custom
             v-slot="{ navigate }"
           >

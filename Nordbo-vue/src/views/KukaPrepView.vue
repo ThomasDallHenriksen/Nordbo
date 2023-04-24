@@ -234,14 +234,6 @@
 </template>
 
 <style>
-.wrapper{
-    width: 100%;
-}
-
-.buttons {
-  display: flex;
-}
-
 .kuka{
     width: 100%;
     height: 268px;

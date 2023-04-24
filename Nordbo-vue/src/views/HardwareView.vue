@@ -83,11 +83,6 @@
   </template>
 
   <style>
-  .buttons{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-  }
   header{
     position: fixed;
     top: 0;
@@ -102,11 +97,29 @@
     }
     h2{
     }
-  
-  .backButton{
-  border: green;
+
+    .banner-text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
-#backButton{
+#banner-h1{
+  color: white;
+  font-size: 30px;
+}
+.banner{
+  background-color: #415886;
+  opacity: 0.2;
+}
+
+    .buttons{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #backButton{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -132,5 +145,4 @@
     padding-right: 15px;
     margin-left: 40px;
 }
-  
 </style>

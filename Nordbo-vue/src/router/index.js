@@ -16,6 +16,7 @@ import NachiHardwareView from '@/views/NachiHardwareView.vue'
 import NachiReadyView from '@/views/NachiReadyView.vue'
 import KukaReadyView from '@/views/KukaReadyView.vue'
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [

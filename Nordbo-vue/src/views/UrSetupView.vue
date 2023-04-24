@@ -83,12 +83,5 @@
 </template>
 
 <style>
-.buttons{
-    display: flex;
-  }
 
-  .wrapper{
-    display: flex;
-    flex-direction: column;
-  }
 </style>

@@ -12,7 +12,7 @@
             <h1>UR Preperation</h1>
             <p class="checkP">How to Install the URCap Needed and Setup Mimic Controller and Nordbo Driver</p>
 
-        <div class="checkbox">
+        <div class="checkbox ur--checkbox">
             <div class="steps">
                 <h1 id="checkH1">1</h1>
             </div>
@@ -22,7 +22,7 @@
             <input class="check" type="checkbox">
         </div>
 
-        <div class="checkbox">
+        <div class="checkbox ur--checkbox">
             <div class="steps">
                 <h1 id="checkH1">2</h1>
             </div>
@@ -108,58 +108,13 @@
 </template>
 
 <style>
-.wrapper{
-    width: 100%;
+
+
+.ur--checkbox {
+  height: 151px;
+  margin: 10px;
 }
 
-.buttons {
-  display: flex;
-}
 
-.checkbox {
-    width: 100%;
-    height: 151px;
-    background-color: #02215C;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.checkbox-long{
-    width: 100%;
-    height: 300px;
-    background-color: #02215C;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.steps{
-    width: 5%;
-}
-
-.description{
-    width: 80%;
-}
-
-.check{
-    width: 15%;
-    height: 30px;
-}
-#checkH1{
-  color: #ffffff;
-  margin-left: 10px;
-}
-#checkP{
-  color: #ffffff;
-}
 
 </style>

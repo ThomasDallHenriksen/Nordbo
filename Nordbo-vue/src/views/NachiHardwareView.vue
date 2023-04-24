@@ -79,13 +79,4 @@
 </template>
 
 <style>
-.buttons{
-    display: flex;
-  }
-  .titel1{
-    text-align: center;
-  }
-  .titel2{
-    text-align: center;
-  }
 </style>

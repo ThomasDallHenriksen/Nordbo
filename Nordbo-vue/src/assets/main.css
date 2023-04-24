@@ -1,7 +1,7 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 2rem;
 
@@ -21,7 +21,14 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
+#file{
+  width: 1798px;
+  height: 20px;
+}
+
+
+
+@media (min-width: 1920px) {
   body {
     display: flex;
     /* place-items: center; */
@@ -30,11 +37,83 @@ a,
   #app {
  
   }
-  /* Guide.css */
+
   #file{
     width: 100%;
     height: 20px;
-    min-width: 735px; 
+    min-width: 100%; 
   }
+
+  /* Guide.css */
+  .wrapper{
+    height: 600px;
+  }
+  
+  .wrapper h2 {
+    margin-top: 88px;
+    text-align: center;
+  }
+  .wrapper p {
+    text-align: center;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #backButton{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 21px;
+    border: solid 2px #1ec794;
+    background: #ffffff;
+    color: #1ec794;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 40px;
+}
+#nextButton{
+  border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 21px;
+    border: solid 2px #1ec794;
+    background: #1ec794 ;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 40px;
+}
+}
+
+footer{
+  background-color: #082358;
+  width: 100%;
+  height: 100px;
+}
+
+.HumanSkill h4{
+  color: #ffffff;
+  font-weight: bold;
+}
+.HumanSkill p{
+  color: #ffffff;
+}
+
+.Robotics p{
+  color: #7ac1e5;
+}
+.copyright{
+  width: 100%;
+  height: 49px;
+  background-color: #071e4b;
+}
+.copyright p{
+  color: #75bcdf;
 }
 

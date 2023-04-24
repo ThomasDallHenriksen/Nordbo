@@ -20,15 +20,57 @@ import HardwareView from '@/views/HardwareView.vue';
     <div class="select">
       <div class="min-5">
         <img src="" alt="">
-        <RouterLink to="/HardwareView">Select</RouterLink>
+        <div>
+          <router-link class="nextButton"
+            to="/HardwareView"
+            custom
+            v-slot="{ navigate }"
+          >
+            <button
+              @click="navigate"
+              role="link"
+              id="select-min"
+            >
+              Select
+            </button>
+          </router-link>
+        </div>
       </div>
-      <div class="10-min">
+      <div class="min-10">
         <img src="" alt="">
-        <button>Select</button>
+        <div>
+          <router-link class="nextButton"
+            to="/HardwareView"
+            custom
+            v-slot="{ navigate }"
+          >
+            <button
+              @click="navigate"
+              role="link"
+              id="select-min"
+            >
+              Select
+            </button>
+          </router-link>
+        </div>
       </div>
-      <div class="20-min"> 
+      <div class="min-20"> 
         <img src="" alt="">
-        <button>Select</button>
+        <div>
+          <router-link class="nextButton"
+            to="/NachiMimicView"
+            custom
+            v-slot="{ navigate }"
+          >
+            <button
+              @click="navigate"
+              role="link"
+              id="select-min"
+            >
+              Select
+            </button>
+          </router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -63,17 +105,7 @@ header{
 
 
 
-.wrapper{
-  height: 600px;
-}
 
-.wrapper h2 {
-  margin-top: 88px;
-  text-align: center;
-}
-.wrapper p {
-  text-align: center;
-}
 
 .Info{
   display: flex;
@@ -87,10 +119,11 @@ header{
   justify-content: center;
 }
 
-.min-5{
+.min-5, .min-10, .min-20{
   width: 284px;
   height: 256px;
-  background-color: deeppink;
+  background-color: #02215c;
+  margin: 40px;
 }
 
 .container{
@@ -99,20 +132,27 @@ header{
   opacity: 1.1;
   
 }
-.banner-text {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+
+#select-min{
+  position: relative;
+  margin-top: 76%;
+  margin-left: 35%;
+  border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 21px;
+    border: solid 2px #1ec794;
+    background: #1ec794 ;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-#banner-h1{
-  color: white;
-  font-size: 30px;
-}
-.banner{
-  background-color: #415886;
-  opacity: 0.2;
-}
+
+
+
+
+
 
 
 </style>

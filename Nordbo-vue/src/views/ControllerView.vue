@@ -117,15 +117,13 @@
 </template>
 
 <style>
-.buttons{
-    display: flex;
-  }
 
   .checkbox {
     width: 100%;
     height: 100px;
     background-color: #02215C;
     display: flex;
+    margin: 10px;
     align-items: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -165,4 +163,6 @@
 #checkP{
   color: #ffffff;
 }
+
+
 </style>

@@ -83,9 +83,6 @@
 </template>
 
 <style>
-.buttons{
-    display: flex;
-  }
 .titel1{
     text-align: center;
   }

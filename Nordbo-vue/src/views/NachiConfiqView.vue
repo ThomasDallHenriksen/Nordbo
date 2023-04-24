@@ -153,7 +153,7 @@
         <div>
           <router-link 
             class="backButton" 
-            to="/HardwareView"
+            to="/NachiHardwareView"
             custom
             v-slot="{ navigate }"
           >
@@ -208,13 +208,6 @@
 </template>
 
 <style>
-.wrapper{
-    width: 100%;
-}
-
-.buttons {
-  display: flex;
-}
 
 .nachi{
     width: 100%;

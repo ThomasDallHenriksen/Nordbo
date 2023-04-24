@@ -129,25 +129,6 @@
 </template>
 
 <style>
-.wrapper{
-    width: 100%;
-}
-
-.buttons {
-  display: flex;
-}
-
-.check{
-    width: 15%;
-    height: 30px;
-}
-#checkH1{
-  color: #ffffff;
-  margin-left: 10px;
-}
-#checkP{
-  color: #ffffff;
-}
 
 .usb img{
     width: 880px;
