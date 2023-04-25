@@ -19,7 +19,8 @@ import HardwareView from '@/views/HardwareView.vue';
     <!-- Icon sprite -->
     <div class="select">
       <div class="min-5">
-        <img src="" alt="">
+        <div class="image"></div>
+        <h2>5 min.</h2>
         <div>
           <router-link class="nextButton"
             to="/HardwareView"
@@ -37,7 +38,8 @@ import HardwareView from '@/views/HardwareView.vue';
         </div>
       </div>
       <div class="min-10">
-        <img src="" alt="">
+        <div class="image"></div>
+        <h2>10 - 15 min.</h2>
         <div>
           <router-link class="nextButton"
             to="/HardwareView"
@@ -55,7 +57,8 @@ import HardwareView from '@/views/HardwareView.vue';
         </div>
       </div>
       <div class="min-20"> 
-        <img src="" alt="">
+        <div class="image"></div>
+        <h2>20 - 30 min.</h2>
         <div>
           <router-link class="nextButton"
             to="/NachiMimicView"
@@ -82,8 +85,9 @@ import HardwareView from '@/views/HardwareView.vue';
       <p>machine precision</p>
     </div>
     <div class="Robotics">
-      <p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p>
-      <!-- Icon sprite -->
+      <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
+      <div class="Robotics email--image"></div>
+      <div><h3>contact@nordbo-robotics.com</h3></div>
     </div>
     <div class="social">
       <!-- Icon sprite buttons -->
@@ -103,17 +107,20 @@ header{
   text-align: center;
 }
 
+.HumanSkill{
+  width: 20%;
+}
 
-
+.Robotics{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 .Info{
   display: flex;
 }
 
-.Robotics {
-  margin-left: 60px;
-}
 .select{
   display: flex;
   justify-content: center;
@@ -124,6 +131,10 @@ header{
   height: 256px;
   background-color: #02215c;
   margin: 40px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .container{
@@ -135,7 +146,7 @@ header{
 
 #select-min{
   position: relative;
-  margin-top: 76%;
+  margin-top: 23%;
   margin-left: 35%;
   border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -147,6 +158,45 @@ header{
     color: #ffffff;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -10px -4px;
+  width: 60px;
+  height: 60px;
+  margin-top: 27%;
+  margin-left: 38%;
+}
+
+.min-5 h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.min-10 h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.min-20 h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.email--image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -160px -4px;
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+  display: flex;
+}
+
+.email--image h3{
+  margin-left: 10%;
+  white-space: nowrap;
 }
 
 
