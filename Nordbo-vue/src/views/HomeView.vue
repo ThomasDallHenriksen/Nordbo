@@ -86,11 +86,17 @@ import HardwareView from '@/views/HardwareView.vue';
     </div>
     <div class="Robotics">
       <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
-      <div class="Robotics email--image"></div>
-      <div><h3>contact@nordbo-robotics.com</h3></div>
+      <div class="hej">
+        <div class="Robotics email--image"></div>
+        <h3>contact@nordbo-robotics.com</h3>
+      </div>
+      <div class="mo">
+        <div class="Robotics phone--image"></div>
+        <h3>+45 81 98 81</h3>
+      </div>
     </div>
     <div class="social">
-      <!-- Icon sprite buttons -->
+      <div class="Robotics facebook--image"></div>
     </div>
     </div>
     <div class="copyright">
@@ -112,8 +118,6 @@ header{
 }
 
 .Robotics{
-  display: flex;
-  flex-wrap: wrap;
 }
 
 
@@ -161,7 +165,7 @@ header{
 }
 
 .image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-image: url(@/assets/images/iconsprite.png) ;
   background-position: -10px -4px;
   width: 60px;
   height: 60px;
@@ -187,22 +191,47 @@ header{
 
 .email--image{
   background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -160px -4px;
+  background-position: -182px -20px;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+}
+.phone--image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -238px -20px;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+}
+.facebook--image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -308px -87px;
   width: 60px;
   height: 60px;
   color: #ffffff;
   display: flex;
 }
 
-.email--image h3{
-  margin-left: 10%;
+.Robotics h3{
   white-space: nowrap;
+  color: #ffffff;
+}
+.hej{
+  display: flex;
 }
 
+.mo{
+  display: flex;
+}
 
-
-
-
-
+.mo h3{
+  color: #78bfe2;
+}
 
 </style>
+
+
+
+
