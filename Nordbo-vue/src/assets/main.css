@@ -117,3 +117,148 @@ footer{
   color: #75bcdf;
 }
 
+header{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.HumanSkill{
+  width: 20%;
+}
+
+.Robotics{
+}
+
+
+.Info{
+  display: flex;
+}
+
+.select{
+  display: flex;
+  justify-content: center;
+}
+
+.min-5, .min-10, .min-20{
+  width: 284px;
+  height: 256px;
+  background-color: #02215c;
+  margin: 40px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.container{
+  position: relative;
+  background-color: #415886;
+  opacity: 1.1;
+  
+}
+
+#select-min{
+  position: relative;
+  margin-top: 23%;
+  margin-left: 35%;
+  border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 21px;
+    border: solid 2px #1ec794;
+    background: #1ec794 ;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.image{
+  background-image: url(@/assets/images/iconsprite.png) ;
+  background-position: -10px -4px;
+  width: 60px;
+  height: 60px;
+  margin-top: 27%;
+  margin-left: 38%;
+}
+
+.min-5 h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.min-10 h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.min-20 h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.email--image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -182px -20px;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+}
+.phone--image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -238px -20px;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+}
+.facebook--image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+
+  background-position: -308px -87px;
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+  display: flex;
+}
+
+.Robotics h3{
+  white-space: nowrap;
+  color: #ffffff;
+}
+.hej{
+  display: flex;
+}
+
+.mo{
+  display: flex;
+}
+
+.mo h3{
+  color: #78bfe2;
+}
+
+.spriteLink{
+  display: inline-block;
+  background-position: -308px -87px;
+  width: 60px;
+  height: 60px;
+  background-image: url('@/assets/images/iconsprite.png');
+  margin-top: 10%;
+}
+.link--linkedin{
+  background-position: -373px -87px;
+}
+
+.link--twitter{
+  background-position: -435px -87px;
+}
+
+.link--instagram{
+  background-position: -491px -87px;
+}
+

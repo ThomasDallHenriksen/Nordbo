@@ -1,7 +1,18 @@
-<script setup>
+<script >
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from '@/components/HelloWorld.vue'
 import HardwareView from '@/views/HardwareView.vue';
+
+export default {
+  data() {
+    return { 
+      socialLinkFacebook: 'https://www.facebook.com/nordborobotics/?locale=da_DK',
+      socialLinkLinkedin: 'https://www.linkedin.com/company/nordbo-robotics/?originalSubdomain=dk',
+      socialLinkTwitter: 'https://twitter.com/nordborobotics?lang=da',
+      socialLinkInstagram: 'https://www.instagram.com/nordbo_robotics/?hl=da'
+    }
+  }
+}
 </script>
 
 <template>
@@ -96,7 +107,10 @@ import HardwareView from '@/views/HardwareView.vue';
       </div>
     </div>
     <div class="social">
-      <div class="Robotics facebook--image"></div>
+      <a class="spriteLink" :href="socialLinkFacebook" target="_blank"></a>
+      <a class="spriteLink link--linkedin" :href="socialLinkLinkedin" target="_blank"></a>
+      <a class="spriteLink link--twitter" :href="socialLinkTwitter" target="_blank"></a>
+      <a class="spriteLink link--instagram" :href="socialLinkInstagram" target="_blank"></a>
     </div>
     </div>
     <div class="copyright">
@@ -114,15 +128,21 @@ header{
 }
 
 .HumanSkill{
-  width: 20%;
+  width: 25%;
 }
 
 .Robotics{
+  width: 50%;
+}
+
+.social{
+  width: 25%;
 }
 
 
 .Info{
   display: flex;
+  height: 100%;
 }
 
 .select{
@@ -199,7 +219,7 @@ header{
 }
 .phone--image{
   background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -238px -20px;
+  background-position: -238px -22px;
   width: 60px;
   height: 30px;
   color: #ffffff;
@@ -207,6 +227,7 @@ header{
 }
 .facebook--image{
   background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+
   background-position: -308px -87px;
   width: 60px;
   height: 60px;
@@ -228,6 +249,27 @@ header{
 
 .mo h3{
   color: #78bfe2;
+}
+
+.spriteLink{
+  display: inline-block;
+  background-position: -308px -87px;
+  width: 60px;
+  height: 60px;
+  background-image: url('@/assets/images/iconsprite.png');
+  margin-top: 10%;
+  margin-right: 1%;
+}
+.link--linkedin{
+  background-position: -373px -87px;
+}
+
+.link--twitter{
+  background-position: -435px -87px;
+}
+
+.link--instagram{
+  background-position: -491px -87px;
 }
 
 </style>
