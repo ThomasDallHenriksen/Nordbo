@@ -3,7 +3,6 @@
 #app {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 2rem;
 
   /* font-weight: normal; */
 }
@@ -46,7 +45,8 @@ a,
 
   /* Guide.css */
   .wrapper{
-    height: 600px;
+    height: 700px;
+    padding: 2rem;
   }
   
   .wrapper h2 {
@@ -58,9 +58,8 @@ a,
   }
 
   .buttons{
-    display: flex;
-    justify-content: center;
     padding: 20px;
+    
   }
 
   #backButton{
@@ -94,7 +93,7 @@ a,
 footer{
   background-color: #082358;
   width: 100%;
-  height: 100px;
+  height: 268px;
 }
 
 .HumanSkill h4{
@@ -112,9 +111,15 @@ footer{
   width: 100%;
   height: 49px;
   background-color: #071e4b;
+  height: 1rem;
 }
 .copyright p{
   color: #75bcdf;
+}
+
+.Info{
+  padding-top: 3%;
+  height: 90%;
 }
 
 header{
@@ -153,8 +158,9 @@ header{
 
 .container{
   position: relative;
-  background-color: #415886;
-  opacity: 1.1;
+  background-color: #02215c;
+  opacity: 1.2;
+  height: 17rem;
   
 }
 
@@ -260,5 +266,16 @@ header{
 
 .link--instagram{
   background-position: -491px -87px;
+}
+
+#banner-h1{
+  color: white;
+  font-size: 3.1rem;
+  font-family: Helvetica;
+  margin-top: -6%;
+}
+
+#h1Bold{
+  font-weight: bold;
 }
 

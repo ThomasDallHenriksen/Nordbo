@@ -21,10 +21,11 @@ export default {
       <div class="container">
         <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
         <div class="banner-text">
-          <h1 id="banner-h1">Welcome to the Mimic Guide</h1>
+          <h1 id="banner-h1">Welcome to the</h1> 
+          <h1 id="banner-h1">Mimic Guide</h1>
         </div>
       </div>
-    <h2>Getting to know your Mimic UR</h2>
+    <h1>Getting to know your Mimic UR</h1>
     <p>Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
     <h2>Select the amount of time</h2>
     <!-- Icon sprite -->
@@ -161,12 +162,7 @@ header{
   border-bottom-right-radius: 25px;
 }
 
-.container{
-  position: relative;
-  background-color: #415886;
-  opacity: 1.1;
-  
-}
+
 
 #select-min{
   position: relative;

@@ -10,7 +10,12 @@
     <body>
       
       <div class="wrapper">
-        
+        <div class="container">
+          <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
+          <div class="banner-text">
+            <h1 id="banner-h1">Mimic Guide</h1>
+          </div>
+        </div> 
       <h1>Welcome to the Mimic Guide</h1>
       <h1>Hardware Setup</h1>
         <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
@@ -114,14 +119,11 @@
    left: 50%;
    transform: translate(-50%, -50%);
 }
-#banner-h1{
-  color: white;
-  font-size: 30px;
-}
+
 .banner{
-  background-color: #415886;
-  opacity: 0.3;
   width: 100%;
+  opacity: 34%;
+  height: 17rem;
 }
 
     .buttons{
