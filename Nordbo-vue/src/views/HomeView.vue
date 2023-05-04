@@ -25,9 +25,9 @@ export default {
           <h1 id="banner-h1">Mimic Guide</h1>
         </div>
       </div>
-    <h1>Getting to know your Mimic UR</h1>
-    <p>Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
-    <h2>Select the amount of time</h2>
+    <h1 id="h1Title">Getting to know your Mimic UR</h1>
+    <p id="pDesrciption">Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
+    <h2 id="h2Description">Select the amount of time</h2>
     <!-- Icon sprite -->
     <div class="select">
       <div class="min-5">
@@ -93,8 +93,8 @@ export default {
   <footer>
     <div class="Info">
     <div class="HumanSkill">
-      <h4>Human skills,</h4>
-      <p>machine precision</p>
+      <h4 id="humanCentered">Human skills,</h4>
+      <p id="humanCentered">machine precision.</p>
     </div>
     <div class="Robotics">
       <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
@@ -127,19 +127,6 @@ header{
   height: 100px;
   text-align: center;
 }
-
-.HumanSkill{
-  width: 25%;
-}
-
-.Robotics{
-  width: 50%;
-}
-
-.social{
-  width: 25%;
-}
-
 
 .Info{
   display: flex;
@@ -181,7 +168,7 @@ header{
 }
 
 .image{
-  background-image: url(@/assets/images/iconsprite.png) ;
+  background-image: url(@/assets/images/icons.png) ;
   background-position: -10px -4px;
   width: 60px;
   height: 60px;
@@ -206,7 +193,7 @@ header{
 }
 
 .email--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\icons.png) ;
   background-position: -182px -20px;
   width: 60px;
   height: 30px;
@@ -214,7 +201,7 @@ header{
   display: flex;
 }
 .phone--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\icons.png) ;
   background-position: -238px -22px;
   width: 60px;
   height: 30px;
@@ -222,7 +209,7 @@ header{
   display: flex;
 }
 .facebook--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\icons.png) ;
 
   background-position: -308px -87px;
   width: 60px;
@@ -249,23 +236,23 @@ header{
 
 .spriteLink{
   display: inline-block;
-  background-position: -308px -87px;
+  background-position: -304px -87px;
   width: 60px;
   height: 60px;
-  background-image: url('@/assets/images/iconsprite.png');
+  background-image: url('@/assets/images/icons.png');
   margin-top: 10%;
   margin-right: 1%;
 }
 .link--linkedin{
-  background-position: -373px -87px;
+  background-position: -380px -87px;
 }
 
 .link--twitter{
-  background-position: -435px -87px;
+  background-position: -450px -87px;
 }
 
 .link--instagram{
-  background-position: -491px -87px;
+  background-position: -519px -87px;
 }
 
 </style>

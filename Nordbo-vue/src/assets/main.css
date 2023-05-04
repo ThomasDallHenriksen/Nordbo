@@ -93,7 +93,7 @@ a,
 footer{
   background-color: #082358;
   width: 100%;
-  height: 268px;
+  height: 10rem;
 }
 
 .HumanSkill h4{
@@ -109,12 +109,12 @@ footer{
 }
 .copyright{
   width: 100%;
-  height: 49px;
   background-color: #071e4b;
-  height: 1rem;
+  height: 1.5rem;
 }
 .copyright p{
   color: #75bcdf;
+  padding-left: 7%;
 }
 
 .Info{
@@ -129,10 +129,15 @@ header{
 }
 
 .HumanSkill{
-  width: 20%;
+  width: 24%;
 }
 
 .Robotics{
+  width: 52%;
+}
+
+.social{
+  width: 24%;
 }
 
 
@@ -160,7 +165,7 @@ header{
   position: relative;
   background-color: #02215c;
   opacity: 1.2;
-  height: 17rem;
+  height: auto;
   
 }
 
@@ -254,7 +259,7 @@ header{
   width: 60px;
   height: 60px;
   background-image: url('@/assets/images/iconsprite.png');
-  margin-top: 10%;
+  margin-top: 20%;
 }
 .link--linkedin{
   background-position: -373px -87px;
@@ -273,9 +278,49 @@ header{
   font-size: 3.1rem;
   font-family: Helvetica;
   margin-top: -6%;
+  font-size: 4vw;
 }
 
 #h1Bold{
   font-weight: bold;
 }
+
+#h1Title{
+  margin-top: 1%;
+  font-size: 2vw;
+}
+
+#pDesrciption{
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 1%;
+  font-size: 1.5vw;
+  padding: 0 8.2rem 0 8.2rem !important;
+  line-height: 1.1;
+}
+
+#h2Description{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2%;
+  font-family: Helvetica;
+  font-size: 2vw;
+
+
+}
+
+#humanCentered{
+  text-align: left;
+  font-family: Helvetica;
+  padding-left: 32%;
+  font-size: 1vw;
+
+}
+
+.banner{
+  width: 100%;
+  opacity: 34%;
+  height: auto;
+}
+
 

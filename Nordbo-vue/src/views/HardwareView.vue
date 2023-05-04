@@ -120,11 +120,6 @@
    transform: translate(-50%, -50%);
 }
 
-.banner{
-  width: 100%;
-  opacity: 34%;
-  height: 17rem;
-}
 
     .buttons{
     display: flex;
