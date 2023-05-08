@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-  <body>
     <div class="wrapper">
       <div class="container">
         <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
@@ -89,7 +88,7 @@ export default {
         </div>
       </div>
   </div>
-  </body>
+
   <footer>
     <div class="Info">
     <div class="HumanSkill">
@@ -149,8 +148,6 @@ header{
   border-bottom-right-radius: 25px;
 }
 
-
-
 #select-min{
   position: relative;
   margin-top: 23%;
@@ -193,27 +190,18 @@ header{
 }
 
 .email--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\icons.png) ;
-  background-position: -182px -20px;
+  background-image: url('@/assets/images/icons.png');
+  background-position: -11.3rem -1.2rem;
   width: 60px;
   height: 30px;
   color: #ffffff;
   display: flex;
 }
 .phone--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\icons.png) ;
-  background-position: -238px -22px;
+  background-image: url('@/assets/images/icons.png');
+  background-position: -15.1rem -1.2rem;
   width: 60px;
   height: 30px;
-  color: #ffffff;
-  display: flex;
-}
-.facebook--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\icons.png) ;
-
-  background-position: -308px -87px;
-  width: 60px;
-  height: 60px;
   color: #ffffff;
   display: flex;
 }
@@ -234,26 +222,32 @@ header{
   color: #78bfe2;
 }
 
-.spriteLink{
+.spriteLink {
   display: inline-block;
-  background-position: -304px -87px;
-  width: 60px;
-  height: 60px;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-position: 5% 74%;
   background-image: url('@/assets/images/icons.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-clip: content-box;
   margin-top: 10%;
   margin-right: 1%;
 }
-.link--linkedin{
-  background-position: -380px -87px;
+
+.link--linkedin {
+  background-position: 37% 74%;
 }
 
-.link--twitter{
-  background-position: -450px -87px;
+.link--twitter {
+  background-position: 65% 74%;
 }
 
-.link--instagram{
-  background-position: -519px -87px;
+.link--instagram {
+  background-position: 94% 74%;
 }
+
+
 
 </style>
 
