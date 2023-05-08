@@ -26,8 +26,8 @@
         <p>- 1 Gigabit switch (optional - if connecting to other hardware is needed)</p>
         <p>- Ethernet cables (for any additional hardware needed)</p>
         <h1>Video demostration</h1>
-        <div>
-          <iframe src="https://youtu.be/eeD26XRyqDE" width="750" height="400"></iframe>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/eeD26XRyqDE" width="750" height="400"></iframe>
         </div>
         <div class="buttons">
         <div>
@@ -110,18 +110,21 @@
       font-size: 24px;
       text-align: center;
     }
-    h2{
-    }
 
-    .banner-text {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
 
+  .video{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 
-    .buttons{
+  .buttons{
     display: flex;
     justify-content: center;
     padding: 20px;

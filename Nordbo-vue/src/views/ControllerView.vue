@@ -15,7 +15,8 @@
                 <h1 id="banner-h1">Mimic Guide</h1>
               </div>
             </div>
-            <container class="content">
+            
+            <div class="content">
               <div class="startingTxt">
                 <h1>Mimic controller setup</h1>
                 <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:
@@ -30,9 +31,11 @@
                   </div>
                   <input class="check" type="checkbox">
               </div>
+              
               <div class="controllerImg">
                 <img src="/src/assets/images/mimicontroller.png">
               </div>
+
               <div class="checkbox">
                 <div class="steps">
                   <h1 id="checkH1">2</h1>
@@ -43,6 +46,7 @@
                 </div>
                     <input class="check" type="checkbox" v-model="userInput">
               </div>
+              
               <div class="checkbox">
                 <div class="steps">
                   <h1 id="checkH1">3</h1>
@@ -64,7 +68,7 @@
               <div>
                 <p>Note: The password for the Mimic Controller is “nordbo”.</p>
               </div>
-            </container>
+            </div>
           
           
           <div class="buttons">
@@ -136,6 +140,11 @@
 </template>
 
 <style>
+  .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
   .checkbox {
     width: 1037px;
@@ -188,10 +197,4 @@
   height: 290px;
 }
 
-.content{
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    padding: 2rem;
-  }
 </style>

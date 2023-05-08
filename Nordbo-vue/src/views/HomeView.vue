@@ -189,23 +189,6 @@ header{
   justify-content: center;
 }
 
-.email--image{
-  background-image: url('@/assets/images/icons.png');
-  background-position: -11.3rem -1.2rem;
-  width: 60px;
-  height: 30px;
-  color: #ffffff;
-  display: flex;
-}
-.phone--image{
-  background-image: url('@/assets/images/icons.png');
-  background-position: -15.1rem -1.2rem;
-  width: 60px;
-  height: 30px;
-  color: #ffffff;
-  display: flex;
-}
-
 .Robotics h3{
   white-space: nowrap;
   color: #ffffff;
@@ -221,33 +204,6 @@ header{
 .mo h3{
   color: #78bfe2;
 }
-
-.spriteLink {
-  display: inline-block;
-  width: 3.5rem;
-  height: 3.5rem;
-  background-position: 5% 74%;
-  background-image: url('@/assets/images/icons.png');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-clip: content-box;
-  margin-top: 10%;
-  margin-right: 1%;
-}
-
-.link--linkedin {
-  background-position: 37% 74%;
-}
-
-.link--twitter {
-  background-position: 65% 74%;
-}
-
-.link--instagram {
-  background-position: 94% 74%;
-}
-
-
 
 </style>
 
