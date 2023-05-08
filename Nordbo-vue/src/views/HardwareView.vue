@@ -16,18 +16,18 @@
             <h1 id="banner-h1">Mimic Guide</h1>
           </div>
         </div> 
-          <h1 id="h1Title">Hardware Setup</h1>
-          <p id="pDesrciptionHardware1">In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
-          <br>
-          <p id="pDesrciptionHardware"> - Umbraco key set</p>
-          <p id="pDesrciptionHardware">- Proper flanges for your tools and Mimic Robot Pointer</p> 
-          <p id="pDesrciptionHardware"> Note: The Mimic Robot Pointer is compatible with the tool flange of UR robots.</p>
-          <p id="pDesrciptionHardware">- Touch screen or screen (without touch functionality) and a mouse and keyboard</p>
-          <p id="pDesrciptionHardware">- 1 Gigabit switch (optional - if connecting to other hardware is needed)</p>
-          <p id="pDesrciptionHardware">- Ethernet cables (for any additional hardware needed)</p>
-          <h1 id="h1TitleHardware">Video demostration</h1>
-        <div>
-          <iframe src="https://youtu.be/eeD26XRyqDE" width="1512px" height="847px"></iframe>
+      <h1>Welcome to the Mimic Guide</h1>
+      <h1>Hardware Setup</h1>
+        <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
+        <p> - Umbraco key set</p>
+        <p>- Proper flanges for your tools and Mimic Robot Pointer</p> 
+        <p> Note: The Mimic Robot Pointer is compatible with the tool flange of UR robots.</p>
+        <p>- Touch screen or screen (without touch functionality) and a mouse and keyboard</p>
+        <p>- 1 Gigabit switch (optional - if connecting to other hardware is needed)</p>
+        <p>- Ethernet cables (for any additional hardware needed)</p>
+        <h1>Video demostration</h1>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/eeD26XRyqDE" width="750" height="400"></iframe>
         </div>
         <div class="buttons">
           <div>
@@ -110,18 +110,21 @@
       font-size: 24px;
       text-align: center;
     }
-    h2{
-    }
 
-    .banner-text {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
 
+  .video{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 
-    .buttons{
+  .buttons{
     display: flex;
     justify-content: center;
     padding: 20px;
