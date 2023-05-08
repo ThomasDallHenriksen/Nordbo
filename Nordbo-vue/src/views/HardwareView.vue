@@ -16,53 +16,53 @@
             <h1 id="banner-h1">Mimic Guide</h1>
           </div>
         </div> 
-      <h1>Welcome to the Mimic Guide</h1>
-      <h1>Hardware Setup</h1>
-        <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
-        <p> - Umbraco key set</p>
-        <p>- Proper flanges for your tools and Mimic Robot Pointer</p> 
-        <p> Note: The Mimic Robot Pointer is compatible with the tool flange of UR robots.</p>
-        <p>- Touch screen or screen (without touch functionality) and a mouse and keyboard</p>
-        <p>- 1 Gigabit switch (optional - if connecting to other hardware is needed)</p>
-        <p>- Ethernet cables (for any additional hardware needed)</p>
-        <h1>Video demostration</h1>
+          <h1 id="h1Title">Hardware Setup</h1>
+          <p id="pDesrciptionHardware1">In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
+          <br>
+          <p id="pDesrciptionHardware"> - Umbraco key set</p>
+          <p id="pDesrciptionHardware">- Proper flanges for your tools and Mimic Robot Pointer</p> 
+          <p id="pDesrciptionHardware"> Note: The Mimic Robot Pointer is compatible with the tool flange of UR robots.</p>
+          <p id="pDesrciptionHardware">- Touch screen or screen (without touch functionality) and a mouse and keyboard</p>
+          <p id="pDesrciptionHardware">- 1 Gigabit switch (optional - if connecting to other hardware is needed)</p>
+          <p id="pDesrciptionHardware">- Ethernet cables (for any additional hardware needed)</p>
+          <h1 id="h1TitleHardware">Video demostration</h1>
         <div>
-          <iframe src="https://youtu.be/eeD26XRyqDE" width="750" height="400"></iframe>
+          <iframe src="https://youtu.be/eeD26XRyqDE" width="1512px" height="847px"></iframe>
         </div>
         <div class="buttons">
-        <div>
-          <router-link 
-            class="backButton" 
-            to="/"
-            custom
-            v-slot="{ navigate }"
-          >
-            <button
-              @click="navigate"
-              role="link"
-              id="backButton"
+          <div>
+            <router-link 
+              class="backButton" 
+              to="/"
+              custom
+              v-slot="{ navigate }"
             >
-              Back
-            </button>
-          </router-link>
-        </div>
-        <div>
-          <router-link 
-            class="nextButton"
-            to="/ControllerView"
-            custom
-            v-slot="{ navigate }"
-          >
-            <button
-              @click="navigate"
-              role="link"
-              id="nextButton"
+              <button
+                @click="navigate"
+                role="link"
+                id="backButton"
+              >
+                Back
+              </button>
+            </router-link>
+          </div>
+          <div>
+            <router-link 
+              class="nextButton"
+              to="/ControllerView"
+              custom
+              v-slot="{ navigate }"
             >
-               Next 
-            </button>
-          </router-link>
+              <button
+                @click="navigate"
+                role="link"
+                id="nextButton"
+              >
+                Next 
+              </button>
+            </router-link>
+          </div>
         </div>
-      </div>
       </div>
     </body>
     <footer>
@@ -152,5 +152,30 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 40px;
+}
+
+#pDesrciptionHardware1{
+  text-align: left;
+  font-family: Helvetica;
+  margin-top: 1%;
+  font-size: 1.5vw;
+  padding: 0 8.0rem 0 8.2rem !important;
+  line-height: 1.1;
+}
+
+#pDesrciptionHardware{
+  text-align: left;
+  font-family: Helvetica;
+  margin-top: 1%;
+  font-size: 1.5vw;
+  padding: 0 8.2rem 0 8.2rem !important;
+  line-height: 1.1;
+}
+
+#h1TitleHardware{
+  margin-top: 1%;
+
+  font-size: 2vw;
+  text-align: left;
 }
 </style>
