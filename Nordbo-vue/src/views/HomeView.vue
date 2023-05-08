@@ -24,69 +24,69 @@ export default {
           <h1 id="banner-h1">Mimic Guide</h1>
         </div>
       </div>
-    <h1 id="h1Title">Getting to know your Mimic UR</h1>
-    <p id="pDesrciption">Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
-    <h2 id="h2Description">Select the amount of time</h2>
-    <!-- Icon sprite -->
-    <div class="select">
-      <div class="min-5">
-        <div class="image"></div>
-        <h2>5 min.</h2>
-        <div>
-          <router-link class="nextButton"
-            to="/HardwareView"
-            custom
-            v-slot="{ navigate }"
-          >
-            <button
-              @click="navigate"
-              role="link"
-              id="select-min"
+      <h1 id="h1Title">Getting to know your Mimic UR</h1>
+      <p id="pDesrciption">Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
+      <h2 id="h2Description">Select the amount of time</h2>
+      <!-- Icon sprite -->
+      <div class="select">
+        <div class="min-5">
+          <div class="image"></div>
+          <h2>5 min.</h2>
+          <div>
+            <router-link class="nextButton"
+              to="/HardwareView"
+              custom
+              v-slot="{ navigate }"
             >
-              Select
-            </button>
-          </router-link>
+              <button
+                @click="navigate"
+                role="link"
+                id="select-min"
+              >
+                Select
+              </button>
+            </router-link>
+          </div>
+        </div>
+        <div class="min-10">
+          <div class="image"></div>
+          <h2>10 - 15 min.</h2>
+          <div>
+            <router-link class="nextButton"
+              to="/HardwareView"
+              custom
+              v-slot="{ navigate }"
+            >
+              <button
+                @click="navigate"
+                role="link"
+                id="select-min"
+              >
+                Select
+              </button>
+            </router-link>
+          </div>
+        </div>
+        <div class="min-20"> 
+          <div class="image"></div>
+          <h2>20 - 30 min.</h2>
+          <div>
+            <router-link class="nextButton"
+              to="/NachiMimicView"
+              custom
+              v-slot="{ navigate }"
+            >
+              <button
+                @click="navigate"
+                role="link"
+                id="select-min"
+              >
+                Select
+              </button>
+            </router-link>
+          </div>
         </div>
       </div>
-      <div class="min-10">
-        <div class="image"></div>
-        <h2>10 - 15 min.</h2>
-        <div>
-          <router-link class="nextButton"
-            to="/HardwareView"
-            custom
-            v-slot="{ navigate }"
-          >
-            <button
-              @click="navigate"
-              role="link"
-              id="select-min"
-            >
-              Select
-            </button>
-          </router-link>
-        </div>
-      </div>
-      <div class="min-20"> 
-        <div class="image"></div>
-        <h2>20 - 30 min.</h2>
-        <div>
-          <router-link class="nextButton"
-            to="/NachiMimicView"
-            custom
-            v-slot="{ navigate }"
-          >
-            <button
-              @click="navigate"
-              role="link"
-              id="select-min"
-            >
-              Select
-            </button>
-          </router-link>
-        </div>
-      </div>
-    </div>
   </div>
 
   <footer>

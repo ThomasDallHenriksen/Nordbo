@@ -30,39 +30,39 @@
           <iframe src="https://www.youtube.com/embed/eeD26XRyqDE" width="750" height="400"></iframe>
         </div>
         <div class="buttons">
-        <div>
-          <router-link 
-            class="backButton" 
-            to="/"
-            custom
-            v-slot="{ navigate }"
-          >
-            <button
-              @click="navigate"
-              role="link"
-              id="backButton"
+          <div>
+            <router-link 
+              class="backButton" 
+              to="/"
+              custom
+              v-slot="{ navigate }"
             >
-              Back
-            </button>
-          </router-link>
-        </div>
-        <div>
-          <router-link 
-            class="nextButton"
-            to="/ControllerView"
-            custom
-            v-slot="{ navigate }"
-          >
-            <button
-              @click="navigate"
-              role="link"
-              id="nextButton"
+              <button
+                @click="navigate"
+                role="link"
+                id="backButton"
+              >
+                Back
+              </button>
+            </router-link>
+          </div>
+          <div>
+            <router-link 
+              class="nextButton"
+              to="/ControllerView"
+              custom
+              v-slot="{ navigate }"
             >
-               Next 
-            </button>
-          </router-link>
+              <button
+                @click="navigate"
+                role="link"
+                id="nextButton"
+              >
+                Next 
+              </button>
+            </router-link>
+          </div>
         </div>
-      </div>
       </div>
     </body>
     <footer>
@@ -155,5 +155,30 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 40px;
+}
+
+#pDesrciptionHardware1{
+  text-align: left;
+  font-family: Helvetica;
+  margin-top: 1%;
+  font-size: 1.5vw;
+  padding: 0 8.0rem 0 8.2rem !important;
+  line-height: 1.1;
+}
+
+#pDesrciptionHardware{
+  text-align: left;
+  font-family: Helvetica;
+  margin-top: 1%;
+  font-size: 1.5vw;
+  padding: 0 8.2rem 0 8.2rem !important;
+  line-height: 1.1;
+}
+
+#h1TitleHardware{
+  margin-top: 1%;
+
+  font-size: 2vw;
+  text-align: left;
 }
 </style>
