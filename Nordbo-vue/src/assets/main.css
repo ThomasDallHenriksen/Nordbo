@@ -27,7 +27,7 @@ a,
 
 
 
-@media (min-width: 1920px) {
+@media (min-width: 1000px) {
   body {
     display: flex;
     /* place-items: center; */
@@ -45,12 +45,10 @@ a,
 
   /* Guide.css */
   .wrapper{
-    height: 700px;
     padding: 2rem;
   }
   
   .wrapper h2 {
-    margin-top: 88px;
     text-align: center;
   }
   .wrapper p {
