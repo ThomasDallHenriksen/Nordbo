@@ -46,10 +46,7 @@ a,
   }
   
   .wrapper h2 {
-    text-align: center;
-  }
-  .wrapper p {
-    text-align: center;
+    t-align: center;
   }
 
   .buttons{
@@ -113,7 +110,7 @@ footer{
 }
 
 .Info{
-  padding-top: 3%;
+  padding-top: 2%;
   height: 90%;
 }
 
@@ -254,7 +251,7 @@ header{
   width: 60px;
   height: 60px;
   background-image: url('@/assets/images/iconsprite.png');
-  margin-top: 20%;
+  margin-top: 4%;
 }
 .link--linkedin{
   background-position: -373px -87px;
@@ -283,6 +280,13 @@ header{
 #h1Title{
   margin-top: 1%;
   font-size: 2vw;
+}
+
+#h2Title{
+  margin-top: 1%;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
 }
 
 #pDesrciption{

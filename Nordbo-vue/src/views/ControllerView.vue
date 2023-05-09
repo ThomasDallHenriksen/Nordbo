@@ -4,7 +4,7 @@
 <template>
     <header>
         <div id="pBar">
-          <progress id="file" value="22.2" max="100"> 22.2% </progress>
+          <progress id="file" value="25" max="100"> 25% </progress>
       </div>
     </header>
     <body>
@@ -110,8 +110,8 @@
     <footer>
     <div class="Info">
     <div class="HumanSkill">
-      <h4>Human skills,</h4>
-      <p>machine precision</p>
+      <h4 id="humanCentered">Human skills,</h4>
+      <p id="humanCentered">machine precision</p>
     </div>
     <div class="Robotics">
       <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
@@ -157,6 +157,9 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.8vw;
 }
 
 .checkbox-long{

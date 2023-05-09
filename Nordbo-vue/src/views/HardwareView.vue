@@ -4,7 +4,7 @@
 <template>
     <header>
       <div id="pBar">
-          <progress id="file" value="11.1" max="100"> 11.1% </progress>
+          <progress id="file" value="12.5" max="100"> 12.5% </progress>
       </div>
     </header>
     <body>
@@ -68,8 +68,8 @@
     <footer>
     <div class="Info">
     <div class="HumanSkill">
-      <h4>Human skills,</h4>
-      <p>machine precision</p>
+      <h4 id="humanCentered">Human skills,</h4>
+      <p id="humanCentered">machine precision</p>
     </div>
     <div class="Robotics">
       <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
