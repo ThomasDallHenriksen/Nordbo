@@ -31,19 +31,11 @@
                   </div>
                   <input class="check" type="checkbox">
               </div>
-<<<<<<< HEAD
               <div>
               <div class="controllerImg">
                 <img src="/src/assets/images/mimicontroller.png">
               </div>
             </div>
-=======
-              
-              <div class="controllerImg">
-                <img src="/src/assets/images/mimicontroller.png">
-              </div>
-
->>>>>>> c259af32f8bb1c68b21d5cea59a2f83f7351638c
               <div class="checkbox">
                 <div class="steps">
                   <h1 id="checkH1">2</h1>
@@ -205,13 +197,10 @@
   height: 290px;
 }
 
-<<<<<<< HEAD
 .content{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
   }
-=======
->>>>>>> c259af32f8bb1c68b21d5cea59a2f83f7351638c
 </style>
