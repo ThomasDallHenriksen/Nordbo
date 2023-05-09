@@ -6,14 +6,42 @@
         <progress id="file" value="50.0" max="100"> 50.0% </progress>
     </div>
 </header>
-<body class="wrapper">
-    <div>
-        <h1>How to get the most out of your IR Tracker</h1>
-        <p>Below you will find a list of recommendations to get the most out of the tracker.</p>
-        <h2>How to get the most out of your IR Tracker</h2>
-        <img src="" alt="" width="520" height="200">
-        <hr>
-        <img src="" alt="" width="520" height="500">
+<div class="wrapper">
+  <div class="container">
+              <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
+              <div class="banner-text">
+                <h1 id="banner-h1">Mimic Guide</h1>
+              </div>
+            </div>
+  <div>
+
+  <div class="content ir--tracker">
+    <h1>How to get the most out of your IR Tracker</h1>
+    <p>Below you will find a list of recommendations to get the most out of the tracker.</p>
+    <br>
+    <h2>How to get the most out of your IR Tracker</h2>
+
+    <div class="lighthouse">
+      <img class="lighthouse-info" src="../assets/images/lighthouse.png" alt="lighthouse"></div>
+      <!-- <div class="lighthouse-left">
+        <h2>THE LIGHTHOUSE</h2>
+        <br>
+        <h4 class="lighthouse-titel">Do not move the Lighthouse when it is powered on</h4>
+        <p class="lighthouse-text">while powered on, small conmponents are rotating inside the</p>
+        <p class="lighthouse-text">Lighthouse. If moved while rotating, these components might not</p>
+        <p class="lighthouse-text">perform as intended and can be damaged.</p>
+        <br>
+
+        <h2 class="lighthouse-titel">Fixate the Lighthouse separate from moving parts</h2>
+        <p class="lighthouse-text">it is recommendated to fixate the Lighthouse to a sturdy base.</p>
+        <p class="lighthouse-text">Vibrations from the surroundings will affect the tracking.</p>
+      </div>
+
+      <div class="lighthouse-right"></div>
+    </div> -->
+
+  </div>
+        
         <div class="buttons">
             <div>
                 <router-link 
@@ -48,7 +76,7 @@
             </div>
         </div>
     </div>
-</body>
+  </div>
 <footer>
     <footer>
     <div class="Info">
@@ -83,3 +111,31 @@
 <RouterView />
 
 </template>
+
+<style>
+  .lighthouse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lighthouse img {
+  width: 70%;
+}
+
+  .lighthouse-left{
+    width: 60%;
+    height: 30rem;
+    background-color: #EFF0F1;
+  }
+
+  .lighthouse-right{
+    width: 40%;
+    height: 30rem;
+    background-color: #EFF0F1;
+  }
+
+  .lighthouse.text{
+    text-align: left;
+  }
+</style>
