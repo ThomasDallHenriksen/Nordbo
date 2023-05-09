@@ -7,25 +7,37 @@
         </div>
     </header>
     <body class="wrapper"> 
+        <div class="container">
+              <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
+              <div class="banner-text">
+                <h1 id="banner-h1">Mimic Guide</h1>
+              </div>
+            </div>
         <div>
             <div>
-                <h1>UR Preperation</h1>
-                <p>In this course you will learn how to prepare robots from Universal Robots (UR) using Mimic</p>
-                <h1>What you need prior to Mimic installation</h1>
-                <p>-HD ready touch screen (22" is recommended) or HD ready screen with mouse and keyboard</p>
-                <p>-Gigabit switch (optional - needed if connecting other hardware to the robot)</p>
-                <p>-ethernet cables long enough to reach from your teaching to the robot </p>
+                <h1 id="h1Title">UR Preperation</h1>
+                <div id="urIndent">
+                    <p id="urPrepP">In this course you will learn how to prepare robots from Universal Robots (UR) using Mimic</p>
+                    <h1 id="h1TitlePrep">What you need prior to Mimic installation</h1>
+                    <p id="urPrepP">-HD ready touch screen (22" is recommended) or HD ready screen with mouse and keyboard</p>
+                    <p id="urPrepP">-Gigabit switch (optional - needed if connecting other hardware to the robot)</p>
+                    <p id="urPrepP">-ethernet cables long enough to reach from your teaching to the robot </p>
+                </div>
             </div>
             <br>
-            <div id="split">
-                <div>
-                    <p>Mimic is compatible with Universal Robots' Ployscope version: </p>
-                    <p>- CB Series: 3.14.3 or newer</p>
-                    <p>- eSeries: 5.9.4 or newer</p>
-                    <p>Mimic is compatible with all UR robots models</p>
-                </div>
-                <div>
-                    <img src="" alt="" width="320" height="300">
+            <div>
+                <div id="split">
+                    <div>
+                        <br>
+                        <br>
+                        <p id="urPrepP">Mimic is compatible with Universal Robots' Ployscope version: </p>
+                        <p id="urPrepP">- CB Series: 3.14.3 or newer</p>
+                        <p id="urPrepP">- eSeries: 5.9.4 or newer</p>
+                        <p id="urPrepP">Mimic is compatible with all UR robots models</p>
+                    </div>
+                    <div>
+                        <img id="UrPrepImg" src="/src/assets/images/UrPrep.png">
+                    </div>
                 </div>
             </div>
             <div class="buttons">
@@ -99,5 +111,28 @@
 <style>
 #split{
     display: flex;
+    justify-content: center;
+}
+
+#urPrepP{
+    text-align: left;
+    font-family: Helvetica;
+    margin-top: 1%;
+    font-size: 1.3vw;
+    line-height: 1.1;
+}
+
+#h1TitlePrep{
+  margin-top: 1%;
+  font-size: 2vw;
+  text-align: left;
+}
+
+#UrPrepImg{
+    margin-left: 2%;
+}
+
+#urIndent{
+    padding-left: 10%;
 }
 </style>

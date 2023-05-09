@@ -18,7 +18,7 @@
             
             <div class="content">
               <div class="startingTxt">
-                <h1>Mimic controller setup</h1>
+                <h1 id="h1Title">Mimic controller setup</h1>
                 <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:
                 </p>
               </div>
@@ -31,11 +31,11 @@
                   </div>
                   <input class="check" type="checkbox">
               </div>
-              
+              <div>
               <div class="controllerImg">
                 <img src="/src/assets/images/mimicontroller.png">
               </div>
-
+            </div>
               <div class="checkbox">
                 <div class="steps">
                   <h1 id="checkH1">2</h1>
@@ -197,4 +197,10 @@
   height: 290px;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
 </style>
