@@ -18,6 +18,7 @@
         </div> 
       <h1>Welcome to the Mimic Guide</h1>
       <h1>Hardware Setup</h1>
+      <div id="padLeft">
         <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
         <p> - Umbraco key set</p>
         <p>- Proper flanges for your tools and Mimic Robot Pointer</p> 
@@ -25,6 +26,7 @@
         <p>- Touch screen or screen (without touch functionality) and a mouse and keyboard</p>
         <p>- 1 Gigabit switch (optional - if connecting to other hardware is needed)</p>
         <p>- Ethernet cables (for any additional hardware needed)</p>
+      </div>
         <h1>Video demostration</h1>
         <div class="video">
           <iframe src="https://www.youtube.com/embed/eeD26XRyqDE" width="750" height="400"></iframe>
@@ -180,5 +182,9 @@
 
   font-size: 2vw;
   text-align: left;
+}
+
+#padLeft{
+  padding-left: 30%;
 }
 </style>
