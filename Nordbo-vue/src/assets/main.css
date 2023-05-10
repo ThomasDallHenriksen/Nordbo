@@ -3,8 +3,6 @@
 #app {
   max-width: 1920px;
   margin: 0 auto;
-
-  /* font-weight: normal; */
 }
 
 a,
@@ -25,6 +23,43 @@ a,
   height: 20px;
 }
 
+/* Header */
+header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+#banner-h1{
+  color: white;
+  font-size: 3.1rem;
+  font-family: Helvetica;
+  margin-top: -6%;
+  font-size: 4vw;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+  .container{
+    position: relative;
+    background-color: #02215c;
+    opacity: 1.2;
+    height: auto;
+}
+
+.banner{
+  width: 100%;
+  opacity: 34%;
+  height: auto;
+}
+/* Body */
 
 
 @media (min-width: 1000px) {
@@ -38,19 +73,79 @@ a,
     min-width: 100%; 
   }
 
-  /* Guide.css */
+  h1{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+
   .wrapper{
     padding: 2rem;
   }
   
   .wrapper h2 {
-    t-align: center;
+    text-align: center;
+  }
+
+  .wrapper p {
+    text-align: center;
   }
 
   .buttons{
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    
   }
+
+  #checkP{
+    color: #ffffff;
+  }
+
+  .steps{
+    width: 5%;
+}
+
+.checkbox {
+  width: 1037px;
+  height: 100px;
+  background-color: #02215C;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.8vw;
+}
+
+.checkbox-long{
+  width: 100%;
+  height: 300px;
+  background-color: #02215C;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.description{
+    width: 80%;
+}
+
+.check{
+    width: 15%;
+    height: 30px;
+}
+#checkH1{
+  color: #ffffff;
+  margin-left: 10px;
+}
 
   #backButton{
     border-top-left-radius: 25px;
@@ -80,113 +175,6 @@ a,
   }
 }
 
-footer{
-  background-color: #082358;
-  width: 100%;
-  height: 10rem;
-}
-
-.HumanSkill h4{
-  color: #ffffff;
-  font-weight: bold;
-}
-
-.HumanSkill p{
-  color: #ffffff;
-}
-
-.Robotics p{
-  color: #7ac1e5;
-}
-
-.copyright{
-  width: 100%;
-  background-color: #071e4b;
-  height: 1.5rem;
-}
-
-.copyright p{
-  color: #75bcdf;
-  padding-left: 7%;
-}
-
-.Info{
-  padding-top: 2%;
-  height: 90%;
-}
-
-header{
-  width: 100%;
-  height: 100px;
-  text-align: center;
-}
-
-.HumanSkill{
-  width: 24%;
-}
-
-.Robotics{
-  width: 52%;
-}
-
-.social{
-  width: 24%;
-}
-
-.Info{
-  display: flex;
-}
-
-.select{
-  display: flex;
-  justify-content: center;
-}
-
-.min-5, .min-10, .min-20{
-  width: 284px;
-  height: 256px;
-  background-color: #02215c;
-  margin: 40px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-
-.container{
-  position: relative;
-  background-color: #02215c;
-  opacity: 1.2;
-  height: auto;
-  
-}
-
-#select-min{
-  position: relative;
-  margin-top: 23%;
-  margin-left: 35%;
-  border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    font-size: 21px;
-    border: solid 2px #1ec794;
-    background: #1ec794 ;
-    color: #ffffff;
-    padding-left: 15px;
-    padding-right: 15px;
-    cursor: pointer;
-}
-
-.image{
-  background-image: url(@/assets/images/iconsprite.png) ;
-  background-position: -10px -4px;
-  width: 60px;
-  height: 60px;
-  margin-top: 27%;
-  margin-left: 38%;
-}
-
 .min-5 h2{
   color: #ffffff;
   display: flex;
@@ -203,79 +191,6 @@ header{
   color: #ffffff;
   display: flex;
   justify-content: center;
-}
-
-.email--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -182px -20px;
-  width: 60px;
-  height: 30px;
-  color: #ffffff;
-  display: flex;
-}
-
-.phone--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -238px -20px;
-  width: 60px;
-  height: 30px;
-  color: #ffffff;
-  display: flex;
-}
-
-.facebook--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-
-  background-position: -308px -87px;
-  width: 60px;
-  height: 60px;
-  color: #ffffff;
-  display: flex;
-}
-
-.Robotics h3{
-  white-space: nowrap;
-  color: #ffffff;
-}
-.hej{
-  display: flex;
-}
-
-.mo{
-  display: flex;
-}
-
-.mo h3{
-  color: #78bfe2;
-}
-
-.spriteLink{
-  display: inline-block;
-  background-position: -308px -87px;
-  width: 60px;
-  height: 60px;
-  background-image: url('@/assets/images/iconsprite.png');
-  margin-top: 4%;
-}
-
-.link--linkedin{
-  background-position: -373px -87px;
-}
-
-.link--twitter{
-  background-position: -435px -87px;
-}
-
-.link--instagram{
-  background-position: -491px -87px;
-}
-
-#banner-h1{
-  color: white;
-  font-size: 3.1rem;
-  font-family: Helvetica;
-  margin-top: -6%;
-  font-size: 4vw;
 }
 
 #h1Bold{
@@ -311,18 +226,124 @@ header{
   font-size: 2vw;
 }
 
+/* Footer */
+
+footer{
+  background-color: #082358;
+  width: 100%;
+  height: 10rem;
+}
+
+.spriteLink{
+  display: inline-block;
+  background-position: -308px -87px;
+  width: 60px;
+  height: 60px;
+  background-image: url('@/assets/images/iconsprite.png');
+  margin-top: 4%;
+}
+
+.link--linkedin{
+  background-position: -373px -87px;
+}
+
+.link--twitter{
+  background-position: -435px -87px;
+}
+
+.link--instagram{
+  background-position: -491px -87px;
+}
+
+.email-image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -182px -20px;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+}
+
+.phone-image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -238px -20px;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+}
+
+.facebook--image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -308px -87px;
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+  display: flex;
+}
+
 #humanCentered{
   text-align: left;
   font-family: Helvetica;
   padding-left: 32%;
   font-size: 1vw;
-
 }
 
-.banner{
+.emailIcon{
+  display: flex;
+}
+
+.phoneIcon{
+  display: flex;
+}
+
+.phoneIcon h3{
+  color: #78bfe2;
+}
+
+.Info{
+  display: flex;
+  height: 100%;
+  padding-top: 2%;
+}
+
+.Robotics{
+  width: 52%;
+}
+
+.Robotics p{
+  color: #7ac1e5;
+}
+
+.Robotics h3{
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.social{
+  width: 24%;
+}
+
+.HumanSkill h4{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.HumanSkill p{
+  color: #ffffff;
+}
+
+.HumanSkill{
+  width: 24%;
+}
+
+.copyright{
   width: 100%;
-  opacity: 34%;
-  height: auto;
+  background-color: #071e4b;
+  height: 1.5rem;
 }
 
-
+.copyright p{
+  color: #75bcdf;
+  padding-left: 7%;
+}

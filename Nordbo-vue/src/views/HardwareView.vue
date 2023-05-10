@@ -99,65 +99,12 @@
     <RouterView />
   </template>
 
-  <style>
-  header{
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 735px;
-  }
-
-    h1{
-      font-weight: bold;
-      font-size: 24px;
-      text-align: center;
-    }
-
-  .banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } 
-
+<style>
   .video{
     display: flex;
   justify-content: center;
   align-items: center;
   }
-
-  .buttons{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  #backButton{
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    font-size: 21px;
-    border: solid 2px #1ec794;
-    background: #ffffff;
-    color: #1ec794;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: 40px;
-}
-#nextButton{
-  border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    font-size: 21px;
-    border: solid 2px #1ec794;
-    background: #1ec794 ;
-    color: #ffffff;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 40px;
-}
 
 #pDesrciptionHardware1{
   text-align: left;

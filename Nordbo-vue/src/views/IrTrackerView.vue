@@ -150,8 +150,6 @@
 </template>
 
 <style>
-
-
 .irDiv{
     display: flex;
 }

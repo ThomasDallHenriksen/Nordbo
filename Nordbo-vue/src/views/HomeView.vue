@@ -99,12 +99,12 @@ export default {
     </div>
     <div class="Robotics">
       <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
-      <div class="hej">
-        <div class="Robotics email--image"></div>
+      <div class="emailIcon">
+        <div class="email-image"></div>
         <h3>contact@nordbo-robotics.com</h3>
       </div>
-      <div class="mo">
-        <div class="Robotics phone--image"></div>
+      <div class="phoneIcon">
+        <div class="phone-image"></div>
         <h3>+45 81 98 81</h3>
       </div>
     </div>
@@ -123,16 +123,6 @@ export default {
 </template>
 
 <style scoped>
-header{
-  width: 100%;
-  height: 100px;
-  text-align: center;
-}
-
-.Info{
-  display: flex;
-  height: 100%;
-}
 
 .select{
   display: flex;
@@ -191,21 +181,7 @@ header{
   justify-content: center;
 }
 
-.Robotics h3{
-  white-space: nowrap;
-  color: #ffffff;
-}
-.hej{
-  display: flex;
-}
 
-.mo{
-  display: flex;
-}
-
-.mo h3{
-  color: #78bfe2;
-}
 
 </style>
 

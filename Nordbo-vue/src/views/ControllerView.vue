@@ -140,61 +140,6 @@
 </template>
 
 <style>
-  .content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-  .checkbox {
-    width: 1037px;
-    height: 100px;
-    background-color: #02215C;
-    display: flex;
-    margin: 10px;
-    align-items: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-align: center;
-    font-weight: 500;
-    font-size: 0.8vw;
-}
-
-.checkbox-long{
-    width: 100%;
-    height: 300px;
-    background-color: #02215C;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.steps{
-    width: 5%;
-}
-
-.description{
-    width: 80%;
-}
-
-.check{
-    width: 15%;
-    height: 30px;
-}
-#checkH1{
-  color: #ffffff;
-  margin-left: 10px;
-}
-#checkP{
-  color: #ffffff;
-}
-
 .controllerImg img{
   width: 337px;
   height: 290px;

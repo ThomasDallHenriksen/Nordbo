@@ -123,19 +123,4 @@
   width: 70%;
 }
 
-  .lighthouse-left{
-    width: 60%;
-    height: 30rem;
-    background-color: #EFF0F1;
-  }
-
-  .lighthouse-right{
-    width: 40%;
-    height: 30rem;
-    background-color: #EFF0F1;
-  }
-
-  .lighthouse.text{
-    text-align: left;
-  }
 </style>
