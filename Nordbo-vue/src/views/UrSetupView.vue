@@ -4,27 +4,27 @@
 <template>
   <header>
       <div id="pBar">
-        <progress id="file" value="44.4" max="100"> 44.4% </progress>
+        <progress id="file" value="62.5" max="100"> 62.5% </progress>
     </div>
   </header>
     
     <body class="wrapper">
-      <h1>UR Preperation</h1>
+      <h1 id="h1Title">UR Preperation</h1>
       <br>
-      <h2>Setup Robot Network</h2>
+      <h2 id="h2Title">Setup Robot Network</h2>
       <br>
-      <p>In this section you will find what you need to setup the network on the robot and the Mimic Controller. This includes:</p>
+      <p id="UrSetupP">In this section you will find what you need to setup the network on the robot and the Mimic Controller. This includes:</p>
       <br>
-      <p>The robot</p>
-      <p>The Norbo Driver (URCap)</p>
-      <p>The Mimic Controller</p>
+      <p id="UrSetupP">The robot</p>
+      <p id="UrSetupP">The Norbo Driver (URCap)</p>
+      <p id="UrSetupP">The Mimic Controller</p>
       <br>
-      <p>The Ip's provided are recommended defaults. They can be changed if needed. If changed beawer that the IP on the</p>
-      <p>Mimic Controller and the IP specified in the Nodbro Driver URCap must be the same</p>
+      <p id="UrSetupP">The Ip's provided are recommended defaults. They can be changed if needed. If changed beawer that the IP on the</p>
+      <p id="UrSetupP">Mimic Controller and the IP specified in the Nodbro Driver URCap must be the same</p>
       <br>
-      <p>Change the IP of the Robot:</p>
-      <p>Change the IP of the UR to a static IP (default IP 192.168.1.50)</p>
-      <p>To change the IP on a UR, go to Settings > System > Network > IP adress</p>
+      <p id="UrSetupP">Change the IP of the Robot:</p>
+      <p id="UrSetupP">Change the IP of the UR to a static IP (default IP 192.168.1.50)</p>
+      <p id="UrSetupP">To change the IP on a UR, go to Settings > System > Network > IP adress</p>
 
       <div class="buttons">
         <div>
@@ -64,8 +64,8 @@
     <footer>
     <div class="Info">
     <div class="HumanSkill">
-      <h4>Human skills,</h4>
-      <p>machine precision</p>
+      <h4 id="humanCentered">Human skills,</h4>
+      <p id="humanCentered">machine precision</p>
     </div>
     <div class="Robotics">
       <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
@@ -94,5 +94,14 @@
 </template>
 
 <style>
+
+#UrSetupP{
+  text-align: left;
+  font-family: Helvetica;
+  margin-top: 1%;
+  font-size: 1.5vw;
+  padding: 0 8.0rem 0 8.2rem !important;
+  line-height: 1.1;
+}
 
 </style>

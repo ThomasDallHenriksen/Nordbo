@@ -5,7 +5,7 @@ import Footer from '@/components/Footer.vue';
 <template>
     <header>
       <div id="pBar">
-          <progress id="file" value="11.1" max="100"> 11.1% </progress>
+          <progress id="file" value="12.5" max="100"> 12.5% </progress>
       </div>
     </header>
     <body>
@@ -19,6 +19,7 @@ import Footer from '@/components/Footer.vue';
         </div> 
       <h1>Welcome to the Mimic Guide</h1>
       <h1>Hardware Setup</h1>
+      <div id="padLeft">
         <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
         <p> - Umbraco key set</p>
         <p>- Proper flanges for your tools and Mimic Robot Pointer</p> 
@@ -26,6 +27,7 @@ import Footer from '@/components/Footer.vue';
         <p>- Touch screen or screen (without touch functionality) and a mouse and keyboard</p>
         <p>- 1 Gigabit switch (optional - if connecting to other hardware is needed)</p>
         <p>- Ethernet cables (for any additional hardware needed)</p>
+      </div>
         <h1>Video demostration</h1>
         <div class="video">
           <iframe src="https://www.youtube.com/embed/eeD26XRyqDE" width="750" height="400"></iframe>
@@ -70,8 +72,8 @@ import Footer from '@/components/Footer.vue';
     <footer>
     <div class="Info">
     <div class="HumanSkill">
-      <h4>Human skills,</h4>
-      <p>machine precision</p>
+      <h4 id="humanCentered">Human skills,</h4>
+      <p id="humanCentered">machine precision</p>
     </div>
     <div class="Robotics">
       <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
@@ -99,65 +101,12 @@ import Footer from '@/components/Footer.vue';
     <RouterView />
   </template>
 
-  <style>
-  header{
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 735px;
-  }
-
-    h1{
-      font-weight: bold;
-      font-size: 24px;
-      text-align: center;
-    }
-
-  .banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } 
-
+<style>
   .video{
     display: flex;
   justify-content: center;
   align-items: center;
   }
-
-  .buttons{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  #backButton{
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    font-size: 21px;
-    border: solid 2px #1ec794;
-    background: #ffffff;
-    color: #1ec794;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: 40px;
-}
-#nextButton{
-  border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    font-size: 21px;
-    border: solid 2px #1ec794;
-    background: #1ec794 ;
-    color: #ffffff;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 40px;
-}
 
 #pDesrciptionHardware1{
   text-align: left;
@@ -182,5 +131,9 @@ import Footer from '@/components/Footer.vue';
 
   font-size: 2vw;
   text-align: left;
+}
+
+#padLeft{
+  padding-left: 30%;
 }
 </style>

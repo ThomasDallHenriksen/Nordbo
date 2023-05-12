@@ -4,7 +4,7 @@
 <template>
     <header>
         <div id="pBar">
-          <progress id="file" value="22.2" max="100"> 22.2% </progress>
+          <progress id="file" value="25" max="100"> 25% </progress>
       </div>
     </header>
     <body>
@@ -110,8 +110,8 @@
     <footer>
     <div class="Info">
     <div class="HumanSkill">
-      <h4>Human skills,</h4>
-      <p>machine precision</p>
+      <h4 id="humanCentered">Human skills,</h4>
+      <p id="humanCentered">machine precision</p>
     </div>
     <div class="Robotics">
       <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
@@ -140,58 +140,6 @@
 </template>
 
 <style>
-  .content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-  .checkbox {
-    width: 1037px;
-    height: 100px;
-    background-color: #02215C;
-    display: flex;
-    margin: 10px;
-    align-items: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.checkbox-long{
-    width: 100%;
-    height: 300px;
-    background-color: #02215C;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.steps{
-    width: 5%;
-}
-
-.description{
-    width: 80%;
-}
-
-.check{
-    width: 15%;
-    height: 30px;
-}
-#checkH1{
-  color: #ffffff;
-  margin-left: 10px;
-}
-#checkP{
-  color: #ffffff;
-}
-
 .controllerImg img{
   width: 337px;
   height: 290px;

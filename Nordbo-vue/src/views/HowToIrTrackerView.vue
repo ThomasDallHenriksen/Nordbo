@@ -81,8 +81,8 @@
     <footer>
     <div class="Info">
     <div class="HumanSkill">
-      <h4>Human skills,</h4>
-      <p>machine precision</p>
+      <h4 id="humanCentered">Human skills,</h4>
+      <p id="humanCentered">machine precision</p>
     </div>
     <div class="Robotics">
       <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
@@ -123,19 +123,4 @@
   width: 70%;
 }
 
-  .lighthouse-left{
-    width: 60%;
-    height: 30rem;
-    background-color: #EFF0F1;
-  }
-
-  .lighthouse-right{
-    width: 40%;
-    height: 30rem;
-    background-color: #EFF0F1;
-  }
-
-  .lighthouse.text{
-    text-align: left;
-  }
 </style>
