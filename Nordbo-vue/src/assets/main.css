@@ -28,11 +28,8 @@ a,
 
 
 @media (min-width: 1000px) {
- 
-
-  #app {
-    
-  }
+  
+}
 
   #file{
     width: 100%;
@@ -40,7 +37,6 @@ a,
     min-width: 100%; 
   }
 
-  /* Guide.css */
   .wrapper{
     padding: 2rem;
   }
@@ -70,6 +66,7 @@ a,
     padding-right: 15px;
     margin-right: 40px;
 }
+
 #nextButton{
   border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -83,18 +80,12 @@ a,
     padding-right: 15px;
     margin-left: 40px;
 }
-}
-
-footer{
-  background-color: #082358;
-  width: 100%;
-  height: 10rem;
-}
 
 .HumanSkill h4{
   color: #ffffff;
   font-weight: bold;
 }
+
 .HumanSkill p{
   color: #ffffff;
 }
@@ -134,7 +125,6 @@ header{
 .social{
   width: 24%;
 }
-
 
 .Info{
   display: flex;
@@ -214,6 +204,7 @@ header{
   color: #ffffff;
   display: flex;
 }
+
 .phone--image{
   background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
   background-position: -238px -20px;
@@ -222,6 +213,7 @@ header{
   color: #ffffff;
   display: flex;
 }
+
 .facebook--image{
   background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
 
@@ -236,6 +228,7 @@ header{
   white-space: nowrap;
   color: #ffffff;
 }
+
 .hej{
   display: flex;
 }
@@ -256,6 +249,7 @@ header{
   background-image: url('@/assets/images/iconsprite.png');
   margin-top: 20%;
 }
+
 .link--linkedin{
   background-position: -373px -87px;
 }
@@ -300,8 +294,6 @@ header{
   margin-top: 2%;
   font-family: Helvetica;
   font-size: 2vw;
-
-
 }
 
 #humanCentered{
@@ -309,7 +301,6 @@ header{
   font-family: Helvetica;
   padding-left: 32%;
   font-size: 1vw;
-
 }
 
 .banner{
