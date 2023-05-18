@@ -29,7 +29,7 @@
                   <div class="description">
                       <p id="checkP">Connect the power supply to the Mimic controller</p>
                   </div>
-                  <input class="check" type="checkbox">
+                  <input class="check" type="checkbox" v-model="isChecked">
               </div>
               <div>
               <div class="controllerImg">

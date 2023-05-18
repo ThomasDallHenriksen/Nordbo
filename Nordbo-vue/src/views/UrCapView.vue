@@ -142,10 +142,6 @@
     margin-top: 3%;
 }
 
-.ur--step3 {
-    width: 1037px;
-    height: 15.6rem;
-}
 
 
 </style>

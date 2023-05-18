@@ -177,7 +177,7 @@
 #UrMainContent{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     margin-top: 3%;
     text-align: left;
     

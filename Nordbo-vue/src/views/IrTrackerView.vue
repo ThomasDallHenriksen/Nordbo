@@ -18,6 +18,7 @@
                 <div><h1 id="h1Title">IR Tracker Setup</h1></div>
                     <form action=""></form>
                     <p id="TrackerP">Follow these guidelines to setup the IR tracker</p>
+                    <br>
                     <p id="TrackerP">Please see Mimic controller setup for setting up the IR tracker.</p>
             </div>
             
@@ -66,7 +67,7 @@
                 <p id="buttonText">How to get the most out of your IR tracker</p>
                 <div>
                     <router-link 
-                        class="backButton" 
+                        class="ir--button" 
                         to="/HowToIrTrackerView"
                         custom
                         v-slot="{ navigate }"
@@ -74,7 +75,7 @@
                         <button
                         @click="navigate"
                         role="link"
-                        id="backButton"
+                        id="ir--button"
                         >
                         IR tracker
                         </button>
@@ -152,12 +153,14 @@
 <style>
 .irDiv{
     display: flex;
+    justify-content: center;
 }
 
 .left{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3%;
 }
 
 #TrackerP{
@@ -166,12 +169,14 @@
     margin-top: 1%;
     font-size: 1.1vw;
     line-height: 1.1;
+    padding-left: 9.5%;
 }
 
 #buttonText{
     text-align: left;
     font-family: Helvetica;
     font-size: 1.1vw;
+    padding-left: 9.5%;
 
 }
 
@@ -185,5 +190,20 @@
 .step--2{
     width: 1037px;
     height: 358px;
+}
+
+#ir--button{
+    margin-left: 9.5%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 21px;
+    border: solid 2px #1ec794;
+    background: #ffffff;
+    color: #1ec794;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 40px;
 }
 </style>

@@ -88,7 +88,6 @@ header{
   }
 
   .wrapper p {
-    text-align: center;
   }
 
   .buttons{
@@ -209,6 +208,13 @@ header{
   text-align: center;
 }
 
+#h3Title{
+  margin-top: 1%;
+  font-size: 1.3vw;
+  font-weight: bold;
+  text-align: center;
+}
+
 #pDesrciption{
   font-family: Helvetica;
   text-align: center;
@@ -224,6 +230,11 @@ header{
   margin-top: 2%;
   font-family: Helvetica;
   font-size: 2vw;
+}
+
+.ur--step3 {
+  width: 1037px;
+  height: 15.6rem;
 }
 
 /* Footer */

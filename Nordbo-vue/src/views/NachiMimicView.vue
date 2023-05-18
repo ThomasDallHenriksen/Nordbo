@@ -9,22 +9,22 @@
   </header>
   <body class="wrapper">
     <div class="titel1">
-        <h1>Nachi Preperation</h1>
+        <h1 id="h1Title">Nachi Preperation</h1>
     </div>
     <div class="titel2">
-        <h2>Mimic for Nachi - Robot Preperations</h2>
+        <h2 id="h2Title">Mimic for Nachi - Robot Preperations</h2>
     </div>
     <br>
-    <p>What you need prior to Mimic installation</p>
-    <p>- TCP/IP ethernet module (should be installed in the robot)</p>
-    <p>- External tracking module (Nachi external tracking card)</p>
-    <p>- Gigabit switch (at least 3 ethernet ports)</p>
-    <p>- Ethernet cables (2 extras)</p>
-    <p>- HD ready touch screen (22” is recommended) or HD ready screen with mouse and keyboard</p>
+    <p id="nachiMimicP">What you need prior to Mimic installation</p>
+    <p id="nachiMimicP">- TCP/IP ethernet module (should be installed in the robot)</p>
+    <p id="nachiMimicP">- External tracking module (Nachi external tracking card)</p>
+    <p id="nachiMimicP">- Gigabit switch (at least 3 ethernet ports)</p>
+    <p id="nachiMimicP">- Ethernet cables (2 extras)</p>
+    <p id="nachiMimicP">- HD ready touch screen (22” is recommended) or HD ready screen with mouse and keyboard</p>
     <br>
-    <p>Known unsupported models</p>
-    <p>CZ10</p>
-    <p>All Nachi cobots</p>
+    <p id="nachiMimicP">Known unsupported models</p>
+    <p id="nachiMimicP">CZ10</p>
+    <p id="nachiMimicP">All Nachi cobots</p>
         <div class="buttons">
         <div>
           <router-link 
@@ -93,10 +93,18 @@
 </template>
 
 <style>
-.titel1{
+  .titel1{
     text-align: center;
   }
   .titel2{
     text-align: center;
+  }
+  #nachiMimicP{
+    text-align: left;
+    font-family: Helvetica;
+    margin-top: 1%;
+    font-size: 1.3vw;
+    line-height: 1.1;
+    padding-left: 5%;
   }
 </style>
