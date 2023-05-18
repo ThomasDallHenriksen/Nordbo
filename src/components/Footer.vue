@@ -68,7 +68,7 @@ display: flex;
 font-family: Helvetica;
 }
 
-.Info .Robotics .email-icon .email--image{
+.Info .Robotics .eamil-icon .email--image{
 background-image: url('@/assets/images/iconsprite.png') ;
 background-position: -182px -20px;
 width: 60px;
