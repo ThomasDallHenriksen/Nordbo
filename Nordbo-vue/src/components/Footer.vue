@@ -1,5 +1,4 @@
 <template>
-    <footer class="Info">
       <div class="Info">
         <div class="HumanSkill">
           <h4 id="humanCentered">Human skills,</h4>
@@ -26,7 +25,6 @@
       <div class="copyright">
         <p>Copyright @ Nordbo robotics</p>
       </div>
-    </footer>
   </template>
   
   <script>
@@ -45,79 +43,49 @@
   
   <style scoped>
   .Info {
-    background-color: green;
-    width: 100%;
-    height: 10rem;
-  }
-  
-.spriteLink{
-  display: inline-block;
-  background-position: -308px -87px;
-  width: 60px;
-  height: 60px;
-  background-image: url('@/assets/images/iconsprite.png');
-  margin-top: 20%;
+  background-color: #02215c;
+  width: 100%;
+  height: 10rem;
 }
 
-.link--linkedin{
-  background-position: -373px -87px;
-}
-
-.link--twitter{
-  background-position: -435px -87px;
-}
-
-.link--instagram{
-  background-position: -491px -87px;
-}
-
-#banner-h1{
-  color: white;
-  font-size: 3.1rem;
-  font-family: Helvetica;
-  margin-top: -6%;
-  font-size: 4vw;
-}
-
-#h1Bold{
-  font-weight: bold;
-}
-
-#h1Title{
-  margin-top: 1%;
-  font-size: 2vw;
-}
-
-#pDesrciption{
-  font-family: Helvetica;
-  text-align: center;
-  margin-top: 1%;
-  font-size: 1.5vw;
-  padding: 0 8.2rem 0 8.2rem !important;
-  line-height: 1.1;
-}
-
-#h2Description{
-  text-align: center;
-  font-weight: bold;
-  margin-top: 2%;
-  font-family: Helvetica;
-  font-size: 2vw;
-}
-
-#humanCentered{
+.Info .HumanSkill #humanCentered {
   text-align: left;
   font-family: Helvetica;
   padding-left: 32%;
   font-size: 1vw;
 }
 
-.banner{
-  width: 100%;
-  opacity: 34%;
-  height: auto;
+.Info .Robotics .hej h3,
+.Info .Robotics .mo h3 {
+  font-family: Helvetica;
 }
 
+.Info .social .spriteLink {
+  display: inline-block;
+  background-position: -308px -87px;
+  width: 60px;
+  height: 60px;
+  background-image: url('@/assets/images/iconsprite.png');
+  margin-top: 10%;
+}
+
+.Info .social .spriteLink.link--linkedin {
+  background-position: -373px -87px;
+}
+
+.Info .social .spriteLink.link--twitter {
+  background-position: -435px -87px;
+}
+
+.Info .social .spriteLink.link--instagram {
+  background-position: -491px -87px;
+}
+
+.Info .copyright p {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
 
 
   </style>

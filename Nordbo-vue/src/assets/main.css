@@ -63,14 +63,8 @@ header{
 
 
 @media (min-width: 1000px) {
-<<<<<<< HEAD
   
 }
-=======
-  #app {
-    
-  }
->>>>>>> e179d43f721ea77e2da17bdf8ac6f8005983ef9a
 
   #file{
     width: 100%;
@@ -78,15 +72,12 @@ header{
     min-width: 100%; 
   }
 
-<<<<<<< HEAD
-=======
   h1{
     font-weight: bold;
     font-size: 24px;
     text-align: center;
   }
 
->>>>>>> e179d43f721ea77e2da17bdf8ac6f8005983ef9a
   .wrapper{
     padding: 2rem;
   }
@@ -166,16 +157,10 @@ header{
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 40px;
-<<<<<<< HEAD
 }
 
 #nextButton{
   border-top-left-radius: 25px;
-=======
-  }
-  #nextButton{
-    border-top-left-radius: 25px;
->>>>>>> e179d43f721ea77e2da17bdf8ac6f8005983ef9a
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -186,7 +171,6 @@ header{
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 40px;
-<<<<<<< HEAD
 }
 
 .HumanSkill h4{
@@ -286,9 +270,6 @@ header{
   height: 60px;
   margin-top: 27%;
   margin-left: 38%;
-=======
-  }
->>>>>>> e179d43f721ea77e2da17bdf8ac6f8005983ef9a
 }
 
 .min-5 h2{
@@ -309,7 +290,6 @@ header{
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .email--image{
   background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
   background-position: -182px -20px;
@@ -384,8 +364,6 @@ header{
   font-size: 4vw;
 }
 
-=======
->>>>>>> e179d43f721ea77e2da17bdf8ac6f8005983ef9a
 #h1Bold{
   font-weight: bold;
 }
@@ -424,70 +402,6 @@ header{
   margin-top: 2%;
   font-family: Helvetica;
   font-size: 2vw;
-<<<<<<< HEAD
-=======
-}
-
-.ur--step3 {
-  width: 1037px;
-  height: 15.6rem;
-}
-
-/* Footer */
-
-footer{
-  background-color: #082358;
-  width: 100%;
-  height: 10rem;
-}
-
-.spriteLink{
-  display: inline-block;
-  background-position: -308px -87px;
-  width: 60px;
-  height: 60px;
-  background-image: url('@/assets/images/iconsprite.png');
-  margin-top: 4%;
-}
-
-.link--linkedin{
-  background-position: -373px -87px;
-}
-
-.link--twitter{
-  background-position: -435px -87px;
-}
-
-.link--instagram{
-  background-position: -491px -87px;
-}
-
-.email-image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -182px -20px;
-  width: 60px;
-  height: 30px;
-  color: #ffffff;
-  display: flex;
-}
-
-.phone-image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -238px -20px;
-  width: 60px;
-  height: 30px;
-  color: #ffffff;
-  display: flex;
-}
-
-.facebook--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -308px -87px;
-  width: 60px;
-  height: 60px;
-  color: #ffffff;
-  display: flex;
->>>>>>> e179d43f721ea77e2da17bdf8ac6f8005983ef9a
 }
 
 #humanCentered{
