@@ -112,6 +112,4 @@ color: white;
 font-size: 1.2rem;
 text-align: center;
 }
-
-
 </style>
