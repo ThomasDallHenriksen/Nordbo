@@ -1,10 +1,14 @@
-<script >
+<script>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from '@/components/HelloWorld.vue'
-import HardwareView from '@/views/HardwareView.vue'
-import Footer from '@/components/Footer.vue';
+import HardwareView from '@/views/HardwareView.vue';
+import Footer from '@/components/Footer.vue'
 
 export default {
+  name: 'HomeView',
+  components: {
+    Footer
+  },
   data() {
     return { 
       socialLinkFacebook: 'https://www.facebook.com/nordborobotics/?locale=da_DK',
@@ -15,6 +19,8 @@ export default {
   }
 }
 </script>
+
+
 
 <template>
     <div class="wrapper">
@@ -29,7 +35,6 @@ export default {
       <p id="pDesrciption">Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
       <h2 id="h2Description">Select the amount of time</h2>
       <!-- Icon sprite -->
-      <footer></footer>
       <div class="select">
         <div class="min-5">
           <div class="image"></div>
@@ -90,6 +95,9 @@ export default {
         </div>
       </div>
   </div>
+<<<<<<< HEAD
+  <Footer></Footer>
+=======
 
   <footer>
     <div class="Info">
@@ -120,6 +128,7 @@ export default {
     </div>
 
   </footer>
+>>>>>>> e179d43f721ea77e2da17bdf8ac6f8005983ef9a
 </template>
 
 <style scoped>
