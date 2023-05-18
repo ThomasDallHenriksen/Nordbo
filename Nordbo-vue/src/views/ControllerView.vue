@@ -1,5 +1,11 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import { useCheckboxStore } from '@/stores/checkStores.js';
+import { computed } from 'vue';
+
+const checkboxStore = useCheckboxStore();
+const isChecked = computed(() => checkboxStore.isChecked);
+
 
 export default {
   name: 'Controller',
