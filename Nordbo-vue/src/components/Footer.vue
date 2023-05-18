@@ -6,11 +6,11 @@
         </div>
         <div class="Robotics">
           <div><p>We are an AI & robotics company specialized in No Code software for robots within industrial manufacturing</p></div>
-          <div class="hej">
+          <div class="email-icon">
             <div class="Robotics email--image"></div>
             <h3>contact@nordbo-robotics.com</h3>
           </div>
-          <div class="mo">
+          <div class="phone-icon">
             <div class="Robotics phone--image"></div>
             <h3>+45 81 98 81</h3>
           </div>
@@ -55,9 +55,39 @@
   font-size: 1vw;
 }
 
-.Info .Robotics .hej h3,
-.Info .Robotics .mo h3 {
+.email-icon{
+  display: flex;
+}
+
+.phone-icon{
+  display: flex;
+}
+
+.phone-icon h3{
+  color: #78bfe2;
+}
+
+.Info .Robotics .email-icon h3,
+.Info .Robotics .phone-icon h3 {
   font-family: Helvetica;
+}
+
+.Info .Robotics .email-icon .email--image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -182px -20px;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+}
+
+.Info .Robotics .phone-icon .phone--image{
+  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
+  background-position: -238px -20px;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
 }
 
 .Info .social .spriteLink {

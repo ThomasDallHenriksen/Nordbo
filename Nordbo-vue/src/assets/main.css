@@ -290,23 +290,6 @@ header{
   justify-content: center;
 }
 
-.email--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -182px -20px;
-  width: 60px;
-  height: 30px;
-  color: #ffffff;
-  display: flex;
-}
-
-.phone--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -238px -20px;
-  width: 60px;
-  height: 30px;
-  color: #ffffff;
-  display: flex;
-}
 
 .facebook--image{
   background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
@@ -323,17 +306,6 @@ header{
   color: #ffffff;
 }
 
-.hej{
-  display: flex;
-}
-
-.mo{
-  display: flex;
-}
-
-.mo h3{
-  color: #78bfe2;
-}
 
 .spriteLink{
   display: inline-block;

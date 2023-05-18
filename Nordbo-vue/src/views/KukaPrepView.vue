@@ -1,4 +1,20 @@
 <script>
+import Footer from '@/components/Footer.vue'
+
+export default {
+  name: 'KukaPrep',
+  components: {
+    Footer
+  },
+  data() {
+    return { 
+      socialLinkFacebook: 'https://www.facebook.com/nordborobotics/?locale=da_DK',
+      socialLinkLinkedin: 'https://www.linkedin.com/company/nordbo-robotics/?originalSubdomain=dk',
+      socialLinkTwitter: 'https://twitter.com/nordborobotics?lang=da',
+      socialLinkInstagram: 'https://www.instagram.com/nordbo_robotics/?hl=da'
+    }
+  }
+}
 </script>
 
 <template>
@@ -212,35 +228,7 @@
     </div>
     </body>
     
-    <footer>
-    <div class="Info">
-    <div class="HumanSkill">
-      <h4>Human skills,</h4>
-      <p>machine precision</p>
-    </div>
-    <div class="Robotics">
-      <div><p>We are an AI & robotics company specializied in No Code software for robots within industrial manufactoring</p></div>
-      <div class="hej">
-        <div class="Robotics email--image"></div>
-        <h3>contact@nordbo-robotics.com</h3>
-      </div>
-      <div class="mo">
-        <div class="Robotics phone--image"></div>
-        <h3>+45 81 98 81</h3>
-      </div>
-    </div>
-    <div class="social">
-      <a class="spriteLink" :href="socialLinkFacebook" target="_blank"></a>
-      <a class="spriteLink link--linkedin" :href="socialLinkLinkedin" target="_blank"></a>
-      <a class="spriteLink link--twitter" :href="socialLinkTwitter" target="_blank"></a>
-      <a class="spriteLink link--instagram" :href="socialLinkInstagram" target="_blank"></a>
-    </div>
-    </div>
-    <div class="copyright">
-      <p>Copyright @ Nordbo robotics</p>
-    </div>
-
-  </footer>
+    <Footer></Footer>
     <RouterView />
 </template>
 
