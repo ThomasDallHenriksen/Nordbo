@@ -4,12 +4,18 @@ import Banner from '@/components/Banner.vue'
 import { defineStore } from 'pinia'
 import { useCheckboxStore } from '@/stores/checkStores.js'
 import { computed } from 'vue';
+import Checkbox from '../components/Checkbox.vue';
 
 
 export default{
   name: 'Controller',
   components: {
+<<<<<<< HEAD
     Footer, Banner
+=======
+    Footer,
+    Checkbox
+>>>>>>> 5c1e3dae384fd6d4f5eb25cf89bd68ccf0ecf250
   },
   setup() {
     const checkboxStore = useCheckboxStore();
@@ -41,6 +47,7 @@ export default{
                 <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:
                 </p>
               </div>
+              <checkbox></checkbox>
               <div class="checkbox">
                   <div class="steps">
                       <h1 id="checkH1">1</h1>
