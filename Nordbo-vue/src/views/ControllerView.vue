@@ -1,26 +1,28 @@
 <script>
 import Footer from '@/components/Footer.vue'
-import { useCheckboxStore } from '@/stores/checkStores.js';
+import { defineStore } from 'pinia'
+import { useCheckboxStore } from '@/stores/checkStores.js'
 import { computed } from 'vue';
 
-const checkboxStore = useCheckboxStore();
-const isChecked = computed(() => checkboxStore.isChecked);
 
-
-export default {
+export default{
   name: 'Controller',
   components: {
     Footer
   },
-  data() {
+  setup() {
+    const checkboxStore = useCheckboxStore();
+    const isChecked = computed(() => checkboxStore.isChecked);
+
     return { 
       socialLinkFacebook: 'https://www.facebook.com/nordborobotics/?locale=da_DK',
       socialLinkLinkedin: 'https://www.linkedin.com/company/nordbo-robotics/?originalSubdomain=dk',
       socialLinkTwitter: 'https://twitter.com/nordborobotics?lang=da',
       socialLinkInstagram: 'https://www.instagram.com/nordbo_robotics/?hl=da'
-    }
+    };
   }
 }
+
 </script>
 
 <template>
