@@ -25,7 +25,7 @@ export default {
     <body>
         <Banner></Banner>
         <div id="pBar">
-          <progress id="file" value="22.2" max="100"> 22.2% </progress>
+          <progress id="file" value="75" max="100"> 75% </progress>
       </div>
         <div class="wrapper">
             <h1>Nachi Preperation</h1>

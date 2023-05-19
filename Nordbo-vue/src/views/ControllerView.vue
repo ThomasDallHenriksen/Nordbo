@@ -10,12 +10,9 @@ import Checkbox from '../components/Checkbox.vue';
 export default{
   name: 'Controller',
   components: {
-<<<<<<< HEAD
-    Footer, Banner
-=======
-    Footer,
+    Footer, 
+    Banner,
     Checkbox
->>>>>>> 5c1e3dae384fd6d4f5eb25cf89bd68ccf0ecf250
   },
   setup() {
     const checkboxStore = useCheckboxStore();
