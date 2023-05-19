@@ -1,10 +1,12 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
+
 
 export default {
   name: 'HowTo',
   components: {
-    Footer
+    Footer, Banner
   },
   data() {
     return { 
@@ -18,10 +20,11 @@ export default {
 </script>
 <template>
 <header>
-    <div id="pBar">
+</header>
+<Banner></Banner>
+<div id="pBar">
         <progress id="file" value="50.0" max="100"> 50.0% </progress>
     </div>
-</header>
 <div class="wrapper">
   <div class="container">
               <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">

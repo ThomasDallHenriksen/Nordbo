@@ -25,89 +25,91 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
-    },
-    //{
-      //path: '/hardwareSetup',
-      //name: 'hardwareSetup',
-      //component: hardwareSetup
-    //},
+
     {
       path: '/HardwareView',
       name: 'HardwareView',
       component: HardwareView
     },
+
     {
       path: '/ControllerView',
       name: 'ControllerView',
       component: ControllerView
     },
+
     {
       path: '/IrTrackerView',
       name: 'IrTrackerView',
       component: IrTrackerView
     },
+
     {
       path: '/HowToIrTrackerView',
       name: 'HowToIrTrackerView',
       component: HowToIrTrackerView
     },
+
     {
       path: '/UrPreperationView',
       name: 'UrPreperationView',
       component: UrPreperationView
     },
+
     {
       path: '/UrSetupView',
       name: 'UrSetupView',
       component: UrSetupView
     },
+
     {
       path: '/UrCapView',
       name: 'UrCapView',
       component: UrCapView
     },
+
     {
       path: '/UrMainView',
       name: 'UrMainView',
       component: UrMainView
     },
+
     {
       path: '/NachiConfiqView',
       name: 'NachiConfiqView',
       component: NachiConfiqView
     },  
+
     {
       path: '/UrReadyView',
       name: 'UrReadyView',
       component: UrReadyView
     },
+
     {
       path: '/KukaPrepView',
       name: 'KukaPrepView',
       component: KukaPrepView
     },
+
     {
       path: '/NachiMimicView',
       name: 'NachiMimicView',
       component: NachiMimicView
     },
+
     {
       path: '/NachiHardwareView',
       name: 'NachiHardwareView',
       component: NachiHardwareView
     },
+
     {
       path: '/NachiReadyView',
       name: 'NachiReadyView',
       component: NachiReadyView
     },
+    
     {
       path: '/KukaReadyView',
       name: 'KukaReadyView',

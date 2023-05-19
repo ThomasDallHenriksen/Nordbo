@@ -1,5 +1,6 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
 import { defineStore } from 'pinia'
 import { useCheckboxStore } from '@/stores/checkStores.js'
 import { computed } from 'vue';
@@ -8,7 +9,7 @@ import { computed } from 'vue';
 export default{
   name: 'Controller',
   components: {
-    Footer
+    Footer, Banner
   },
   setup() {
     const checkboxStore = useCheckboxStore();
@@ -27,19 +28,13 @@ export default{
 
 <template>
     <header>
-        <div id="pBar">
-          <progress id="file" value="25" max="100"> 25% </progress>
-      </div>
     </header>
     <body>
+      <Banner></Banner>
+      <div id="pBar">
+          <progress id="file" value="25" max="100"> 25% </progress>
+      </div>
           <div class="wrapper">
-            <div class="container">
-              <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
-              <div class="banner-text">
-                <h1 id="banner-h1">Mimic Guide</h1>
-              </div>
-            </div>
-            
             <div class="content">
               <div class="startingTxt">
                 <h1 id="h1Title">Mimic controller setup</h1>

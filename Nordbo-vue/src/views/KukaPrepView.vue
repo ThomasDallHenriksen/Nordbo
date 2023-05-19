@@ -1,10 +1,12 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
+
 
 export default {
   name: 'KukaPrep',
   components: {
-    Footer
+    Footer, Banner
   },
   data() {
     return { 
@@ -19,11 +21,12 @@ export default {
 
 <template>
     <header>
-        <div id="pBar">
-          <progress id="file" value="50.0" max="100"> 50.0% </progress>
-      </div>
     </header>
     <body>
+      <Banner></Banner>
+      <div id="pBar">
+          <progress id="file" value="50.0" max="100"> 50.0% </progress>
+      </div>
         <div class="wrapper">
             <h1 id="h1TitleKuka">KUKA Preperation</h1>
             <p id="kukaPrepP">Mimic for KUKA is currently in Beta release.</p>

@@ -1,10 +1,12 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
+
 
 export default {
   name: 'IrTracker',
   components: {
-    Footer
+    Footer, Banner
   },
   data() {
     return { 
@@ -18,17 +20,12 @@ export default {
 </script>
 <template>
     <header>
-        <div id="pBar">
+    </header>
+    <banner></banner>
+    <div id="pBar">
           <progress id="file" value="37.5" max="100"> 37.5% </progress>
       </div>
-    </header>
     <body class="wrapper">
-        <div class="container">
-              <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
-              <div class="banner-text">
-                <h1 id="banner-h1">Mimic Guide</h1>
-              </div>
-            </div>
         <div>
             <div>
                 <div><h1 id="h1Title">IR Tracker Setup</h1></div>

@@ -1,10 +1,12 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
+
 
 export default {
   name: 'UrReady',
   components: {
-    Footer
+    Footer, Banner
   },
   data() {
     return { 
@@ -18,10 +20,11 @@ export default {
 </script>
 <template>
     <header>
-        <div id="pBar">
+    </header>
+    <Banner></Banner>
+    <div id="pBar">
         <progress id="file" value="100.0" max="100"> 100.0% </progress>
     </div>
-    </header>
     <div class="wrapper">
         <div id="icon">
             <a href="/"><img  src="../assets/images/cross.png" alt="" width="40" height="40"></a>

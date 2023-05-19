@@ -1,10 +1,12 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
+
 
 export default {
   name: 'UrMain',
   components: {
-    Footer
+    Footer, Banner
   },
   data() {
     return { 
@@ -19,11 +21,12 @@ export default {
 
 <template>
     <header>
-        <div id="pBar">
-          <progress id="file" value="87.5" max="100"> 87.5% </progress>
-      </div>
     </header>
     <body>
+      <Banner></Banner>
+      <div id="pBar">
+          <progress id="file" value="87.5" max="100"> 87.5% </progress>
+      </div>
         <div class="wrapper">
           <div id="UrMainContent">
             <h1 id="h1Title">UR Preperation</h1>

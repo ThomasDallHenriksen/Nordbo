@@ -1,10 +1,11 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
 
 export default {
   name: 'Hardware',
   components: {
-    Footer
+  Footer, Banner
   },
   data() {
     return { 
@@ -19,19 +20,13 @@ export default {
 
 <template>
     <header>
+    </header>
+    <body>
+      <banner></banner>
       <div id="pBar">
           <progress id="file" value="12.5" max="100"> 12.5% </progress>
       </div>
-    </header>
-    <body>
-      
       <div class="wrapper">
-        <div class="container">
-          <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
-          <div class="banner-text">
-            <h1 id="banner-h1">Mimic Guide</h1>
-          </div>
-        </div> 
       <h1>Welcome to the Mimic Guide</h1>
       <h1>Hardware Setup</h1>
       <div id="padLeft">

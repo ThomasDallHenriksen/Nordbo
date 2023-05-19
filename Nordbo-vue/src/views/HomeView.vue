@@ -1,6 +1,5 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from '@/components/HelloWorld.vue'
 import HardwareView from '@/views/HardwareView.vue';
 import Footer from '@/components/Footer.vue'
 
@@ -19,9 +18,6 @@ export default {
   }
 }
 </script>
-
-
-
 <template>
     <div class="wrapper">
       <div class="container">
@@ -156,9 +152,6 @@ export default {
   display: flex;
   justify-content: center;
 }
-
-
-
 </style>
 
 

@@ -1,10 +1,12 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
+
 
 export default {
   name: 'NachiHardware',
   components: {
-    Footer
+    Footer, Banner
   },
   data() {
     return { 
@@ -19,10 +21,11 @@ export default {
 
 <template>
   <header>
-        <div id="pBar">
+    </header>
+    <banner></banner>
+    <div id="pBar">
             <progress id="file" value="50" max="100"> 50% </progress>
         </div>
-    </header>
     <body class="wrapper">
         <div class="titel1">
             <h1 id="h1Title">Nachi Preperation</h1>

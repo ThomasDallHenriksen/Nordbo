@@ -1,10 +1,11 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
 
 export default {
   name: 'UrCap',
   components: {
-    Footer
+    Footer, Banner
   },
   data() {
     return { 
@@ -19,11 +20,12 @@ export default {
 
 <template>
     <header>
-        <div id="pBar">
-          <progress id="file" value="75.0" max="100"> 75.0% </progress>
-      </div>
     </header>
     <body>
+      <banner></banner>
+      <div id="pBar">
+          <progress id="file" value="75.0" max="100"> 75.0% </progress>
+      </div>
         <div class="wrapper">
             <h1 id="h1Title">UR Preperation</h1>
             <p id="UrCapP">How to Install the URCap Needed and Setup Mimic Controller and Nordbo Driver</p>

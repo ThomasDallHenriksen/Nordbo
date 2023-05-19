@@ -1,10 +1,12 @@
 <script>
 import Footer from '@/components/Footer.vue'
+import Banner from '@/components/Banner.vue'
+
 
 export default {
   name: 'NachiConfig',
   components: {
-    Footer
+    Footer, Banner
   },
   data() {
     return { 
@@ -19,11 +21,12 @@ export default {
 
 <template>
     <header>
+    </header>
+    <body>
+        <Banner></Banner>
         <div id="pBar">
           <progress id="file" value="22.2" max="100"> 22.2% </progress>
       </div>
-    </header>
-    <body>
         <div class="wrapper">
             <h1>Nachi Preperation</h1>
             <p class="checkP">How to Configure a Nachi Robot</p>
