@@ -1,12 +1,15 @@
 <script>
 import Footer from '@/components/Footer.vue'
 import Banner from '@/components/Banner.vue'
+import Checkbox from '../components/Checkbox.vue';
 
 
 export default {
   name: 'NachiHardware',
   components: {
-    Footer, Banner
+    Footer, 
+    Banner,
+    Checkbox
   },
   data() {
     return { 
@@ -39,47 +42,29 @@ export default {
         <br>
         <h2 id="h3Title">Wire the Mimic Controller to the Robot</h2>
         <div class="nachiHardwareContent">
-            <div class="checkbox step--1">
-                <div class="steps">
-                    <h1 id="checkH1">1</h1>
-                </div>
-                <div class="description">
-                    <p id="checkP">Install the external tracking network card</p>
-                </div>
-                <input class="check" type="checkbox">
-            </div>
+          <checkbox content="Install the external tracking network card" 
+            customClass="nachiHardwareCheckbox1" 
+            step="1">
+          </checkbox>
 
-            <div class="checkbox step--2">
-                <div class="steps">
-                    <h1 id="checkH1">2</h1>
-                </div>
-                <div class="description">
-                    <p id="checkP">Connect the switch to the Mimic Controller</p>
-                </div>
-                <input class="check" type="checkbox">
-            </div>
+          <checkbox content="Connect the switch to the Mimic Controller" 
+            customClass="nachiHardwareCheckbox2" 
+            step="2">
+          </checkbox>
 
-            <div class="checkbox step--3">
-                <div class="steps">
-                    <h1 id="checkH1">3</h1>
-                </div>
-                <div class="description">
-                    <p id="checkP">Connect the 2 ethernet cables to the switch and rebot </p>
-                    <p id="checkP">- One from the external tracking network card to the switch</p> 
-                    <p id="checkP">- One from the main network card to the switch</p>
-                </div>
-                <input class="check" type="checkbox">
-            </div>
+          <checkbox content="Connect the 2 ethernet cables to the switch and rebot
 
-            <div class="checkbox step--4">
-                <div class="steps">
-                    <h1 id="checkH1">4</h1>
-                </div>
-                <div class="description">
-                    <p id="checkP">Restart the rebot </p>
-                </div>
-                <input class="check" type="checkbox">
-            </div>
+- One from the external tracking network card to the switch
+
+- One from the main network card to the switch" 
+            customClass="nachiHardwareCheckbox3" 
+            step="3">
+          </checkbox>
+
+          <checkbox content="Restart the rebot" 
+            customClass="nachiHardwareCheckbox4" 
+            step="4">
+          </checkbox>
         </div>
         
     
@@ -136,5 +121,10 @@ export default {
     font-size: 1.3vw;
     line-height: 1.1;
     padding-left: 16%;
+  }
+
+  .step--3Nachi{
+    width: 1037px !important;
+    height: 170px !important;
   }
 </style>

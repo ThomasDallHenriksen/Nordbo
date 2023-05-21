@@ -54,6 +54,22 @@
   padding-left: 32%;
   font-size: 1vw;
 }
+.Info .HumanSkill{
+  width: 24%;
+}
+
+.Info .Robotics{
+  width: 52%;
+}
+
+.Info .social{
+  width: 24%;
+}
+
+.Info{
+  display: flex;
+}
+
 
 .email-icon{
   display: flex;

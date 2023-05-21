@@ -1,12 +1,18 @@
 <script>
 import Footer from '@/components/Footer.vue'
 import Banner from '@/components/Banner.vue'
+import Checkbox from '../components/Checkbox.vue';
+import { useCheckboxStore } from '@/stores/checkStores.js'
+
+
 
 
 export default {
   name: 'IrTracker',
   components: {
-    Footer, Banner
+    Footer, 
+    Banner,
+    Checkbox
   },
   data() {
     return { 
@@ -37,35 +43,19 @@ export default {
             
             <div class="irDiv">
                 <div class="left">
-                    
-                    <div class="checkbox">
-                        <div class="steps">
-                            <h1 id="checkH1">1</h1>
-                        </div>
-                        <div class="description">
-                            <p id="checkP">Connect the dongle to the Mimic controller with the dongle cradle.</p>
-                        </div>
-                        <input class="check" type="checkbox">
-                    </div>
-                    <div class="checkbox step--2">
-                    <div class="steps">
-                        <h1 id="checkH1">2</h1>
-                    </div>
-                    <div class="description">
-                        <p id="checkP">Place Lighthouse as desired (see recommendations for setup in the Unboxing course) and connect the power supply afterwards.</p>
-                        <p id="checkP">Note: Do not move the Lighthouse when it is powered on. While powered on, small components are rotating inside the Lighthouse. If moved while rotating, these components might not perform as intended and can be damaged.</p>
-                    </div>
-                    <input class="check" type="checkbox">
-                    </div>
-                    <div class="checkbox">
-                    <div class="steps">
-                        <h1 id="checkH1">3</h1>
-                    </div>
-                    <div class="description">
-                        <p id="checkP">Turn on the tracker by holding the power button until the light is green</p>
-                    </div>
-                    <input class="check" type="checkbox">
-                    </div>
+                    <checkbox content="Connect the dongle to the Mimic Controller with the dongle cradle" 
+                        customClass="irTrackerCheckbox1" 
+                        step="1">
+                    </checkbox>
+                    <checkbox content="Place Lighthouse as desired (see recommendations for setup in the Unboxing course) and connect the power supply afterwards.
+                                        Note: Do not move the Lighthouse when it is powered on. While powered on, small components are rotating inside the Lighthouse. If moved while rotating, these components might not perform as intended and can be damaged." 
+                        customClass="irThrackerCheckbox2" 
+                        step="2">
+                    </checkbox>
+                    <checkbox content="Turn on the tracker by holding the power button until the light is green" 
+                        customClass="irTrackerCheckbox3" 
+                        step="3">
+                    </checkbox>
                 </div>
             
 
@@ -190,5 +180,9 @@ export default {
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 40px;
+}
+
+.checkbox h1{
+    color: #ffffff;
 }
 </style>

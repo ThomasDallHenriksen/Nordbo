@@ -49,7 +49,7 @@ export default{
                 </p>
               </div>
               <checkbox content="Connect the power supply to the Mimic controller" 
-                        customClass="checkbox1" 
+                        customClass="controllerCheckbox1" 
                         step="1">
              </checkbox>
               <div>
@@ -60,15 +60,15 @@ export default{
               <checkbox 
                   content="Connect the Mimic Controller to the robot (see robot specific guidelines) 
                   Optional: Connect the Mimic Controller with the Gigabit switch using the ethernet cable, if connecting to other hardware is needed." 
-                  customClass="checkbox2"
+                  customClass="controllerCheckbox2"
                   step="2"></checkbox>
               <checkbox 
                   content="Connect the touch screen/screen, USB-mouse and keyboard to the Mimic Controller" 
-                  customClass="checkbox3"
+                  customClass="ControllerCheckbox3"
                   step="3"></checkbox>
               <checkbox 
                   content="Verify that the Mimic Controller starts up when pressing the power button" 
-                  customClass="checkbox4"
+                  customClass="controllerCheckbox4"
                   step="4"></checkbox>
               <div>
                 <p>Note: The password for the Mimic Controller is “nordbo”.</p>

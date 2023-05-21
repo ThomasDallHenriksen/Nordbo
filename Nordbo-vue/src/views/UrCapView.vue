@@ -1,11 +1,14 @@
 <script>
 import Footer from '@/components/Footer.vue'
 import Banner from '@/components/Banner.vue'
+import Checkbox from '../components/Checkbox.vue';
 
 export default {
   name: 'UrCap',
   components: {
-    Footer, Banner
+    Footer, 
+    Banner,
+    Checkbox
   },
   data() {
     return { 
@@ -30,42 +33,31 @@ export default {
             <h1 id="h1Title">UR Preperation</h1>
             <p id="UrCapP">How to Install the URCap Needed and Setup Mimic Controller and Nordbo Driver</p>
           <div class="UrCapContent">
-            <div class="checkbox ur--checkbox">
-                <div class="steps">
-                    <h1 id="checkH1">1</h1>
-                </div>
-                <div class="description">
-                    <p id="checkP">Plug in the USB with the Caps into the robot Teach Pendant</p>
-                </div>
-                <input class="check" type="checkbox">
-            </div>
+            <checkbox content="Plug in the USB with the Caps into the robot Teach Pendant" 
+              customClass="urCapCheckbox1" 
+              step="1">
+            </checkbox>
 
-            <div class="checkbox ur--checkbox">
-                <div class="steps">
-                    <h1 id="checkH1">2</h1>
-                </div>
-                <div class="description">
-                    <p id="checkP">Install the Nordbo Driver URCap</p>
-                    <p id="checkP">The Nordbo Driver URCap needs to be version 2.4 </p>
-                </div>
-                <input class="check" type="checkbox">
-            </div>
+            <checkbox content="Install the Nordbo Driver URCap The Nordbo Driver URCap needs to be version 2.4" 
+              customClass="urCapCheckbox2" 
+              step="2">
+            </checkbox>
 
-            <div class="checkbox ur--step3">
-                <div class="steps">
-                    <h1 id="checkH1">3</h1>
-                </div>
-                <div class="description">
-                    <p id="checkP">Plug in the USB with the Caps into the robot Teach Pendant</p>
-                    <br>
-                    <p id="checkP">Enable the Nordbo Driver in the check box</p>
-                    <p id="checkP">Insert the Mimic Controller IP: 192.168.1.20 (default)</p> 
-                    <p id="checkP">Note: The IP can be changed but needs to be the same as the Mimic Controller provided in the box.</p>
-                    <p id="checkP">Press “Update” to finish</p>
-                    <p id="checkP">Save the UR Installation File (“Save…” > “Save UR Installation File…”</p>
-                </div>
-                <input class="check" type="checkbox">
-            </div>
+            <checkbox content="Plug in the USB with the Caps into the robot Teach Pendant
+
+
+Enable the Nordbo Driver in the check box
+
+Insert the Mimic Controller IP: 192.168.1.20 (default)
+
+Note: The IP can be changed but needs to be the same as the Mimic Controller provided in the box.
+
+Press “Update” to finish
+
+Save the UR Installation File (“Save…” > “Save UR Installation File…”" 
+              customClass="urCapCheckbox3" 
+              step="3">
+            </checkbox>
         </div>
         <div class="buttons">
         <div>

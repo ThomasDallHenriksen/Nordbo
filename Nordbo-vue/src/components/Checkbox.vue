@@ -42,3 +42,8 @@ export default{
     },    
   };
 </script>
+<style>
+.nachiConfigCheckbox1{
+    height: 220px;
+}
+</style>
