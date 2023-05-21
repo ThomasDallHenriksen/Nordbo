@@ -52,11 +52,9 @@ export default {
             step="2">
           </checkbox>
 
-          <checkbox content="Connect the 2 ethernet cables to the switch and rebot
-
-- One from the external tracking network card to the switch
-
-- One from the main network card to the switch" 
+          <checkbox content="Connect the 2 ethernet cables to the switch and rebot <p>
+                            - One from the external tracking network card to the switch <p>
+                            - One from the main network card to the switch" 
             customClass="nachiHardwareCheckbox3" 
             step="3">
           </checkbox>
@@ -121,10 +119,5 @@ export default {
     font-size: 1.3vw;
     line-height: 1.1;
     padding-left: 16%;
-  }
-
-  .step--3Nachi{
-    width: 1037px !important;
-    height: 170px !important;
   }
 </style>

@@ -74,41 +74,32 @@ export default {
             <p id="kukaPrepP">How to Configure a KUKA Robot</p>
             <br>
             <div class="kukaContainer">
-              <checkbox content="Change permission to administrator level
+              <checkbox content="Change permission to administrator level <p>
 
-Start by changing the permission on the Kuka robot to administrator level.
-
-
-This is achieved by:
+                                Start by changing the permission on the Kuka robot to administrator level. <p>
 
 
-- Starting up the robot
+                                This is achieved by: <p>
 
-- Clicking on the “user” symbol in the left sidebar on the left side of the teach pendent
 
-- Inside the user page, click on “Administrator” and enter the code “kuka” and click on “Login”" 
+                                - Starting up the robot <p>
+                                - Clicking on the “user” symbol in the left sidebar on the left side of the teach pendent <p>
+                                - Inside the user page, click on “Administrator” and enter the code “kuka” and click on “Login” <p>"  
             customClass="KukaCheckbox1" 
             step="1">
           </checkbox>
 
-          <checkbox content="Setup the IP address of the RSI
-See the RSI manual to see how to change the IP of the RSI.
+          <checkbox content="Setup the IP address of the RSI <p>
+                            See the RSI manual to see how to change the IP of the RSI. <p>
+                            The IP address of the RSI and the Mimic Controller have to be on the same subnet, e.g. 192.168.1.XX. <p>
+                            The IP address of the RSI can be changed as described in the RSI manual. <p>
 
-The IP address of the RSI and the Mimic Controller have to be on the same subnet, e.g. 192.168.1.XX.
-
-The IP address of the RSI can be changed as described in the RSI manual.
-
-
-- Press on the Robot icon in the top left corner of the teach pendant.
-
-- Press on “Start-up” > “Network Configuration” > “Advanced” > “Add Interface” > Choose a name for the Interface >
-
-Choose “Mixed IP address” and set the IP to 192.168.1.50 (default).
-
-- The IP can be changed but needs to be on the same subnet as the Mimic Controller.
-
-- Set the net mask to 255.255.255.0" 
-            customClass="nachiHardwareCheckbox2" 
+                            - Press on the Robot icon in the top left corner of the teach pendant. <p>
+                            - Press on “Start-up” > “Network Configuration” > “Advanced” > “Add Interface” > Choose a name for the Interface > <p>
+                            Choose “Mixed IP address” and set the IP to 192.168.1.50 (default). <p>
+                            - The IP can be changed but needs to be on the same subnet as the Mimic Controller. <p>
+                            - Set the net mask to 255.255.255.0" 
+            customClass="KukaCheckbox2" 
             step="2">
           </checkbox>
             </div>
@@ -249,55 +240,6 @@ Choose “Mixed IP address” and set the IP to 192.168.1.50 (default).
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
-
-  .kuka{
-    background-color: #02215C;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 1037px;
-    height: 17rem;
-  }
-
-  .checkbox--two {
-    height: 20rem !important;
-  }
-
-  .checkbox__steps{
-    width: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .checkbox__description{
-    width: 80%;
-  }
-
-  .checkbox__check{
-    width: 15%;
-    height: 30px;
-    align-items: center;
-  }
-
-  .checkbox__check input[type="checkbox"]{
-  margin: 0;
-  }
-
-  #checkbox__checkH1{
-  color: #ffffff;
-  margin-left: 10px;
-  vertical-align: top;
-  }
-
-  #checkbox__checkP{
-  color: #ffffff;
-  font-family: Helvetica;
   }
 
   .text-step{

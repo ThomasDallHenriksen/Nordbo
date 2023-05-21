@@ -1,3 +1,9 @@
+<script>
+  export default {
+    name: 'Banner',
+  }
+</script>
+
 <template>
     <div class="container">
     <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
@@ -7,14 +13,7 @@
     </div> 
 </template>
 
-<script>
-  export default {
-    name: 'Banner',
-  }
-</script>
-
 <style scoped>
-
 header{
   position: fixed;
   z-index: 1;

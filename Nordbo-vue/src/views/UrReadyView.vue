@@ -18,6 +18,7 @@ export default {
   }
 }
 </script>
+
 <template>
     <header>
     </header>
@@ -25,7 +26,7 @@ export default {
     <div id="pBar">
         <progress id="file" value="100.0" max="100"> 100.0% </progress>
     </div>
-    <div class="wrapper">
+    <div class="wrapper-urReady">
         <div id="icon">
             <a href="/"><img  src="../assets/images/cross.png" alt="" width="40" height="40"></a>
         </div>
@@ -74,5 +75,10 @@ export default {
 #icon{
     display: flex;
     justify-content: flex-end;
+}
+
+.wrapper-urReady{
+  width: 100%;
+  height: 34rem;
 }
 </style>

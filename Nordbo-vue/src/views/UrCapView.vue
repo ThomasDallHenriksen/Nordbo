@@ -33,31 +33,27 @@ export default {
             <h1 id="h1Title">UR Preperation</h1>
             <p id="UrCapP">How to Install the URCap Needed and Setup Mimic Controller and Nordbo Driver</p>
           <div class="UrCapContent">
+
             <checkbox content="Plug in the USB with the Caps into the robot Teach Pendant" 
-              customClass="urCapCheckbox1" 
-              step="1">
-            </checkbox>
+                        customClass="urCapCheckbox1" 
+                        step="1">
+             </checkbox>
 
-            <checkbox content="Install the Nordbo Driver URCap The Nordbo Driver URCap needs to be version 2.4" 
-              customClass="urCapCheckbox2" 
-              step="2">
-            </checkbox>
+             <checkbox content="Install the Nordbo Driver URCap The Nordbo Driver URCap needs to be version 2.4" 
+                        customClass="urCapCheckbox2" 
+                        step="2">
+             </checkbox>
 
-            <checkbox content="Plug in the USB with the Caps into the robot Teach Pendant
+             <checkbox content="Enable the Nordbo Driver and set the Nordbo Driver IP <br>
+                                Enable the Nordbo Driver in the check box <br>
+                                Insert the Mimic Controller IP: 192.168.1.20 (default)
+                                Note: The IP can be changed but needs to be the same as the Mimic Controller provided in the box. <br>
+                                Press “Update” to finish <br>
+                                Save the UR Installation File (“Save…” > “Save UR Installation File…”" 
+                        customClass="urCapCheckbox3" 
+                        step="3">
+             </checkbox>
 
-
-Enable the Nordbo Driver in the check box
-
-Insert the Mimic Controller IP: 192.168.1.20 (default)
-
-Note: The IP can be changed but needs to be the same as the Mimic Controller provided in the box.
-
-Press “Update” to finish
-
-Save the UR Installation File (“Save…” > “Save UR Installation File…”" 
-              customClass="urCapCheckbox3" 
-              step="3">
-            </checkbox>
         </div>
         <div class="buttons">
         <div>
@@ -101,12 +97,6 @@ Save the UR Installation File (“Save…” > “Save UR Installation File…�
 
 <style>
 
-
-.ur--checkbox {
-  height: 151px;
-  margin: 10px;
-}
-
 #UrCapP{
   text-align: center;
   font-family: Helvetica;
@@ -123,12 +113,4 @@ Save the UR Installation File (“Save…” > “Save UR Installation File…�
     align-items: center;
     margin-top: 3%;
 }
-
-.ur--step3{
-  width: 1037px !important;
-    height: 250px !important;
-}
-
-
-
 </style>

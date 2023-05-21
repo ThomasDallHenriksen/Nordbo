@@ -5,8 +5,6 @@ import { defineStore } from 'pinia'
 import { useCheckboxStore } from '@/stores/checkStores.js'
 import { computed } from 'vue';
 import Checkbox from '../components/Checkbox.vue';
-import Controller1Checkbox from '../components/ParrentCheckbox/controller-1-checkbox.vue'
-import Controller2Checkbox from '../components/ParrentCheckbox/controller-2-checkbox.vue'
 
 
 export default{
@@ -15,8 +13,6 @@ export default{
     Footer, 
     Banner,
     Checkbox,
-    Controller1Checkbox,
-    Controller2Checkbox
   },
   setup() {
     const checkboxStore = useCheckboxStore();

@@ -18,6 +18,7 @@ export default {
   }
 }
 </script>
+
 <template>
     <div class="wrapper">
       <div class="container">
@@ -102,37 +103,37 @@ export default {
 }
 
 .min-5, .min-10, .min-20{
-  width: 284px;
-  height: 256px;
+  width: 17.75rem;
+  height: 16rem;
   background-color: #02215c;
-  margin: 40px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  margin: 2.5rem;
+  border-top-left-radius: 1.56rem;
+  border-top-right-radius: 1.56rem;
+  border-bottom-left-radius: 1.56rem;
+  border-bottom-right-radius: 1.56remx;
 }
 
 #select-min{
   position: relative;
   margin-top: 23%;
   margin-left: 35%;
-  border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    font-size: 21px;
-    border: solid 2px #1ec794;
-    background: #1ec794 ;
-    color: #ffffff;
-    padding-left: 15px;
-    padding-right: 15px;
+  border-top-left-radius: 1.56rem;
+  border-top-right-radius: 1.56rem;
+  border-bottom-left-radius: 1.56rem;
+  border-bottom-right-radius: 1.56rem;
+  font-size: 1.31rem;
+  border: solid 0.12rem #1ec794;
+  background: #1ec794 ;
+  color: #ffffff;
+  padding-left: 0.94;
+  padding-right: 0.94;
 }
 
 .image{
   background-image: url(@/assets/images/icons.png) ;
-  background-position: -10px -4px;
-  width: 60px;
-  height: 60px;
+  background-position: -0.62rem -0.25rem;
+  width: 3.75rem;
+  height: 3.75rem;
   margin-top: 27%;
   margin-left: 38%;
 }

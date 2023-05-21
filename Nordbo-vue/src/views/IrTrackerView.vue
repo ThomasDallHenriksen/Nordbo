@@ -47,9 +47,9 @@ export default {
                         customClass="irTrackerCheckbox1" 
                         step="1">
                     </checkbox>
-                    <checkbox content="Place Lighthouse as desired (see recommendations for setup in the Unboxing course) and connect the power supply afterwards.
+                    <checkbox content="Place Lighthouse as desired (see recommendations for setup in the Unboxing course) and connect the power supply afterwards <br>
                                         Note: Do not move the Lighthouse when it is powered on. While powered on, small components are rotating inside the Lighthouse. If moved while rotating, these components might not perform as intended and can be damaged." 
-                        customClass="irThrackerCheckbox2" 
+                        customClass="irTrackerCheckbox2" 
                         step="2">
                     </checkbox>
                     <checkbox content="Turn on the tracker by holding the power button until the light is green" 
@@ -162,10 +162,6 @@ export default {
     line-height: 1.1;
 }
 
-.step--2{
-    width: 1037px !important;
-    height: 358px !important;
-}
 
 #ir--button{
     margin-left: 9.5%;

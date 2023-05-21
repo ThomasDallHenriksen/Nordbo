@@ -1,3 +1,17 @@
+<script>
+  export default {
+    name: 'Footer',
+    data() {
+      return { 
+        socialLinkFacebook: 'https://www.facebook.com/nordborobotics/?locale=da_DK',
+        socialLinkLinkedin: 'https://www.linkedin.com/company/nordbo-robotics/?originalSubdomain=dk',
+        socialLinkTwitter: 'https://twitter.com/nordborobotics?lang=da',
+        socialLinkInstagram: 'https://www.instagram.com/nordbo_robotics/?hl=da'
+      }
+    }
+  }
+  </script>
+
 <template>
       <div class="Info">
         <div class="HumanSkill">
@@ -26,20 +40,6 @@
         <p>Copyright @ Nordbo robotics</p>
       </div>
   </template>
-  
-  <script>
-  export default {
-    name: 'Footer',
-    data() {
-      return { 
-        socialLinkFacebook: 'https://www.facebook.com/nordborobotics/?locale=da_DK',
-        socialLinkLinkedin: 'https://www.linkedin.com/company/nordbo-robotics/?originalSubdomain=dk',
-        socialLinkTwitter: 'https://twitter.com/nordborobotics?lang=da',
-        socialLinkInstagram: 'https://www.instagram.com/nordbo_robotics/?hl=da'
-      }
-    }
-  }
-  </script>
   
   <style scoped>
   .Info {
@@ -89,42 +89,42 @@
 }
 
 .Info .Robotics .email-icon .email--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -182px -20px;
-  width: 60px;
-  height: 30px;
+  background-image: url('@/assets/images/iconsprite.png') ;
+  background-position: -11.37rem -1.25rem;
+  width: 3.75rem;
+  height: 1.87rem;
   color: #ffffff;
   display: flex;
 }
 
 .Info .Robotics .phone-icon .phone--image{
-  background-image: url(C:\Users\thoma\OneDrive\Skrivebord\github\Nordbo\Nordbo-vue\src\assets\images\iconsprite.png) ;
-  background-position: -238px -20px;
-  width: 60px;
-  height: 30px;
+  background-image: url('@/assets/images/iconsprite.png') ;
+  background-position: -14.87rem -1.25rem;
+  width: 3.75rem;
+  height: 1.87rem;
   color: #ffffff;
   display: flex;
 }
 
 .Info .social .spriteLink {
   display: inline-block;
-  background-position: -308px -87px;
-  width: 60px;
-  height: 60px;
+  background-position: -19.25rem -5.43rem;
+  width: 3.75rem;
+  height: 3.75rem;
   background-image: url('@/assets/images/iconsprite.png');
   margin-top: 10%;
 }
 
 .Info .social .spriteLink.link--linkedin {
-  background-position: -373px -87px;
+  background-position: -23.31rem -5.43rem;
 }
 
 .Info .social .spriteLink.link--twitter {
-  background-position: -435px -87px;
+  background-position: -27.18rem -5.43rem;
 }
 
 .Info .social .spriteLink.link--instagram {
-  background-position: -491px -87px;
+  background-position: -30.68rem -5.43rem;
 }
 
 .Info .copyright p {

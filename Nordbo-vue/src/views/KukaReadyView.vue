@@ -25,7 +25,7 @@ export default {
     <div id="pBar">
         <progress id="file" value="100.0" max="100"> 100.0% </progress>
     </div>
-    <div class="wrapper">
+    <div class="wrapper-kukaReady">
         <div id="icon">
             <a href="/"><img  src="../assets/images/cross.png" alt="" width="40" height="40"></a>
         </div>
@@ -71,4 +71,8 @@ export default {
 </template>
 
 <style>
+.wrapper-kukaReady{
+  width: 100%;
+  height: 34rem;
+}
 </style>
