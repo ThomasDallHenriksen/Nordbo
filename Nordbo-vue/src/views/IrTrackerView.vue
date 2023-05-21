@@ -173,8 +173,8 @@ export default {
 }
 
 .step--2{
-    width: 1037px;
-    height: 358px;
+    width: 1037px !important;
+    height: 358px !important;
 }
 
 #ir--button{

@@ -1,10 +1,10 @@
 <template>
     <div class="checkbox">
         <div class="steps">
-            <h1 id="checkH1">1</h1>
+            <h1 id="checkH1">{{ checkboxNumber }}</h1>
         </div>
         <div class="description">
-            <p id="checkP">Connect the power supply to the Mimic controller</p>
+            <p id="checkP">{{ checkboxDescription }}</p>
         </div>
         <input class="check" type="checkbox" v-model="isChecked" @change="toggleCheckbox()">
     </div>
@@ -34,6 +34,11 @@ export default{
             isChecked: checkboxStore.isChecked,
             toggleCheckbox: checkboxStore.toggleCheckbox,
         };
-    },
+    },    
+
+    props: {
+    checkboxNumber: String,
+    checkboxDescription: String
+  }
 };
 </script>

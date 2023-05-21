@@ -5,6 +5,8 @@ import { defineStore } from 'pinia'
 import { useCheckboxStore } from '@/stores/checkStores.js'
 import { computed } from 'vue';
 import Checkbox from '../components/Checkbox.vue';
+import Controller1Checkbox from '../components/ParrentCheckbox/controller-1-checkbox.vue'
+import Controller2Checkbox from '../components/ParrentCheckbox/controller-2-checkbox.vue'
 
 
 export default{
@@ -12,7 +14,9 @@ export default{
   components: {
     Footer, 
     Banner,
-    Checkbox
+    Checkbox,
+    Controller1Checkbox,
+    Controller2Checkbox
   },
   setup() {
     const checkboxStore = useCheckboxStore();
@@ -44,21 +48,13 @@ export default{
                 <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:
                 </p>
               </div>
-              <checkbox></checkbox>
-              <div class="checkbox">
-                  <div class="steps">
-                      <h1 id="checkH1">1</h1>
-                  </div>
-                  <div class="description">
-                      <p id="checkP">Connect the power supply to the Mimic controller</p>
-                  </div>
-                  <input class="check" type="checkbox" v-model="isChecked">
-              </div>
+              <controller-1-checkbox></controller-1-checkbox>
               <div>
               <div class="controllerImg">
                 <img src="/src/assets/images/mimicontroller.png">
               </div>
             </div>
+            <controller-2-checkbox></controller-2-checkbox>
               <div class="checkbox">
                 <div class="steps">
                   <h1 id="checkH1">2</h1>

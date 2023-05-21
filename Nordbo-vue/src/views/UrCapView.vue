@@ -132,6 +132,11 @@ export default {
     margin-top: 3%;
 }
 
+.ur--step3{
+  width: 1037px !important;
+    height: 250px !important;
+}
+
 
 
 </style>

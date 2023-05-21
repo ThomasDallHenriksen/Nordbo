@@ -30,7 +30,7 @@ export default {
         <div class="wrapper">
           <div id="UrMainContent">
             <h1 id="h1Title">UR Preperation</h1>
-            <p id="urMainP">How to Create the Main UR Program</p>
+            <h2 id="urMainH2">How to Create the Main UR Program</h2>
             <br>
             <p id="urMainP">There are 2 scenarios for using Mimic on a UR robot:</p>
             <br>
@@ -57,7 +57,9 @@ export default {
             <br>
 
             <p id="urMainP">The scripts are provided on the USB in the box.</p>
-            <img class="usb" src="../assets/images/usbscript.png" alt="script">
+            <div class="usb">
+              <img class="usbImg" src="../assets/images/usbscript.png" width="34 rem" height="auto" alt="script">
+            </div>
             <br>
 
             <h4 id="urMainH4">Control Mimic from the robot</h4>
@@ -132,14 +134,19 @@ export default {
 </template>
 
 <style>
+.usb{
+  display: flex;
+  justify-content: center;
+}
 
-.usb img{
-    width: 880px;
-    height: 550px;
+.usbImg{
+    width: 40rem;
+    height: auto;
 }
 
 .example{
     display: flex;
+    justify-content: center;
 }
 
 .example img{
@@ -171,6 +178,9 @@ export default {
     align-items: left;
     margin-top: 3%;
     text-align: left;
-    
+}
+
+#urMainH2{
+  margin-top: 1%;
 }
 </style>
