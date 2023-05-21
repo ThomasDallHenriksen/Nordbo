@@ -1,12 +1,12 @@
 <template>
-    <div class="checkbox">
+    <div :class="['checkbox', customClass]">
         <div class="steps">
-            <h1 id="checkH1">{{ checkboxNumber }}</h1>
+            <h1>{{ step }}</h1>
         </div>
         <div class="description">
-            <p id="checkP">{{ checkboxDescription }}</p>
+            <p id="checkP">{{ content }}</p>
         </div>
-        <input class="check" type="checkbox" v-model="isChecked" @change="toggleCheckbox()">
+        <input class="check" type="checkbox" :id="checkboxId" :checked="isChecked" @change="toggleCheckbox">
     </div>
 </template>
 <script>
@@ -17,6 +17,11 @@ import { watch } from 'vue';
 
 
 export default{
+    props: {
+        content: String,
+        customClass: String,
+        step: String,
+    },
     setup() {
         const checkboxStore = useCheckboxStore();
 
@@ -35,10 +40,5 @@ export default{
             toggleCheckbox: checkboxStore.toggleCheckbox,
         };
     },    
-
-    props: {
-    checkboxNumber: String,
-    checkboxDescription: String
-  }
-};
+  };
 </script>
