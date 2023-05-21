@@ -44,50 +44,28 @@ export default{
                 <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:
                 </p>
               </div>
-              <checkbox></checkbox>
-              <div class="checkbox">
-                  <div class="steps">
-                      <h1 id="checkH1">1</h1>
-                  </div>
-                  <div class="description">
-                      <p id="checkP">Connect the power supply to the Mimic controller</p>
-                  </div>
-                  <input class="check" type="checkbox" v-model="isChecked">
-              </div>
+              <checkbox content="Connect the power supply to the Mimic controller" 
+                        customClass="checkbox1" 
+                        step="1">
+             </checkbox>
               <div>
               <div class="controllerImg">
                 <img src="/src/assets/images/mimicontroller.png">
               </div>
             </div>
-              <div class="checkbox">
-                <div class="steps">
-                  <h1 id="checkH1">2</h1>
-                </div>
-                <div class="description">
-                  <p id="checkP">Connect the Mimic Controller to the robot (see robot specific guidelines) 
-                  Optional: Connect the Mimic Controller with the Gigabit switch using the ethernet cable, if connecting to other hardware is needed.</p>
-                </div>
-                    <input class="check" type="checkbox" v-model="userInput">
-              </div>
-              
-              <div class="checkbox">
-                <div class="steps">
-                  <h1 id="checkH1">3</h1>
-                </div>
-                <div class="description">
-                  <p id="checkP">Connect the touch screen/screen, USB-mouse and keyboard to the Mimic Controller</p>
-                </div>
-                  <input class="check" type="checkbox">
-              </div>
-              <div class="checkbox">
-                <div class="steps">
-                  <h1 id="checkH1">4</h1>
-                </div>
-                <div class="description">
-                  <p id="checkP">Verify that the Mimic Controller starts up when pressing the power button</p>
-                </div>
-                  <input class="check" type="checkbox">
-              </div>
+              <checkbox 
+                  content="Connect the Mimic Controller to the robot (see robot specific guidelines) 
+                  Optional: Connect the Mimic Controller with the Gigabit switch using the ethernet cable, if connecting to other hardware is needed." 
+                  customClass="checkbox2"
+                  step="2"></checkbox>
+              <checkbox 
+                  content="Connect the touch screen/screen, USB-mouse and keyboard to the Mimic Controller" 
+                  customClass="checkbox3"
+                  step="3"></checkbox>
+              <checkbox 
+                  content="Verify that the Mimic Controller starts up when pressing the power button" 
+                  customClass="checkbox4"
+                  step="4"></checkbox>
               <div>
                 <p>Note: The password for the Mimic Controller is “nordbo”.</p>
               </div>
