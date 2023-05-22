@@ -23,9 +23,10 @@ export default {
 
 <template>
 <Banner title="Mimic Guide" subtitle="Welcome to the"></Banner>
-      <h1 id="h1Title">Getting to know your Mimic UR</h1>
-      <p id="pDesrciption">Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
-      <h2 id="h2Description">Select the amount of time</h2>
+<div class="wrapper">
+      <h1 id="Title">Getting to know your Mimic UR</h1>
+      <p id="homeDescription">Mimic is a software platform that uses a tracking device to track the user’s movements, enabling the user to record and replicate complex movements that are challenging to automate with robots. Mimic records both position and orientation, drastically reducing the time spent programming and reprogramming a robot. Mimic UR is a URCap made for easy installation on Universal Robots and works together with a Tracker from Nordbo Robotics.</p>
+      <h2 id="selectTime">Select the amount of time</h2>
       <!-- Icon sprite -->
       <div class="select">
         <div class="min-5">
@@ -86,6 +87,7 @@ export default {
           </div>
         </div>
       </div>
+    </div>
   <Footer></Footer>
 </template>
 

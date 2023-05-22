@@ -72,6 +72,7 @@
 }
 .Info .Robotics .email-icon{
   display: flex;
+  color: white;
 }
 .Info .Robotics .phone-icon{
   display: flex;
