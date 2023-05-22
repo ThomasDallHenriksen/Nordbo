@@ -86,35 +86,11 @@ header{
     text-align: center;
   }
 
-  .wrapper p {
-  }
-
   .buttons{
     display: flex;
     justify-content: center;
     padding: 1.25rem;
   }
-
-  #checkP{
-    color: #ffffff;
-  }
-
-  .steps{
-    width: 5%;
-}
-
-.description{
-    width: 80%;
-}
-
-.check{
-    width: 15%;
-    height: 30px;
-}
-#checkH1{
-  color: #ffffff;
-  margin-left: 10px;
-}
 
   #backButton{
     border-top-left-radius: 1.56rem;
@@ -155,20 +131,6 @@ header{
 
 .Robotics p{
   color: #7ac1e5;
-}
-.copyright{
-  width: 100%;
-  background-color: #071e4b;
-  height: 1.5rem;
-}
-.copyright p{
-  color: #75bcdf;
-  padding-left: 7%;
-}
-
-.Info{
-  padding-top: 3%;
-  height: 90%;
 }
 
 header{

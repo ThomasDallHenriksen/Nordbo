@@ -172,7 +172,24 @@ export default{
     white-space: pre-line;
 }
 
-.nachiConfigCheckbox1{
-    height: 220px;
+#checkP{
+    color: #ffffff;
+}
+
+.steps{
+    width: 5%;
+}
+
+.description{
+    width: 80%;
+}
+
+.check{
+    width: 15%;
+    height: 30px;
+}
+#checkH1{
+  color: #ffffff;
+  margin-left: 10px;
 }
 </style>
