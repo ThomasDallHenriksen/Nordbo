@@ -126,7 +126,7 @@
 .copyright {
   width: 100%;
   background-color: #071e4b;
-  height: 1.5rem;
+  height: 1.9rem;
 }
 
 .copyright p {
