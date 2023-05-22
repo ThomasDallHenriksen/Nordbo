@@ -30,13 +30,11 @@ export default {
             <progress id="file" value="50" max="100"> 50% </progress>
         </div>
     <body class="wrapper">
-        <div class="titel1">
-            <h1 id="h1Title">Nachi Preperation</h1>
-        </div>
-        <div class="titel1">
-            <h2 id="h2Title">Hardware Setup</h2>
-        </div>
-        <br>
+            <h1 id="Title">Nachi Preperation</h1>
+            <br>
+
+            <h2 id="underTitle">Hardware Setup</h2>
+            <br>
         <p id="nachiHardwareP">After the Tracker Hardware Setup, connect a Gigabit switch to theMimic Controller connect 
             2 ethernet cables to the<br>switch and the robot.</p>
         <br>

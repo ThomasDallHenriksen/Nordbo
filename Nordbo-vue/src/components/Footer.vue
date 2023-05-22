@@ -46,6 +46,9 @@
   background-color: #02215c;
   width: 100%;
   height: 10rem;
+  padding-top: 3%;
+  height: 90%;
+  display: flex;
 }
 
 .Info .HumanSkill #humanCentered {
@@ -57,33 +60,25 @@
 }
 .Info .HumanSkill{
   width: 24%;
+  color: #ffffff;
+  font-weight: bold;
 }
-
 .Info .Robotics{
   width: 52%;
+  color: #7ac1e5;
 }
-
 .Info .social{
   width: 24%;
 }
-
-.Info{
+.Info .Robotics .email-icon{
   display: flex;
 }
-
-
-.email-icon{
+.Info .Robotics .phone-icon{
   display: flex;
 }
-
-.phone-icon{
-  display: flex;
-}
-
-.phone-icon h3{
+.Info .Robotics .phone-icon h3{
   color: #78bfe2;
 }
-
 .Info .Robotics .phone-icon h3 {
   font-family: Helvetica;
 }
@@ -127,10 +122,16 @@
   background-position: -30.68rem -5.43rem;
 }
 
-.Info .copyright p {
-  color: white;
+.copyright {
+  width: 100%;
+  background-color: #071e4b;
+  height: 1.5rem;
+}
+
+.copyright p {
+  color: #75bcdf;
   font-size: 1.2rem;
-  text-align: center;
+  padding-left: 7%;
 }
 </style>
   

@@ -33,13 +33,11 @@ export default {
       </div>
     <body class="wrapper">
         <div>
-            <div>
-                <div><h1 id="h1Title">IR Tracker Setup</h1></div>
+                <h1 id="Title">IR Tracker Setup</h1>
                     <form action=""></form>
                     <p id="TrackerP">Follow these guidelines to setup the IR tracker</p>
                     <br>
                     <p id="TrackerP">Please see Mimic controller setup for setting up the IR tracker.</p>
-            </div>
             
             <div class="irDiv">
                 <div class="left">
@@ -142,7 +140,7 @@ export default {
     text-align: left;
     font-family: Helvetica;
     margin-top: 1%;
-    font-size: 1.1vw;
+    font-size: 1.87rem;
     line-height: 1.1;
     padding-left: 9.5%;
 }
@@ -158,7 +156,7 @@ export default {
 #trackerImgText{
     font-family: Helvetica;
     margin-top: 1%;
-    font-size: 1.1vw;
+    font-size: 1.87rem;
     line-height: 1.1;
 }
 

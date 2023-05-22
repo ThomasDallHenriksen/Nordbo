@@ -30,7 +30,7 @@ export default {
           <progress id="file" value="75.0" max="100"> 75.0% </progress>
       </div>
         <div class="wrapper">
-            <h1 id="h1Title">UR Preperation</h1>
+            <h1 id="Title">UR Preperation</h1>
             <p id="UrCapP">How to Install the URCap Needed and Setup Mimic Controller and Nordbo Driver</p>
           <div class="UrCapContent">
 

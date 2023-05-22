@@ -64,6 +64,15 @@ export default{
     font-size: 0.8vw;
 }
 
+.checkbox p {
+    font-size: 23px;
+}
+
+.controllerCheckbox2 {
+    width: 64.8rem;
+    height: 13.68rem;
+}
+
 .irTrackerCheckbox1 {
     width: 64.8rem;
     height: 9.43rem;
@@ -116,55 +125,55 @@ export default{
 
 .nachiConfigCheckbox1 {
     width: 99.75rem;
-    height: 26.37rem;
+    height: 20.37rem;
     text-align: left;
 }
 
 .nachiConfigCheckbox2 {
     width: 99.75rem;
-    height: 33.12rem;
+    height: 26.12rem;
     text-align: left;
 }
 
 .nachiConfigCheckbox3 {
     width: 99.75rem;
-    height: 23.93rem;
+    height: 18.93rem;
     text-align: left;
 }
 
 .nachiConfigCheckbox4 {
     width: 99.75rem;
-    height: 58.25rem;
+    height: 46.25rem;
     text-align: left;
 }
 
 .nachiConfigCheckbox5 {
     width: 99.75rem;
-    height: 36.68rem;
+    height: 28.68rem;
     text-align: left;
 }
 
 .nachiConfigCheckbox6 {
     width: 99.75rem;
-    height: 51.93rem;
+    height: 40.93rem;
     text-align: left;
 }
 
 .nachiConfigCheckbox7 {
     width: 99.75rem;
-    height: 41.68rem;
+    height: 27.68rem;
     text-align: left;
 }
 
 .KukaCheckbox1 {
     width: 99.75rem;
-    height: 33.18rem;
+    height: 30.18rem;
     text-align: left;
 }
 
 .KukaCheckbox2 {
     width: 99.75rem;
-    height: 36.25rem;
+    height: 31.25rem;
     text-align: left;
 }
 
@@ -172,7 +181,24 @@ export default{
     white-space: pre-line;
 }
 
-.nachiConfigCheckbox1{
-    height: 220px;
+#checkP{
+    color: #ffffff;
+}
+
+.steps{
+    width: 5%;
+}
+
+.description{
+    width: 80%;
+}
+
+.check{
+    width: 15%;
+    height: 30px;
+}
+#checkH1{
+  color: #ffffff;
+  margin-left: 10px;
 }
 </style>

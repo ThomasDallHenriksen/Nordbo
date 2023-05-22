@@ -27,9 +27,9 @@ export default {
         <progress id="file" value="62.5" max="100"> 62.5% </progress>
     </div>
     <body class="wrapper">
-      <h1 id="h1Title">UR Preperation</h1>
+      <h1 id="Title">UR Preperation</h1>
       <br>
-      <h2 id="h2Title">Setup Robot Network</h2>
+      <h2 id="underTitle">Setup Robot Network</h2>
       <br>
       <p id="UrSetupP">In this section you will find what you need to setup the network on the robot and the Mimic Controller. This includes:</p>
       <br>

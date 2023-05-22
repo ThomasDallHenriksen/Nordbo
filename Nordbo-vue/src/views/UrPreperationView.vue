@@ -27,10 +27,14 @@ export default {
         </div>
     <body class="wrapper"> 
             <div>
-                <h1 id="h1Title">UR Preperation</h1>
+                <h1 id="Title">UR Preperation</h1>
+                <br>
+                <br>
                 <div id="urIndent">
                     <p id="urPrepP">In this course you will learn how to prepare robots from Universal Robots (UR) using Mimic</p>
-                    <h1 id="h1TitlePrep">What you need prior to Mimic installation</h1>
+                    <br>
+                    <br>
+                    <h1 id="TitlePrep">What you need prior to Mimic installation</h1>
                     <p id="urPrepP">-HD ready touch screen (22" is recommended) or HD ready screen with mouse and keyboard</p>
                     <p id="urPrepP">-Gigabit switch (optional - needed if connecting other hardware to the robot)</p>
                     <p id="urPrepP">-ethernet cables long enough to reach from your teaching to the robot </p>
@@ -45,6 +49,8 @@ export default {
                         <p id="urPrepP">Mimic is compatible with Universal Robots' Ployscope version: </p>
                         <p id="urPrepP">- CB Series: 3.14.3 or newer</p>
                         <p id="urPrepP">- eSeries: 5.9.4 or newer</p>
+                        <br>
+                        <br>
                         <p id="urPrepP">Mimic is compatible with all UR robots models</p>
                     </div>
                     <div>
@@ -103,7 +109,7 @@ export default {
     line-height: 1.1;
 }
 
-#h1TitlePrep{
+#TitlePrep{
   margin-top: 1%;
   font-size: 2vw;
   text-align: left;
