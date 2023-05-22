@@ -40,9 +40,10 @@ export default{
           <div class="wrapper">
             <div class="content">
               <div class="startingTxt">
-                <h1 id="h1Title">Mimic controller setup</h1>
-                <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:
-                </p>
+                <h1 id="Title">Mimic controller setup</h1>
+                <br>
+                <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p>
+                <br>
               </div>
               <checkbox content="Connect the power supply to the Mimic controller" 
                         customClass="controllerCheckbox1" 
@@ -66,7 +67,7 @@ export default{
                   content="Verify that the Mimic Controller starts up when pressing the power button" 
                   customClass="controllerCheckbox4"
                   step="4"></checkbox>
-              <div>
+              <div class="note">
                 <p>Note: The password for the Mimic Controller is “nordbo”.</p>
               </div>
             </div>
@@ -113,6 +114,10 @@ export default{
 </template>
 
 <style>
+.startingTxt p{
+  font-size: 1.87rem;
+}
+
 .controllerImg img{
   width: 337px;
   height: 290px;
@@ -124,4 +129,8 @@ export default{
     align-items: center;
     padding: 2rem;
   }
+
+.note {
+  font-size: 1rem;
+}
 </style>

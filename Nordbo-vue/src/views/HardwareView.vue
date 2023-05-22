@@ -27,8 +27,8 @@ export default {
           <progress id="file" value="12.5" max="100"> 12.5% </progress>
       </div>
       <div class="wrapper">
-      <h1>Welcome to the Mimic Guide</h1>
-      <h1>Hardware Setup</h1>
+      <h1 id="Title">Hardware Setup</h1>
+      <br>
       <div id="padLeft">
         <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
         <p> - Umbraco key set</p>
@@ -36,11 +36,11 @@ export default {
         <p> Note: The Mimic Robot Pointer is compatible with the tool flange of UR robots.</p>
         <p>- Touch screen or screen (without touch functionality) and a mouse and keyboard</p>
         <p>- 1 Gigabit switch (optional - if connecting to other hardware is needed)</p>
-        <p>- Ethernet cables (for any additional hardware needed)</p>
+        <p>- Ethernet cables (for any additional hardware needed)</p> <br><br><br>
       </div>
-        <h1>Video demostration</h1>
+        <h1 class="videoDemostratiion">Video demostration</h1> <br><br>
         <div class="video">
-          <iframe src="https://www.youtube.com/embed/eeD26XRyqDE" width="750" height="400"></iframe>
+          <iframe src="https://www.youtube.com/embed/eeD26XRyqDE" width="1450" height="847"></iframe>
         </div>
         <div class="buttons">
           <div>
@@ -83,8 +83,15 @@ export default {
   </template>
 
 <style>
-  .video{
-    display: flex;
+.videoDemostratiion {
+  font-weight: bold;
+  font-size: 3.12rem;
+  text-align: left;
+  padding-left: 9.87rem;
+}
+
+.video{
+  display: flex;
   justify-content: center;
   align-items: center;
   }
@@ -109,12 +116,15 @@ export default {
 
 #h1TitleHardware{
   margin-top: 1%;
-
   font-size: 2vw;
   text-align: left;
 }
 
 #padLeft{
-  padding-left: 30%;
+  padding-left: 10%;
+}
+
+#padLeft p {
+  font-size: 1.87rem;
 }
 </style>

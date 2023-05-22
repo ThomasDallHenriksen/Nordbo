@@ -29,65 +29,65 @@ export default {
       </div>
         <div class="wrapper">
           <div id="UrMainContent">
-            <h1 id="h1Title">UR Preperation</h1>
-            <h2 id="urMainH2">How to Create the Main UR Program</h2>
+            <h1 id="Title">UR Preperation</h1>
+            <h2 id="underTitle">How to Create the Main UR Program</h2>
             <br>
-            <p id="urMainP">There are 2 scenarios for using Mimic on a UR robot:</p>
+            <p id="urMainText">There are 2 scenarios for using Mimic on a UR robot:</p>
             <br>
-            <h4 id="urMainH4">1. Control the robot from Mimic (most common use)</h4>
-            <p id="urMainP">Controlling the robot from Mimic means Mimic is given control of the robot. Hence, Mimic functionality is accessed</p>
-            <p id="urMainP">through the Mimic interface.</p>
-            <p id="urMainP">E.g. to use Mimics Track, the user can navigate to the Track page, directly in the Mimic interface.</p>
+            <h4 id="urMainStep">1. Control the robot from Mimic (most common use)</h4>
+            <p id="urMainText">Controlling the robot from Mimic means Mimic is given control of the robot. Hence, Mimic functionality is accessed</p>
+            <p id="urMainText">through the Mimic interface.</p>
+            <p id="urMainText">E.g. to use Mimics Track, the user can navigate to the Track page, directly in the Mimic interface.</p>
             
             <br>
-            <h4 id="urMainH4">2. Control Mimic from the robot (advanced use for production)</h4>
-            <p id="urMainP">Controlling Mimic from the robot means the robot remains in control and can call Mimic functionality. Hence, Mimic</p>
-            <p id="urMainP">functionality is accessed through the robot.</p>
-            <p id="urMainP">E.g. to use Mimics Track, the robot will call the Track functionality in Mimic and change the Mimic interface to the</p>
-            <p id="urMainP">Track page.</p>
+            <h4 id="urMainStep">2. Control Mimic from the robot (advanced use for production)</h4>
+            <p id="urMainText">Controlling Mimic from the robot means the robot remains in control and can call Mimic functionality. Hence, Mimic</p>
+            <p id="urMainText">functionality is accessed through the robot.</p>
+            <p id="urMainText">E.g. to use Mimics Track, the robot will call the Track functionality in Mimic and change the Mimic interface to the</p>
+            <p id="urMainText">Track page.</p>
 
             <br>
 
-            <p id="urMainP">How to create UR programs for each of these scenarios is described in this section.</p>
+            <p id="urMainText">How to create UR programs for each of these scenarios is described in this section.</p>
 
             <br>
 
-            <h4 id="urMainH4">Control the robot from Mimic</h4>
-            <p id="urMainP">Include the two scripts in the program as shown on the picture below.</p>
+            <h4 id="urMainStep">Control the robot from Mimic</h4>
+            <p id="urMainText">Include the two scripts in the program as shown on the picture below.</p>
             <br>
 
-            <p id="urMainP">The scripts are provided on the USB in the box.</p>
+            <p id="urMainText">The scripts are provided on the USB in the box.</p>
             <div class="usb">
               <img class="usbImg" src="../assets/images/usbscript.png" width="34 rem" height="auto" alt="script">
             </div>
             <br>
 
-            <h4 id="urMainH4">Control Mimic from the robot</h4>
-            <p id="urMainP">Use the Script: mimic_int.script in BeforeStart.</p>
+            <h4 id="urMainStep">Control Mimic from the robot</h4>
+            <p id="urMainText">Use the Script: mimic_int.script in BeforeStart.</p>
             <br>
 
-            <h4 id="urMainH4">2 scripts are avalaible to use Mimic functionality:</h4>
-            <p id="urMainP">-track_mimic_program( )</p>
-            <p id="urMainP">Calls Track functionality in Mimic.</p>
-            <p id="urMainP"> - run_mimic_program( )</p>
-            <p id="urMainP">Calls Run functionality in Mimic.</p>
+            <h4 id="urMainStep">2 scripts are avalaible to use Mimic functionality:</h4>
+            <p id="urMainText">-track_mimic_program( )</p>
+            <p id="urMainText">Calls Track functionality in Mimic.</p>
+            <p id="urMainText"> - run_mimic_program( )</p>
+            <p id="urMainText">Calls Run functionality in Mimic.</p>
             <br>
 
-            <p id="urMainP">The number specified in ( ) is the ID of the program. Only predefined programs in Mimic can be called. See example</p>
-            <p id="urMainP">below.</p>
-            <p id="urMainP">The scripts can be used multiple times in the program. See example below.</p>
+            <p id="urMainText">The number specified in ( ) is the ID of the program. Only predefined programs in Mimic can be called. See example</p>
+            <p id="urMainText">below.</p>
+            <p id="urMainText">The scripts can be used multiple times in the program. See example below.</p>
             <br>
 
             <div class="example">
                 <div class="track">
                     <img src="../assets/images/urprogram.png" alt="script">
-                    <p id="urMainP">Example: A UR program that calls a Track program with I</p>
-                    <p id="urMainP">D 12 and Run program with ID 12</p>
+                    <p id="urMainText">Example: A UR program that calls a Track program with I</p>
+                    <p id="urMainText">D 12 and Run program with ID 12</p>
                 </div>
                 <div class="run">
                     <img src="../assets/images/urrun.png" alt="script">
-                    <p id="urMainP">Example: A UR program that calls a Run program with </p>
-                    <p id="urMainP">ID 23 and another Run program with ID 27.</p>
+                    <p id="urMainText">Example: A UR program that calls a Run program with </p>
+                    <p id="urMainText">ID 23 and another Run program with ID 27.</p>
                 </div>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default {
     height: 387px;
 }
 
-#urMainP{
+#urMainText{
     text-align: left;
     font-family: Helvetica;
     margin-top: 1%;
@@ -162,7 +162,7 @@ export default {
     line-height: 1.1;
 }
 
-#urMainH4{
+#urMainStep{
   text-align: left;
     font-family: Helvetica;
     margin-top: 1%;
@@ -175,9 +175,9 @@ export default {
 #UrMainContent{
     display: flex;
     flex-direction: column;
-    align-items: left;
     margin-top: 3%;
     text-align: left;
+    padding-left: 3%;
 }
 
 #urMainH2{

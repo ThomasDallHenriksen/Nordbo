@@ -27,23 +27,20 @@ export default {
         <progress id="file" value="25" max="100"> 25% </progress>
     </div>
   <body class="wrapper">
-    <div class="titel1">
-        <h1 id="h1Title">Nachi Preperation</h1>
-    </div>
-    <div class="titel2">
-        <h2 id="h2Title">Mimic for Nachi - Robot Preperations</h2>
-    </div>
+        <h1 id="Title">Nachi Preperation</h1>
+        <br>
+        <h2 id="underTitle">Mimic for Nachi - Robot Preperations</h2>
+        <br>
+    <p id="nachiMimicText">What you need prior to Mimic installation</p>
+    <p id="nachiMimicText">- TCP/IP ethernet module (should be installed in the robot)</p>
+    <p id="nachiMimicText">- External tracking module (Nachi external tracking card)</p>
+    <p id="nachiMimicText">- Gigabit switch (at least 3 ethernet ports)</p>
+    <p id="nachiMimicText">- Ethernet cables (2 extras)</p>
+    <p id="nachiMimicText">- HD ready touch screen (22” is recommended) or HD ready screen with mouse and keyboard</p>
     <br>
-    <p id="nachiMimicP">What you need prior to Mimic installation</p>
-    <p id="nachiMimicP">- TCP/IP ethernet module (should be installed in the robot)</p>
-    <p id="nachiMimicP">- External tracking module (Nachi external tracking card)</p>
-    <p id="nachiMimicP">- Gigabit switch (at least 3 ethernet ports)</p>
-    <p id="nachiMimicP">- Ethernet cables (2 extras)</p>
-    <p id="nachiMimicP">- HD ready touch screen (22” is recommended) or HD ready screen with mouse and keyboard</p>
-    <br>
-    <p id="nachiMimicP">Known unsupported models</p>
-    <p id="nachiMimicP">CZ10</p>
-    <p id="nachiMimicP">All Nachi cobots</p>
+    <p id="nachiMimicText">Known unsupported models</p>
+    <p id="nachiMimicText">CZ10</p>
+    <p id="nachiMimicText">All Nachi cobots</p>
         <div class="buttons">
         <div>
           <router-link 
@@ -84,13 +81,7 @@ export default {
 </template>
 
 <style>
-  .titel1{
-    text-align: center;
-  }
-  .titel2{
-    text-align: center;
-  }
-  #nachiMimicP{
+  #nachiMimicText{
     text-align: left;
     font-family: Helvetica;
     margin-top: 1%;

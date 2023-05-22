@@ -59,9 +59,12 @@
 }
 .Info .HumanSkill{
   width: 24%;
+  color: #ffffff;
+  font-weight: bold;
 }
 .Info .Robotics{
   width: 52%;
+  color: #7ac1e5;
 }
 .Info .social{
   width: 24%;
