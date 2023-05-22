@@ -41,7 +41,7 @@
       </div>
   </template>
   
-  <style scoped>
+<style scoped>
   .Info {
   background-color: #02215c;
   width: 100%;
@@ -52,7 +52,8 @@
   text-align: left;
   font-family: Helvetica;
   padding-left: 32%;
-  font-size: 1vw;
+  font-size: 1.2vw;
+
 }
 .Info .HumanSkill{
   width: 24%;
@@ -83,7 +84,6 @@
   color: #78bfe2;
 }
 
-.Info .Robotics .email-icon h3,
 .Info .Robotics .phone-icon h3 {
   font-family: Helvetica;
 }
@@ -132,7 +132,5 @@
   font-size: 1.2rem;
   text-align: center;
 }
-
-
-  </style>
+</style>
   

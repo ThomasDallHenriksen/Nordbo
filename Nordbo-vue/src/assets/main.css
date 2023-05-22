@@ -54,14 +54,7 @@ header{
     height: auto;
 }
 
-.banner{
-  width: 100%;
-  opacity: 34%;
-  height: auto;
-}
 /* Body */
-
-
 @media (min-width: 1000px) {
   
 }
@@ -84,9 +77,6 @@ header{
   
   .wrapper h2 {
     text-align: center;
-  }
-
-  .wrapper p {
   }
 
   .buttons{
@@ -145,12 +135,11 @@ header{
 }
 
 .HumanSkill h4{
-  color: #ffffff;
-  font-weight: bold;
+  color: white;
 }
 
 .HumanSkill p{
-  color: #ffffff;
+  color: white;
 }
 
 .Robotics p{
@@ -163,7 +152,8 @@ header{
 }
 .copyright p{
   color: #75bcdf;
-  padding-left: 7%;
+  padding-left: 7.5%;
+  font-size: 1.2vw;
 }
 
 .Info{

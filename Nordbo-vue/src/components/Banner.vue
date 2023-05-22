@@ -1,17 +1,35 @@
+<template>
+  <div class="container">
+    <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
+    <div class="banner-text">
+      <div>
+        <h1 id="banner-h1">{{ subtitle }}</h1>
+        <h1 id="banner-h1">{{ title }}</h1>
+      </div>
+    </div>
+  </div>
+</template>
+
 <script>
-  export default {
-    name: 'Banner',
-  }
+export default {
+  name: 'Banner',
+  props: {
+    title: {
+      type: String,
+      default: 'Mimic Guide',
+    },
+    subtitle: {
+      type: String,
+      default: '',
+    },
+  },
+}
 </script>
 
-<template>
-    <div class="container">
-    <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
-        <div class="banner-text">
-            <h1 id="banner-h1">Mimic Guide</h1>
-        </div>
-    </div> 
-</template>
+<style scoped>
+/* Your existing styles */
+</style>
+
 
 <style scoped>
 header{
@@ -25,14 +43,14 @@ header{
 .container{
   background-color: #02215c;
   opacity: 1.2;
-  height: 11rem;
+  height: 14rem;
   width: 100%;
 }
 
 .banner{
   opacity: 34%;
   width: 100%;
-  height: 11rem;
+  height: 14rem;
 }
 
 .banner-text {
@@ -47,6 +65,6 @@ header{
   font-size: 3.1rem;
   font-family: Helvetica;
   margin-top: -6%;
-  font-size: 4vw;
+  font-size: 3.2vw;
 }
 </style>

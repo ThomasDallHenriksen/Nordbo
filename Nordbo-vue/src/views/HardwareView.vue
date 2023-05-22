@@ -83,8 +83,8 @@ export default {
   </template>
 
 <style>
-  .video{
-    display: flex;
+.video{
+  display: flex;
   justify-content: center;
   align-items: center;
   }
@@ -109,7 +109,6 @@ export default {
 
 #h1TitleHardware{
   margin-top: 1%;
-
   font-size: 2vw;
   text-align: left;
 }
