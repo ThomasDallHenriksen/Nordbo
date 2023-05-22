@@ -29,20 +29,20 @@
             <h3>+45 81 98 81</h3>
           </div>
         </div>
-        <div class="social">
-          <a class="spriteLink" :href="socialLinkFacebook" target="_blank"></a>
-          <a class="spriteLink link--linkedin" :href="socialLinkLinkedin" target="_blank"></a>
-          <a class="spriteLink link--twitter" :href="socialLinkTwitter" target="_blank"></a>
-          <a class="spriteLink link--instagram" :href="socialLinkInstagram" target="_blank"></a>
+          <div class="social">
+           <a class="spriteLink" :href="socialLinkFacebook" target="_blank"></a>
+            <a class="spriteLink link--linkedin" :href="socialLinkLinkedin" target="_blank"></a>
+            <a class="spriteLink link--twitter" :href="socialLinkTwitter" target="_blank"></a>
+            <a class="spriteLink link--instagram" :href="socialLinkInstagram" target="_blank"></a>
         </div>
       </div>
       <div class="copyright">
         <p>Copyright @ Nordbo robotics</p>
       </div>
-  </template>
-  
+</template>
+
 <style scoped>
-  .Info {
+.Info {
   background-color: #02215c;
   width: 100%;
   height: 10rem;
@@ -55,8 +55,7 @@
   text-align: left;
   font-family: Helvetica;
   padding-left: 32%;
-  font-size: 1.2vw;
-
+  font-size: 1.2rem;
 }
 .Info .HumanSkill{
   width: 24%;
@@ -66,6 +65,7 @@
 .Info .Robotics{
   width: 52%;
   color: #7ac1e5;
+  font-size: 1rem;
 }
 .Info .social{
   width: 24%;
@@ -73,6 +73,7 @@
 .Info .Robotics .email-icon{
   display: flex;
   color: white;
+  font-size: 1rem;
 }
 .Info .Robotics .phone-icon{
   display: flex;
@@ -82,6 +83,7 @@
 }
 .Info .Robotics .phone-icon h3 {
   font-family: Helvetica;
+  font-size: 1rem;
 }
 
 .Info .Robotics .email-icon .email--image{
@@ -131,8 +133,8 @@
 
 .copyright p {
   color: #75bcdf;
-  font-size: 1.2rem;
-  padding-left: 7%;
+  font-size: 1rem;
+  padding-left: 7.7vw;
 }
 </style>
   
