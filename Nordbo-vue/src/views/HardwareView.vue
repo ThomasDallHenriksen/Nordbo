@@ -122,6 +122,8 @@ export default {
 
 #padLeft{
   padding-left: 10%;
+  color: #0f2230;
+
 }
 
 #padLeft p {

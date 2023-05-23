@@ -64,6 +64,15 @@ export default{
     font-size: 0.8vw;
 }
 
+.checkbox p{
+    font-size: 1.43rem;
+}
+
+.controllerCheckbox2 {
+    width: 64.8rem;
+    height: 13.68rem;
+}
+
 .irTrackerCheckbox1 {
     width: 64.8rem;
     height: 9.43rem;
@@ -174,6 +183,7 @@ export default{
 
 #checkP{
     color: #ffffff;
+
 }
 
 .steps{
