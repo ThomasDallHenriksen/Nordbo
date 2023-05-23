@@ -91,7 +91,8 @@ export default{
               </router-link>
             </div>
             <div>
-              <router-link class="nextButton"
+              <router-link 
+                class="nextButton"
                 to="/IrTrackerView"
                 custom
                 v-slot="{ navigate }"

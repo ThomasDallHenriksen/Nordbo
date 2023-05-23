@@ -12,11 +12,7 @@ a,
   transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
+
 
 #file{
   width: 112.37rem;
@@ -97,6 +93,7 @@ h1{
   padding-left: 0.93rem;
   padding-right: 0.93rem;
   margin-right: 2.5rem;
+  cursor: pointer;
 }
 
 #nextButton{
@@ -111,6 +108,7 @@ h1{
   padding-left: 0.93rem;
   padding-right: 0.93rem;
   margin-left: 2.5rem;
+  cursor: pointer;
 }
 
 .select{
