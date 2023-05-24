@@ -6,7 +6,8 @@ import Banner from '@/components/Banner.vue'
 export default {
   name: 'HowTo',
   components: {
-    Footer, Banner
+    Footer, 
+    Banner
   },
   data() {
     return { 
@@ -26,12 +27,7 @@ export default {
         <progress id="file" value="50.0" max="100"> 50.0% </progress>
     </div>
 <div class="wrapper">
-  <div class="container">
-              <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
-              <div class="banner-text">
-                <h1 id="banner-h1">Mimic Guide</h1>
-              </div>
-            </div>
+  
   <div>
 
   <div class="content ir--tracker">
