@@ -29,6 +29,7 @@ export default {
       <div class="wrapper">
       <h1 id="Title">Hardware Setup</h1>
       <br>
+
       <div id="padLeft">
         <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p> 
         <p> - Umbraco key set</p>
@@ -38,12 +39,13 @@ export default {
         <p>- 1 Gigabit switch (optional - if connecting to other hardware is needed)</p>
         <p>- Ethernet cables (for any additional hardware needed)</p> <br><br><br>
       </div>
+
         <h1 class="videoDemostratiion">Video demostration</h1> <br><br>
         <div class="video">
           <iframe src="https://www.youtube.com/embed/eeD26XRyqDE"></iframe>
         </div>
+        
         <div class="buttons">
-          <div>
             <router-link 
               class="backButton" 
               to="/"
@@ -58,8 +60,7 @@ export default {
                 Back
               </button>
             </router-link>
-          </div>
-          <div>
+ 
             <router-link 
               class="nextButton"
               to="/ControllerView"
@@ -74,7 +75,7 @@ export default {
                 Next 
               </button>
             </router-link>
-          </div>
+
         </div>
       </div>
     </body>
@@ -90,13 +91,16 @@ export default {
   padding-left: 9.87rem;
 }
 
-.video{
+.video {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 50%;
-  }
+}
+
+.video iframe {
+  width: 90vw;
+  height: 40vw;
+}
 
 #pDesrciptionHardware1{
   text-align: left;

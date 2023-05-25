@@ -32,7 +32,6 @@ export default {
         <div class="min-5">
           <div class="image"></div>
           <h2>5 min.</h2>
-          <div>
             <router-link class="nextButton"
               to="/HardwareView"
               custom
@@ -46,12 +45,11 @@ export default {
                 Select
               </button>
             </router-link>
-          </div>
         </div>
+
         <div class="min-10">
           <div class="image"></div>
           <h2>10 - 15 min.</h2>
-          <div>
             <router-link class="nextButton"
               to="/HardwareView"
               custom
@@ -66,11 +64,10 @@ export default {
               </button>
             </router-link>
           </div>
-        </div>
+          
         <div class="min-20"> 
           <div class="image"></div>
           <h2>20 - 30 min.</h2>
-          <div>
             <router-link class="nextButton"
               to="/NachiMimicView"
               custom
@@ -84,7 +81,6 @@ export default {
                 Select
               </button>
             </router-link>
-          </div>
         </div>
       </div>
     </div>

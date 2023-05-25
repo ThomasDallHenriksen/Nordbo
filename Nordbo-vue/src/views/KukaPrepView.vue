@@ -32,10 +32,12 @@ export default {
       </div>
         <div class="wrapperKuka">
             <h1 id="Title">KUKA Preperation</h1>
+            <br>
             <p id="kukaPrepText">Mimic for KUKA is currently in Beta release.</p>
             <br>
 
             <h1 id="underKukaTitle">Mimic for KUKA - Robot Preparations</h1>
+            <br>
             <h4 id="kukaPrepDescription">What you need prior to Mimic installation</h4>
             <p id="kukaPrepText"> - HD ready touch screen (22” is recommended) or HD ready screen with mouse and keyboard</p>
             <p id="kukaPrepText"> - Gigabite switch (optional)</p>
@@ -194,9 +196,7 @@ export default {
         <p id="kukaPrepText">- Location: Program folder</p>
         <br>
 
-
         <div class="buttons">
-        <div>
           <router-link 
             class="backButton" 
             to="/NachiReadyView"
@@ -211,8 +211,7 @@ export default {
               Back
             </button>
           </router-link>
-        </div>
-        <div>
+
           <router-link class="nextButton"
             to="/KukaReadyView"
             custom
@@ -226,7 +225,6 @@ export default {
               Next
             </button>
           </router-link>
-        </div>
     </div>
     </div>
     </body>
@@ -237,8 +235,8 @@ export default {
 
 <style>
   .wrapperKuka{
-    padding-left: 55px; 
-    padding-right: 55px;
+    padding-left: 2.865vw; 
+    padding-right: 2.865vw;
     background-color: white;
   }
 
@@ -248,6 +246,7 @@ export default {
   font-weight: bold;
   text-align: left;
   padding-left: 6.5%;
+  color: #0f2230;
   }
 
   #kukaPrepDescription{
@@ -256,6 +255,7 @@ export default {
   font-weight: bold;
   text-align: left;
   padding-left: 6.5%;
+  color: #0f2230;
   }
 
   #kukaPrepTask{
@@ -264,15 +264,17 @@ export default {
   font-weight: bold;
   text-align: left;
   padding-left: 6.5%;
+  color: #0f2230;
   }
 
   #kukaPrepText{
     text-align: left;
     font-family: Helvetica;
     margin-top: 1%;
-    font-size: 1.87vw;
+    font-size: 1.563vw;
     line-height: 1.1;
     padding-left: 6.5%;
+    color: #0f2230;
   }
 
   .kukaContainer{

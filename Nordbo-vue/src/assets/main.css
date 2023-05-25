@@ -8,28 +8,39 @@
 body {
   background-color: white;
 }
-#file::-webkit-progress-bar {
-  background-color: white;
-}
-
-/* Header */
-
-
-/* Body */
-@media (min-width: 1000px) {
-  
-}
-#pBar {
-  background-color: white;
-  padding-top: 2rem;
-}
 
 #file{
   width: 100%;
   height: 20px;
   min-width: 98%; 
-  background-color: white;
   border-radius: 100px;
+}
+
+#file::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress {
+  height: 24px;
+  width: 70% !important;
+  border: 1px solid #1ec794;
+  border-radius: .625rem;
+  margin: 0 10px;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 3.875rem;
+  border-color: #1ec794;
+}
+
+progress::-webkit-progress-value {
+  background-color: #1cc794;
+  border-radius: 3.875rem;
+}
+
+#pBar {
+  background-color: white;
+  padding-top: 2rem;
 }
 
 h1{
@@ -146,21 +157,13 @@ h1{
 
 #Title{
   margin-top: 1%;
-  font-size: 3.12vw;
+  font-size: 2.604vw;
   color: #0f2230;
-
 }
 
 #underTitle{
   margin-top: 1%;
   font-size: 1.5vw;
-  font-weight: bold;
-  text-align: center;
-}
-
-#h3Title{
-  margin-top: 1%;
-  font-size: 1.3vw;
   font-weight: bold;
   text-align: center;
 }
@@ -185,21 +188,4 @@ h1{
   font-size: 2vw;
   color: #0f2230;
 
-}
-progress {
-  height: 24px;
-  width: 70% !important;
-  border: 1px solid #1ec794;
-  border-radius: .625rem;
-  margin: 0 10px;
-}
-
-progress::-webkit-progress-bar {
-  border-radius: 3.875rem;
-  border-color: #1ec794;
-}
-
-progress::-webkit-progress-value {
-  background-color: #1cc794;
-  border-radius: 3.875rem;
 }

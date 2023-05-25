@@ -43,9 +43,9 @@ export default {
       <p id="UrSetupP">Change the IP of the Robot:</p>
       <p id="UrSetupP">Change the IP of the UR to a static IP (default IP 192.168.1.50)</p>
       <p id="UrSetupP">To change the IP on a UR, go to Settings > System > Network > IP adress</p>
+      <br>
 
       <div class="buttons">
-        <div>
           <router-link 
             class="backButton" 
             to="/UrPreperationView"
@@ -60,8 +60,7 @@ export default {
               Back
             </button>
           </router-link>
-        </div>
-        <div>
+
           <router-link class="nextButton"
             to="/UrCapView"
             custom
@@ -75,7 +74,6 @@ export default {
               Next
             </button>
           </router-link>
-        </div>
     </div>
     </body>
 

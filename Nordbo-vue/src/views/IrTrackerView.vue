@@ -32,7 +32,7 @@ export default {
           <progress id="file" value="37.5" max="100"> 37.5% </progress>
       </div>
     <body class="wrapper">
-        <div>
+
                 <h1 id="Title">IR Tracker Setup</h1>
                     <form action=""></form>
                     <p id="TrackerP">Follow these guidelines to setup the IR tracker</p>
@@ -66,7 +66,6 @@ export default {
             
             <div>
                 <p id="buttonText">How to get the most out of your IR tracker</p>
-                <div>
                     <router-link 
                         class="ir--button" 
                         to="/HowToIrTrackerView"
@@ -81,9 +80,8 @@ export default {
                         IR tracker
                         </button>
                     </router-link>
-                </div>
+
                 <div class="buttons">
-                    <div>
                     <router-link 
                         class="backButton" 
                         to="/ControllerView"
@@ -98,8 +96,7 @@ export default {
                         Back
                         </button>
                     </router-link>
-                    </div>
-                    <div>
+
                     <router-link class="nextButton"
                         to="/UrPreperationView"
                         custom
@@ -113,10 +110,8 @@ export default {
                         Next
                         </button>
                     </router-link>
-                    </div>
                 </div>
             </div>  
-        </div>
     </body>
 
     <Footer></Footer>

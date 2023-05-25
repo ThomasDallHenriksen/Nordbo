@@ -94,7 +94,6 @@ export default {
             <br>
 
         <div class="buttons">
-        <div>
           <router-link 
             class="backButton" 
             to="/UrcapView"
@@ -109,8 +108,7 @@ export default {
               Back
             </button>
           </router-link>
-        </div>
-        <div>
+
           <router-link class="nextButton"
             to="/UrReadyView"
             custom
@@ -124,7 +122,6 @@ export default {
               Next
             </button>
           </router-link>
-        </div>
     </div>
     </div>
     </body>
@@ -140,44 +137,42 @@ export default {
 }
 
 .usbImg{
-    width: 40rem;
-    height: auto;
+  width: 34.208vw;
 }
 
 .example{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .example img{
-    width: 580px;
-    height: 387px;
+  width: 30.208vw;
 }
 
 #urMainText{
-    text-align: left;
-    font-family: Helvetica;
-    margin-top: 1%;
-    font-size: 1.3vw;
-    line-height: 1.1;
+  text-align: left;
+  font-family: Helvetica;
+  margin-top: 1%;
+  font-size: 1.3vw;
+  line-height: 1.1;
 }
 
 #urMainStep{
   text-align: left;
-    font-family: Helvetica;
-    margin-top: 1%;
-    font-size: 1.3vw;
-    line-height: 1.2;
-    font-family: 800;
+  font-family: Helvetica;
+  margin-top: 1%;
+  font-size: 1.3vw;
+  line-height: 1.2;
+  font-family: 800;
 
 }
 
 #UrMainContent{
-    display: flex;
-    flex-direction: column;
-    margin-top: 3%;
-    text-align: left;
-    padding-left: 3%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  text-align: left;
+  padding-left: 3%;
 }
 
 #urMainH2{

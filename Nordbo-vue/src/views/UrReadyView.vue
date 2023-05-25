@@ -34,7 +34,6 @@ export default {
             <h1 class="finish">Your UR robot is now ready to use Mimic.</h1>
         </div>
         <div class="buttons">
-        <div>
           <router-link 
             class="backButton" 
             to="/UrMainView"
@@ -49,8 +48,7 @@ export default {
               Back
             </button>
           </router-link>
-        </div>
-        <div>
+
           <router-link class="nextButton"
             to="/NachiMimicView"
             custom
@@ -64,7 +62,6 @@ export default {
               Next Lesson
             </button>
           </router-link>
-        </div>
     </div>
 </div>
 <Footer></Footer>
@@ -75,6 +72,7 @@ export default {
 #icon{
     display: flex;
     justify-content: flex-end;
+    padding-top: 1%;
 }
 
 .wrapper-urReady{

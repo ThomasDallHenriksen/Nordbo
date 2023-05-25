@@ -38,7 +38,7 @@ export default {
         <p id="nachiHardwareP">After the Tracker Hardware Setup, connect a Gigabit switch to theMimic Controller connect 
             2 ethernet cables to the<br>switch and the robot.</p>
         <br>
-        <h2 id="h3Title">Wire the Mimic Controller to the Robot</h2>
+        <h2 id="underTitle">Wire the Mimic Controller to the Robot</h2>
         <div class="nachiHardwareContent">
           <checkbox content="Install the external tracking network card" 
             customClass="nachiHardwareCheckbox1" 
@@ -65,7 +65,6 @@ export default {
         
     
         <div class="buttons">
-        <div>
           <router-link 
             class="backButton" 
             to="/NachiMimicView"
@@ -80,8 +79,7 @@ export default {
               Back
             </button>
           </router-link>
-        </div>
-        <div>
+
           <router-link class="nextButton"
             to="/NachiConfiqView"
             custom
@@ -95,7 +93,6 @@ export default {
               Next
             </button>
           </router-link>
-        </div>
     </div>
     </body>
 

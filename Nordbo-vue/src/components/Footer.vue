@@ -107,8 +107,8 @@
 .Info .social .spriteLink {
   display: inline-block;
   background-position: -19.25rem -5.43rem;
-  width: 3.75rem;
-  height: 3.75rem;
+  width: 3.1vw;
+  height: 3.1vw;
   background-image: url('@/assets/images/iconsprite.png');
   margin-top: 10%;
 }

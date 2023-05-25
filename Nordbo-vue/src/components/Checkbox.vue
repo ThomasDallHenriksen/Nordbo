@@ -124,56 +124,56 @@ export default{
 }
 
 .nachiConfigCheckbox1 {
-    width: 99.75vw;
-    height: 26.37vw;
+    width: 82.604vw;
+    height: 21.979vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox2 {
-    width: 99.75vw;
-    height: 33.12vw;
+    width: 82.604vw;
+    height: 27.604vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox3 {
-    width: 99.75vw;
-    height: 23.93vw;
+    width: 82.604vw;
+    height: 19.948vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox4 {
-    width: 99.75vw;
-    height: 58.25vw;
+    width: 82.604vw;
+    height: 53.542vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox5 {
-    width: 99.75vw;
-    height: 36.68vw;
+    width: 82.604vw;
+    height: 30.573vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox6 {
-    width: 99.75vw;
-    height: 51.93vw;
+    width: 82.604vw;
+    height: 43.281vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox7 {
-    width: 99.75vw;
-    height: 41.68vw;
+    width: 82.604vw;
+    height: 34.740vw;
     text-align: left;
 }
 
 .KukaCheckbox1 {
-    width: 99.75vw;
-    height: 33.18vw;
+    width: 82.604vw;
+    height: 27.656vw;
     text-align: left;
 }
 
 .KukaCheckbox2 {
-    width: 99.75vw;
-    height: 36.25vw;
+    width: 82.604vw;
+    height: 30.208vw;
     text-align: left;
 }
 
@@ -188,14 +188,15 @@ export default{
 
 .steps{
    font-size: 2wv;
+   width: 9%;
 }
 
 .description{
-    width: 80%;
+    width: 100%;
 }
 
 .check{
-    width: 15%;
+    width: 12%;
     height: 30px;
 }
 #checkH1{

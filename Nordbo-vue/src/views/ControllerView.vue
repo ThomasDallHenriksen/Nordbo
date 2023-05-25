@@ -37,6 +37,7 @@ export default{
       <div id="pBar">
           <progress id="file" value="25" max="100"> 25% </progress>
       </div>
+
           <div class="wrapper">
             <div class="content">
               <div class="startingTxt">
@@ -45,15 +46,16 @@ export default{
                 <p>In the Mimic packaging you will find the Mimic Controller and Tracker. Additionally, you will need the following:</p>
                 <br>
               </div>
+
               <checkbox content="Connect the power supply to the Mimic controller" 
                         customClass="controllerCheckbox1" 
                         step="1">
              </checkbox>
-              <div>
+              
               <div class="controllerImg">
                 <img src="/src/assets/images/mimicontroller.png">
               </div>
-            </div>
+            
               <checkbox 
                   content="Connect the Mimic Controller to the robot (see robot specific guidelines) 
                   Optional: Connect the Mimic Controller with the Gigabit switch using the ethernet cable, if connecting to other hardware is needed." 
@@ -74,7 +76,6 @@ export default{
           
           
           <div class="buttons">
-            <div>
               <router-link 
                 class="backButton" 
                 to="/HardwareView"
@@ -89,8 +90,7 @@ export default{
                   Back
                 </button>
               </router-link>
-            </div>
-            <div>
+
               <router-link 
                 class="nextButton"
                 to="/IrTrackerView"
@@ -105,7 +105,6 @@ export default{
                   Next
                 </button>
               </router-link>
-            </div>
           </div>
         </div>
     </body>
@@ -119,9 +118,15 @@ export default{
   font-size: 1.87vw;
 }
 
-.controllerImg img{
-  width: 337px;
-  height: 290px;
+.controllerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controllerImg img {
+  max-width: 100%;
+  width: 17.552vw
 }
 
 .content{

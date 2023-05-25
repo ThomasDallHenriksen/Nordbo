@@ -31,7 +31,7 @@ export default {
           <progress id="file" value="75" max="100"> 75% </progress>
       </div>
         <div class="wrapper">
-            <h1>Nachi Preperation</h1>
+            <h1 id="Title">Nachi Preperation</h1>
             <h2 class="checkP">How to Configure a Nachi Robot</h2>
         <div class="NachiContent">
             <checkbox content="Login and Change the Permission on the Robot
@@ -138,7 +138,6 @@ export default {
         </div>
 
         <div class="buttons">
-        <div>
           <router-link 
             class="backButton" 
             to="/NachiHardwareView"
@@ -153,8 +152,7 @@ export default {
               Back
             </button>
           </router-link>
-        </div>
-        <div>
+
           <router-link class="nextButton"
             to="/NachiReadyView"
             custom
@@ -168,7 +166,6 @@ export default {
               Next
             </button>
           </router-link>
-        </div>
     </div>
     </div>
     </body>

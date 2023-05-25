@@ -41,8 +41,8 @@ export default {
     <p id="nachiMimicText">Known unsupported models</p>
     <p id="nachiMimicText">CZ10</p>
     <p id="nachiMimicText">All Nachi cobots</p>
+
         <div class="buttons">
-        <div>
           <router-link 
             class="backButton" 
             to="/UrReadyView"
@@ -57,8 +57,7 @@ export default {
               Back
             </button>
           </router-link>
-        </div>
-        <div>
+
           <router-link class="nextButton"
             to="/NachiHardwareView"
             custom
@@ -72,7 +71,6 @@ export default {
               Next
             </button>
           </router-link>
-        </div>
     </div>
     </body>
 

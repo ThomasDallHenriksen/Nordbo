@@ -39,7 +39,8 @@ export default {
                         step="1">
              </checkbox>
 
-             <checkbox content="Install the Nordbo Driver URCap The Nordbo Driver URCap needs to be version 2.4" 
+             <checkbox content="Install the Nordbo Driver URCap 
+                                The Nordbo Driver URCap needs to be version 2.4" 
                         customClass="urCapCheckbox2" 
                         step="2">
              </checkbox>
@@ -56,7 +57,6 @@ export default {
 
         </div>
         <div class="buttons">
-        <div>
           <router-link 
             class="backButton" 
             to="/UrSetupView"
@@ -71,8 +71,7 @@ export default {
               Back
             </button>
           </router-link>
-        </div>
-        <div>
+
           <router-link class="nextButton"
             to="/UrMainView"
             custom
@@ -87,9 +86,8 @@ export default {
             </button>
           </router-link>
         </div>
-    </div>
-    </div>
-    </body>
+      </div>
+  </body>
     
     <Footer></Footer>
     <RouterView />

@@ -26,7 +26,6 @@ export default {
             <progress id="file" value="50.0" max="100"> 50.0% </progress>
         </div>
     <body class="wrapper"> 
-            <div>
                 <h1 id="Title">UR Preperation</h1>
                 <br>
                 <br>
@@ -39,11 +38,10 @@ export default {
                     <p id="urPrepP">-Gigabit switch (optional - needed if connecting other hardware to the robot)</p>
                     <p id="urPrepP">-ethernet cables long enough to reach from your teaching to the robot </p>
                 </div>
-            </div>
             <br>
-            <div>
+            <br>
                 <div id="split">
-                    <div>
+                    <div class="urLeft">
                         <br>
                         <br>
                         <p id="urPrepP">Mimic is compatible with Universal Robots' Ployscope version: </p>
@@ -53,13 +51,11 @@ export default {
                         <br>
                         <p id="urPrepP">Mimic is compatible with all UR robots models</p>
                     </div>
-                    <div>
-                        <img id="UrPrepImg" src="/src/assets/images/UrPrep.png">
+                    <div class="urRight">
+                        <img id="urImg" src="/src/assets/images/UrPrep.png" alt="robot model">
                     </div>
                 </div>
-            </div>
             <div class="buttons">
-            <div>
                 <router-link 
                     class="backButton" 
                     to="/IrTrackerView"
@@ -74,8 +70,7 @@ export default {
                     Back
                     </button>
                 </router-link>
-            </div>
-            <div>
+                
                 <router-link class="nextButton"
                     to="/UrSetupView"
                     custom
@@ -89,7 +84,6 @@ export default {
                     Next
                     </button>
                 </router-link>
-            </div>
         </div>
     </body>
     <Footer></Footer>
@@ -115,9 +109,19 @@ export default {
   text-align: left;
 }
 
-#UrPrepImg{
+.urLeft {
+    height: 100%;
+    width: auto;
+}
+
+.urRight {
+    height: 100%;
+    width: auto;
+}
+
+#urImg{
     margin-left: 2%;
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 

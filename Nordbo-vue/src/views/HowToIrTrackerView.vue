@@ -27,14 +27,12 @@ export default {
         <progress id="file" value="50.0" max="100"> 50.0% </progress>
     </div>
 <div class="wrapper">
-  
-  <div>
 
   <div class="content ir--tracker">
-    <h1>How to get the most out of your IR Tracker</h1>
+    <h1 id="Title">How to get the most out of your IR Tracker</h1>
+    <br>
     <p>Below you will find a list of recommendations to get the most out of the tracker.</p>
     <br>
-    <h2>How to get the most out of your IR Tracker</h2>
 
     <div class="lighthouse">
       <img class="lighthouse-info" src="../assets/images/lighthouse.png" alt="lighthouse"></div>
@@ -58,7 +56,6 @@ export default {
   </div>
         
         <div class="buttons">
-            <div>
                 <router-link 
                     class="backButton" 
                     to="/IrTrackerView"
@@ -73,8 +70,7 @@ export default {
                     Back
                     </button>
                 </router-link>
-            </div>
-            <div>
+
                 <router-link class="nextButton"
                     to="/UrPreperationView"
                     custom
@@ -88,17 +84,19 @@ export default {
                     Next
                     </button>
                 </router-link>
-            </div>
         </div>
     </div>
-  </div>
 <Footer></Footer>
 <RouterView />
 
 </template>
 
 <style>
-  .lighthouse {
+.ir--tracker p{
+  font-size: 1.563vw;
+}
+
+.lighthouse {
   display: flex;
   align-items: center;
   justify-content: center;

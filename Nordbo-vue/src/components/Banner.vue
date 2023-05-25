@@ -1,15 +1,3 @@
-<template>
-  <div class="container">
-    <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
-    <div class="banner-text">
-      <div>
-        <h1 id="banner-h1">{{ subtitle }}</h1>
-        <h1 id="banner-h1">{{ title }}</h1>
-      </div>
-    </div>
-  </div>
-</template>
-
 <script>
 export default {
   name: 'Banner',
@@ -26,10 +14,17 @@ export default {
 }
 </script>
 
-<style scoped>
-/* Your existing styles */
-</style>
-
+<template>
+  <div class="container">
+    <img class="banner" src="../assets/images/Nordbo-banner.png" alt="" width="1216" height="200" aria-placeholder="Welcome to the Mimic Guide">
+    <div class="banner-text">
+      <div>
+        <h1 id="banner-h1">{{ subtitle }}</h1>
+        <h1 id="banner-h1">{{ title }}</h1>
+      </div>
+    </div>
+  </div>
+</template>
 
 <style scoped>
 header{
