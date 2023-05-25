@@ -239,11 +239,12 @@ export default {
   .wrapperKuka{
     padding-left: 55px; 
     padding-right: 55px;
+    background-color: white;
   }
 
   #underKukaTitle{
   margin-top: 1%;
-  font-size: 1.87rem;
+  font-size: 1.87vw;
   font-weight: bold;
   text-align: left;
   padding-left: 6.5%;
@@ -251,7 +252,7 @@ export default {
 
   #kukaPrepDescription{
   margin-top: 1%;
-  font-size: 1.87rem;
+  font-size: 1.87vw;
   font-weight: bold;
   text-align: left;
   padding-left: 6.5%;
@@ -259,7 +260,7 @@ export default {
 
   #kukaPrepTask{
   margin-top: 1%;
-  font-size: 1.87rem;
+  font-size: 1.87vw;
   font-weight: bold;
   text-align: left;
   padding-left: 6.5%;
@@ -269,7 +270,7 @@ export default {
     text-align: left;
     font-family: Helvetica;
     margin-top: 1%;
-    font-size: 1.87rem;
+    font-size: 1.87vw;
     line-height: 1.1;
     padding-left: 6.5%;
   }
@@ -296,6 +297,7 @@ export default {
     text-align: left;
     font-family: Helvetica;
     margin-top: 1%;
-    font-size: 1.87rem;
+    font-size: 1.87vw;
+    color: black;
   }
 </style>

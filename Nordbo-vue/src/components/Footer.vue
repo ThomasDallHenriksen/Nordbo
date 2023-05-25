@@ -55,7 +55,7 @@
   text-align: left;
   font-family: Helvetica;
   padding-left: 32%;
-  font-size: 1.2rem;
+  font-size: 1.2vw;
 }
 .Info .HumanSkill{
   width: 24%;
@@ -65,7 +65,7 @@
 .Info .Robotics{
   width: 52%;
   color: #7ac1e5;
-  font-size: 1rem;
+  font-size: 1vw;
 }
 .Info .social{
   width: 24%;
@@ -73,7 +73,7 @@
 .Info .Robotics .email-icon{
   display: flex;
   color: white;
-  font-size: 1rem;
+  font-size: 1vw;
 }
 .Info .Robotics .phone-icon{
   display: flex;
@@ -83,7 +83,7 @@
 }
 .Info .Robotics .phone-icon h3 {
   font-family: Helvetica;
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 .Info .Robotics .email-icon .email--image{
@@ -133,8 +133,7 @@
 
 .copyright p {
   color: #75bcdf;
-  font-size: 1rem;
+  font-size: 1vw;
   padding-left: 7.7vw;
 }
 </style>
-  

@@ -116,7 +116,7 @@ export default{
 
 <style>
 .startingTxt p{
-  font-size: 1.87rem;
+  font-size: 1.87vw;
 }
 
 .controllerImg img{
@@ -132,6 +132,6 @@ export default{
   }
 
 .note {
-  font-size: 1rem;
+  font-size: 1vw;
 }
 </style>

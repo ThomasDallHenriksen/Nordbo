@@ -40,7 +40,7 @@ export default {
       </div>
         <h1 class="videoDemostratiion">Video demostration</h1> <br><br>
         <div class="video">
-          <iframe src="https://www.youtube.com/embed/eeD26XRyqDE" width="1450" height="847"></iframe>
+          <iframe src="https://www.youtube.com/embed/eeD26XRyqDE"></iframe>
         </div>
         <div class="buttons">
           <div>
@@ -85,7 +85,7 @@ export default {
 <style>
 .videoDemostratiion {
   font-weight: bold;
-  font-size: 3.12rem;
+  font-size: 3.12vw;
   text-align: left;
   padding-left: 9.87rem;
 }
@@ -94,6 +94,8 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
+  height: 50%;
   }
 
 #pDesrciptionHardware1{
@@ -123,10 +125,9 @@ export default {
 #padLeft{
   padding-left: 10%;
   color: #0f2230;
-
 }
 
 #padLeft p {
-  font-size: 1.87rem;
+  font-size: 1.87vw;
 }
 </style>

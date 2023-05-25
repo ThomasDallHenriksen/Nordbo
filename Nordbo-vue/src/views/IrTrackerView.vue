@@ -58,7 +58,7 @@ export default {
             
 
                 <div class="right">
-                    <img src="/src/assets/images/IrTracker.png" alt="">
+                        <img class="irImg" src="/src/assets/images/IrTracker.png" alt="">
                     <p id="trackerImgText">IR Tracker setup recommandations</p>
                 </div>
             </div>
@@ -140,7 +140,7 @@ export default {
     text-align: left;
     font-family: Helvetica;
     margin-top: 1%;
-    font-size: 1.87rem;
+    font-size: 1.87vw;
     line-height: 1.1;
     padding-left: 9.5%;
 }
@@ -156,7 +156,7 @@ export default {
 #trackerImgText{
     font-family: Helvetica;
     margin-top: 1%;
-    font-size: 1.87rem;
+    font-size: 1.87vw;
     line-height: 1.1;
 }
 
@@ -167,7 +167,7 @@ export default {
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    font-size: 21px;
+    font-size: 1.3125vw;
     border: solid 2px #1ec794;
     background: #ffffff;
     color: #1ec794;
@@ -178,5 +178,14 @@ export default {
 
 .checkbox h1{
     color: #ffffff;
+}
+
+.right {
+    height: 100%;
+    width: auto;
+}
+.irImg{
+    width: 100%;
+    height: 100%;
 }
 </style>

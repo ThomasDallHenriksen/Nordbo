@@ -117,7 +117,8 @@ export default {
 
 #UrPrepImg{
     margin-left: 2%;
-    width: 75%;
+    width: 100%;
+    height: 100%;
 }
 
 #urIndent{

@@ -49,8 +49,8 @@ export default{
 
 <style>
 .checkbox {
-    width: 64.8rem;
-    height: 6.25rem;
+    width: 64.8vw;
+    height: 6.25vw;
     background-color: #02215C;
     display: flex;
     margin: 10px;
@@ -65,115 +65,115 @@ export default{
 }
 
 .checkbox p{
-    font-size: 1.43rem;
+    font-size: 1.43vw;
 }
 
 .controllerCheckbox2 {
-    width: 64.8rem;
-    height: 13.68rem;
+    width: 64.8vw;
+    height: 13.68vw;
 }
 
 .irTrackerCheckbox1 {
-    width: 64.8rem;
-    height: 9.43rem;
+    width: 64.8vw;
+    height: 9.43vw;
 }
 
 .irTrackerCheckbox2 {
-    width: 64.8rem;
-    height: 18.75rem;
+    width: 64.8vw;
+    height: 18.75vw;
 }
 
 .irTrackerCheckbox3 {
-    width: 64.8rem;
-    height: 9.43rem;
+    width: 64.8vw;
+    height: 9.43vw;
 }
 
 .urCapCheckbox1 {
-    width: 64.8rem;
-    height: 9.43rem;
+    width: 64.8vw;
+    height: 9.43vw;
 }
 
 .urCapCheckbox2 {
-    width: 64.8rem;
-    height: 9.43rem;
+    width: 64.8vw;
+    height: 9.43vw;
 }
 
 .urCapCheckbox3 {
-    width: 64.8rem;
-    height: 29.25rem;
+    width: 64.8vw;
+    height: 29.25vw;
 }
 
 .nachiHardwareCheckbox1{
-    width: 64.8rem;
-    height: 9.43rem;
+    width: 64.8vw;
+    height: 9.43vw;
 }
 
 .nachiHardwareCheckbox2{
-    width: 64.8rem;
-    height: 9.43rem;
+    width: 64.8vw;
+    height: 9.43vw;
 }
 
 .nachiHardwareCheckbox3{
-    width: 64.8rem;
-    height: 14.87rem;
+    width: 64.8vw;
+    height: 14.87vw;
 }
 
 .nachiHardwareCheckbox4{
-    width: 64.8rem;
-    height: 9.43rem;
+    width: 64.8vw;
+    height: 9.43vw;
 }
 
 .nachiConfigCheckbox1 {
-    width: 99.75rem;
-    height: 26.37rem;
+    width: 99.75vw;
+    height: 26.37vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox2 {
-    width: 99.75rem;
-    height: 33.12rem;
+    width: 99.75vw;
+    height: 33.12vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox3 {
-    width: 99.75rem;
-    height: 23.93rem;
+    width: 99.75vw;
+    height: 23.93vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox4 {
-    width: 99.75rem;
-    height: 58.25rem;
+    width: 99.75vw;
+    height: 58.25vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox5 {
-    width: 99.75rem;
-    height: 36.68rem;
+    width: 99.75vw;
+    height: 36.68vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox6 {
-    width: 99.75rem;
-    height: 51.93rem;
+    width: 99.75vw;
+    height: 51.93vw;
     text-align: left;
 }
 
 .nachiConfigCheckbox7 {
-    width: 99.75rem;
-    height: 41.68rem;
+    width: 99.75vw;
+    height: 41.68vw;
     text-align: left;
 }
 
 .KukaCheckbox1 {
-    width: 99.75rem;
-    height: 33.18rem;
+    width: 99.75vw;
+    height: 33.18vw;
     text-align: left;
 }
 
 .KukaCheckbox2 {
-    width: 99.75rem;
-    height: 36.25rem;
+    width: 99.75vw;
+    height: 36.25vw;
     text-align: left;
 }
 
@@ -183,11 +183,11 @@ export default{
 
 #checkP{
     color: #ffffff;
-
+    font-size: 1vw;
 }
 
 .steps{
-    width: 5%;
+   font-size: 2wv;
 }
 
 .description{
@@ -200,6 +200,6 @@ export default{
 }
 #checkH1{
   color: #ffffff;
-  margin-left: 10px;
+  margin-left: .625rem;
 }
 </style>

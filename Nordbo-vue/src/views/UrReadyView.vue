@@ -31,7 +31,7 @@ export default {
             <a href="/"><img  src="../assets/images/cross.png" alt="" width="40" height="40"></a>
         </div>
         <div>
-            <h1>Your UR robot is now ready to use Mimic.</h1>
+            <h1 class="finish">Your UR robot is now ready to use Mimic.</h1>
         </div>
         <div class="buttons">
         <div>
@@ -80,5 +80,11 @@ export default {
 .wrapper-urReady{
   width: 100%;
   height: 34rem;
+  background-color: white;
 }
+
+.finish {
+  color: black;
+}
+
 </style>
